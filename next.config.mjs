@@ -1,10 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  async rewrites() {
+  async redirects() {
     return [
       {
         source: "/cashclock/demo",
-        destination: "/cashclock/demo/index.html",
+        destination: "/cash-clock/demo",
+        permanent: true,
+      },
+    ];
+  },
+  async rewrites() {
+    return [
+      {
+        source: "/cash-clock/demo",
+        destination: "/cash-clock/demo/index.html",
       },
     ];
   },

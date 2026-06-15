@@ -1,0 +1,566 @@
+{
+	"textures": [
+		{
+			"image": "Electrifying_Gears_VFX_360p_6fps_alpha_V1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1862,
+				"h": 1054
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 48,
+						"w": 265,
+						"h": 265
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 265,
+						"h": 265
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 48,
+						"w": 265,
+						"h": 264
+					},
+					"frame": {
+						"x": 1,
+						"y": 268,
+						"w": 265,
+						"h": 264
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 49,
+						"w": 265,
+						"h": 263
+					},
+					"frame": {
+						"x": 1,
+						"y": 534,
+						"w": 265,
+						"h": 263
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1,
+						"y": 799,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 50,
+						"y": 47,
+						"w": 262,
+						"h": 266
+					},
+					"frame": {
+						"x": 268,
+						"y": 1,
+						"w": 262,
+						"h": 266
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 48,
+						"w": 263,
+						"h": 264
+					},
+					"frame": {
+						"x": 268,
+						"y": 269,
+						"w": 263,
+						"h": 264
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 48,
+						"w": 263,
+						"h": 264
+					},
+					"frame": {
+						"x": 532,
+						"y": 1,
+						"w": 263,
+						"h": 264
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 50,
+						"w": 264,
+						"h": 263
+					},
+					"frame": {
+						"x": 268,
+						"y": 535,
+						"w": 264,
+						"h": 263
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 48,
+						"w": 262,
+						"h": 265
+					},
+					"frame": {
+						"x": 533,
+						"y": 267,
+						"w": 262,
+						"h": 265
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 50,
+						"w": 263,
+						"h": 263
+					},
+					"frame": {
+						"x": 534,
+						"y": 534,
+						"w": 263,
+						"h": 263
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 50,
+						"w": 264,
+						"h": 262
+					},
+					"frame": {
+						"x": 797,
+						"y": 1,
+						"w": 264,
+						"h": 262
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 50,
+						"w": 264,
+						"h": 262
+					},
+					"frame": {
+						"x": 797,
+						"y": 265,
+						"w": 264,
+						"h": 262
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 52,
+						"w": 265,
+						"h": 261
+					},
+					"frame": {
+						"x": 799,
+						"y": 529,
+						"w": 265,
+						"h": 261
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 50,
+						"w": 265,
+						"h": 261
+					},
+					"frame": {
+						"x": 799,
+						"y": 792,
+						"w": 265,
+						"h": 261
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 50,
+						"w": 262,
+						"h": 263
+					},
+					"frame": {
+						"x": 1063,
+						"y": 1,
+						"w": 262,
+						"h": 263
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 50,
+						"w": 264,
+						"h": 261
+					},
+					"frame": {
+						"x": 1063,
+						"y": 266,
+						"w": 264,
+						"h": 261
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 51,
+						"w": 263,
+						"h": 262
+					},
+					"frame": {
+						"x": 1327,
+						"y": 1,
+						"w": 263,
+						"h": 262
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 50,
+						"y": 50,
+						"w": 263,
+						"h": 262
+					},
+					"frame": {
+						"x": 1592,
+						"y": 1,
+						"w": 263,
+						"h": 262
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 51,
+						"w": 263,
+						"h": 262
+					},
+					"frame": {
+						"x": 1066,
+						"y": 529,
+						"w": 263,
+						"h": 262
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 50,
+						"w": 262,
+						"h": 262
+					},
+					"frame": {
+						"x": 1329,
+						"y": 265,
+						"w": 262,
+						"h": 262
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 52,
+						"w": 264,
+						"h": 260
+					},
+					"frame": {
+						"x": 1066,
+						"y": 793,
+						"w": 264,
+						"h": 260
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 51,
+						"w": 263,
+						"h": 261
+					},
+					"frame": {
+						"x": 1331,
+						"y": 529,
+						"w": 263,
+						"h": 261
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 51,
+						"w": 263,
+						"h": 261
+					},
+					"frame": {
+						"x": 1593,
+						"y": 265,
+						"w": 263,
+						"h": 261
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 53,
+						"w": 264,
+						"h": 260
+					},
+					"frame": {
+						"x": 1332,
+						"y": 792,
+						"w": 264,
+						"h": 260
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 53,
+						"w": 265,
+						"h": 259
+					},
+					"frame": {
+						"x": 1596,
+						"y": 528,
+						"w": 265,
+						"h": 259
+					}
+				},
+				{
+					"filename": "Electrifying_Gears_VFX_360p_6fps_alpha_V1_00010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 360,
+						"h": 360
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 51,
+						"w": 260,
+						"h": 261
+					},
+					"frame": {
+						"x": 1598,
+						"y": 789,
+						"w": 260,
+						"h": 261
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:055c8320b308b8d1ec6447acb586def3:fdd69c7311f04cfac63ea2d20027fb2b:bc542145737e5b8fa65cd762da6d393f$"
+	}
+}

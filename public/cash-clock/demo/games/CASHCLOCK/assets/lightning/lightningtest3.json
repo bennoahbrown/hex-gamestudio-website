@@ -1,0 +1,167 @@
+{
+	"textures": [
+		{
+			"image": "lightningtest3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 482,
+				"h": 511
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Lightning_test_03_00005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 130,
+						"y": 189,
+						"w": 321,
+						"h": 291
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 321,
+						"h": 291
+					}
+				},
+				{
+					"filename": "Lightning_test_03_00004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 193,
+						"y": 203,
+						"w": 267,
+						"h": 216
+					},
+					"frame": {
+						"x": 1,
+						"y": 294,
+						"w": 267,
+						"h": 216
+					}
+				},
+				{
+					"filename": "Lightning_test_03_00003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 194,
+						"y": 214,
+						"w": 211,
+						"h": 170
+					},
+					"frame": {
+						"x": 270,
+						"y": 294,
+						"w": 211,
+						"h": 170
+					}
+				},
+				{
+					"filename": "Lightning_test_03_00000.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 270,
+						"y": 466,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Lightning_test_03_00001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 270,
+						"y": 466,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Lightning_test_03_00002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 270,
+						"y": 466,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Lightning_test_03_00006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 512,
+						"h": 512
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 270,
+						"y": 466,
+						"w": 3,
+						"h": 3
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:37ee4fe7f1bc270a834c32233844b260:0505f01b2875a7f6048a645513d8bf0a:df932ccc88d3e246278de1f41e9145d8$"
+	}
+}

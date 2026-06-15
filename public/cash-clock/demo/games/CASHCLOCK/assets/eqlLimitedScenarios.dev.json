@@ -1,0 +1,894 @@
+[
+  {
+    "win": 0,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 4 — Simple miss",
+          "description": "No respin, no prize, no specials. Baseline no-win case.",
+          "features": [
+            "no-win",
+            "no-respin"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            9,
+            12,
+            19
+          ],
+          "respin_type": "No",
+          "prize_type": "None",
+          "score": 0,
+          "h_score": 0,
+          "m_score": 0,
+          "s_score": 0
+        }
+      },
+      {
+        "_meta": {
+          "label": "Game 16 — Full respin, still no win",
+          "description": "Full respin triggered (H→6, M→30, S→17). No prize after respin. Tests respin animation completes without a payout.",
+          "features": [
+            "no-win",
+            "respin",
+            "respin-no-prize"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            7,
+            32,
+            42
+          ],
+          "respin_type": "full",
+          "respin_offsets": "6  30  17",
+          "prize_type": "None",
+          "score": 0,
+          "h_score": 0,
+          "m_score": 0,
+          "s_score": 0
+        }
+      },
+      {
+        "_meta": {
+          "label": "Game 7 — Bonus symbol visible, not activated",
+          "description": "No respin, no prize. M hand shows bonus symbol at position 50 but it is not on the winning position — tests symbol renders but does not trigger bonus flow.",
+          "features": [
+            "no-win",
+            "no-respin",
+            "bonus-visible-not-activated"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            8,
+            6,
+            50
+          ],
+          "respin_type": "No",
+          "prize_type": "None",
+          "score": 0,
+          "minute_special_code": "B 50",
+          "h_score": 0,
+          "m_score": 0,
+          "s_score": 0
+        }
+      },
+      {
+        "_meta": {
+          "label": "Game 7391 — Jackpot 1 symbol visible, not activated",
+          "description": "No respin, no prize. M hand shows jackpot 1 symbol at position 26 but not on a winning position — tests jackpot symbol renders without triggering jackpot flow.",
+          "features": [
+            "no-win",
+            "no-respin",
+            "jackpot-visible-not-activated"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            8,
+            12,
+            41
+          ],
+          "respin_type": "No",
+          "prize_type": "None",
+          "score": 0,
+          "minute_special_code": "J 1  26",
+          "h_score": 0,
+          "m_score": 0,
+          "s_score": 0
+        }
+      }
+    ]
+  },
+  {
+    "win": 10,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 29 — M hand wins only",
+          "description": "M offset 4 = within 3s of target. Single M hand win, no respin, no specials.",
+          "features": [
+            "single-hand-win",
+            "m-wins",
+            "no-respin"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            8,
+            4,
+            8
+          ],
+          "respin_type": "No",
+          "prize_type": "W 3  W",
+          "score": 0.1,
+          "h_score": 0,
+          "m_score": 0.1,
+          "s_score": 0
+        }
+      }
+    ]
+  },
+  {
+    "win": 30,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 1 — S hand wins only",
+          "description": "S offset 59 = within 1s of target. Single S hand win, no respin, no specials.",
+          "features": [
+            "single-hand-win",
+            "s-wins",
+            "no-respin"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            8,
+            27,
+            59
+          ],
+          "respin_type": "No",
+          "prize_type": "W W 1",
+          "score": 0.3,
+          "h_score": 0,
+          "m_score": 0,
+          "s_score": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "win": 80,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 642 — Free spins (6), respin within, bonus visible",
+          "description": "Free spins triggered by S special F 6 26 on spin 0. Spin 0 also has H special B 4 (bonus visible, not activated). Spin 1 has a full respin with no win. Remaining spins have small wins. Total paid: $0.80.",
+          "features": [
+            "free-spins",
+            "free-spins-trigger",
+            "respin-within-free-spins",
+            "bonus-visible-not-activated"
+          ]
+        },
+        "scenario": {
+          "free_spins": true,
+          "spins": [
+            {
+              "offsets": [
+                7,
+                55,
+                26
+              ],
+              "respin_type": "No",
+              "prize_type": "W 3  W",
+              "score": 0.1,
+              "hour_special_code": "B 4",
+              "second_special_code": "F 6  26",
+              "extra_code": "FreeSpins: 6",
+              "h_score": 0,
+              "m_score": 0.1,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                5,
+                19,
+                20
+              ],
+              "respin_type": "full",
+              "respin_offsets": "9  40  46",
+              "prize_type": "None",
+              "score": 0,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                8,
+                58,
+                37
+              ],
+              "respin_type": "No",
+              "prize_type": "W 2  W",
+              "score": 0.2,
+              "h_score": 0,
+              "m_score": 0.2,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                1,
+                2,
+                50
+              ],
+              "respin_type": "No",
+              "prize_type": "1  2  W",
+              "score": 0.5,
+              "h_score": 0.2,
+              "m_score": 0.3,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                9,
+                26,
+                28
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                7,
+                6,
+                35
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                6,
+                10,
+                7
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "win": 100,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 8 — H hand exact hit",
+          "description": "H offset 0 = exact hour match. Single H hand win, no respin, no specials. Tests the top H hand prize display.",
+          "features": [
+            "single-hand-win",
+            "h-wins",
+            "exact-hit",
+            "no-respin"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            0,
+            32,
+            52
+          ],
+          "respin_type": "No",
+          "prize_type": "0  W W",
+          "score": 1,
+          "h_score": 1,
+          "m_score": 0,
+          "s_score": 0
+        }
+      }
+    ]
+  },
+  {
+    "win": 190,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 807 — Free spins (7), free spin symbol visible not retriggered",
+          "description": "Free spins triggered by H special F 7 3 on spin 0. Spin 4 shows M special F 10 33 (free spin symbol visible, not retriggered). Spins include H, M, and S single-hand wins. Total paid: $1.90.",
+          "features": [
+            "free-spins",
+            "free-spins-trigger",
+            "free-spin-visible-not-retriggered",
+            "h-wins",
+            "m-wins",
+            "s-wins"
+          ]
+        },
+        "scenario": {
+          "free_spins": true,
+          "spins": [
+            {
+              "offsets": [
+                3,
+                20,
+                9
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "hour_special_code": "F 7  3",
+              "extra_code": "FreeSpins: 7",
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                1,
+                49,
+                6
+              ],
+              "respin_type": "No",
+              "prize_type": "1  W 4",
+              "score": 0.3,
+              "h_score": 0.2,
+              "m_score": 0,
+              "s_score": 0.1
+            },
+            {
+              "offsets": [
+                0,
+                9,
+                8
+              ],
+              "respin_type": "No",
+              "prize_type": "0  W W",
+              "score": 1,
+              "h_score": 1,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                2,
+                51,
+                45
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                4,
+                44,
+                19
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "minute_special_code": "F 10  33",
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                5,
+                4,
+                32
+              ],
+              "respin_type": "No",
+              "prize_type": "W 3  W",
+              "score": 0.1,
+              "h_score": 0,
+              "m_score": 0.1,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                11,
+                51,
+                21
+              ],
+              "respin_type": "No",
+              "prize_type": "1  W W",
+              "score": 0.2,
+              "h_score": 0.2,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                5,
+                23,
+                59
+              ],
+              "respin_type": "No",
+              "prize_type": "W W 1",
+              "score": 0.3,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0.3
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "win": 200,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 18 — Full respin, H and M both win",
+          "description": "Initial spin produces no win, triggering a full respin (H→0 exact, M→53 within 4s, S→14). After respin H and M both score. Tests respin-to-win flow with two simultaneous hand wins.",
+          "features": [
+            "respin",
+            "respin-with-win",
+            "two-hand-win",
+            "h-wins",
+            "m-wins",
+            "exact-hit"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            2,
+            31,
+            27
+          ],
+          "respin_type": "full",
+          "respin_offsets": "0  53  14",
+          "prize_type": "0  4  W",
+          "score": 2,
+          "h_score": 1,
+          "m_score": 1,
+          "s_score": 0
+        }
+      }
+    ]
+  },
+  {
+    "win": 230,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 283 — Full respin with M win and bonus activation",
+          "description": "Full respin triggered (H→2, M→2, S→33). After respin M hand scores and S special B 33 activates bonus. Bonus result: 2 6 9 7 1. Tests combined respin + bonus flow.",
+          "features": [
+            "respin",
+            "respin-with-win",
+            "bonus-won",
+            "bonus-during-respin",
+            "m-wins"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            3,
+            46,
+            34
+          ],
+          "respin_type": "full",
+          "respin_offsets": "2  2  33",
+          "prize_type": "2  2  W",
+          "score": 2.3,
+          "second_special_code": "B 33",
+          "extra_code": "Bonus:  2  6  9  7  1",
+          "h_score": 0,
+          "m_score": 0.3,
+          "s_score": 0
+        }
+      }
+    ]
+  },
+  {
+    "win": 700,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 80 — H exact + bonus activated",
+          "description": "H offset 0 = exact hour. H special B 0 activates bonus. Prize 0 W W plus bonus payout. Bonus result: 8 1 8 6 2. Total spin score $7 includes bonus winnings.",
+          "features": [
+            "h-wins",
+            "exact-hit",
+            "bonus-won",
+            "no-respin"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            0,
+            10,
+            29
+          ],
+          "respin_type": "No",
+          "prize_type": "0  W W",
+          "score": 7,
+          "hour_special_code": "B 0",
+          "extra_code": "Bonus:  8  1  8  6  2",
+          "h_score": 1,
+          "m_score": 0,
+          "s_score": 0
+        }
+      }
+    ]
+  },
+  {
+    "win": 880,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 885 — Free spins (6→retrigger→15), respin, bonus visible",
+          "description": "Free spins triggered by M special F 6 45 on spin 0. Spin 1 has S special F 9 10 (free spin symbol visible, not retriggered). Spin 3 has full respin with H+M win. Spin 4 retrigggers with 9 more spins via S special F 9 34. Spins 5, 8, and 14 have bonus symbols visible but not activated. Spin 12 has another full respin. Total paid: $8.80.",
+          "features": [
+            "free-spins",
+            "free-spins-trigger",
+            "free-spins-retrigger",
+            "free-spin-visible-not-retriggered",
+            "respin-within-free-spins",
+            "bonus-visible-not-activated",
+            "h-wins",
+            "m-wins",
+            "s-wins"
+          ]
+        },
+        "scenario": {
+          "free_spins": true,
+          "spins": [
+            {
+              "offsets": [
+                2,
+                45,
+                40
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "minute_special_code": "F 6  45",
+              "extra_code": "FreeSpins: 6",
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                7,
+                25,
+                57
+              ],
+              "respin_type": "No",
+              "prize_type": "W W 2",
+              "score": 0.2,
+              "second_special_code": "F 9  10",
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0.2
+            },
+            {
+              "offsets": [
+                3,
+                3,
+                46
+              ],
+              "respin_type": "No",
+              "prize_type": "W 2  W",
+              "score": 0.2,
+              "h_score": 0,
+              "m_score": 0.2,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                6,
+                25,
+                39
+              ],
+              "respin_type": "full",
+              "respin_offsets": "0  54  10",
+              "prize_type": "0  4  W",
+              "score": 2,
+              "h_score": 1,
+              "m_score": 1,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                8,
+                31,
+                34
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "second_special_code": "F 9  34",
+              "extra_code": "FreeSpins: 9",
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                8,
+                29,
+                28
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "hour_special_code": "B 7",
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                6,
+                6,
+                39
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                2,
+                29,
+                0
+              ],
+              "respin_type": "No",
+              "prize_type": "2  W 0",
+              "score": 3,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 3
+            },
+            {
+              "offsets": [
+                5,
+                15,
+                57
+              ],
+              "respin_type": "No",
+              "prize_type": "W W 2",
+              "score": 0.2,
+              "minute_special_code": "B 44",
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0.2
+            },
+            {
+              "offsets": [
+                5,
+                2,
+                24
+              ],
+              "respin_type": "No",
+              "prize_type": "W 2  W",
+              "score": 0.2,
+              "h_score": 0,
+              "m_score": 0.2,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                7,
+                10,
+                23
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                9,
+                38,
+                23
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                10,
+                47,
+                21
+              ],
+              "respin_type": "full",
+              "respin_offsets": "9  32  0",
+              "prize_type": "W W 0",
+              "score": 2,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 2
+            },
+            {
+              "offsets": [
+                4,
+                54,
+                3
+              ],
+              "respin_type": "No",
+              "prize_type": "W 4  2",
+              "score": 1,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 1
+            },
+            {
+              "offsets": [
+                7,
+                18,
+                24
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "hour_special_code": "B 4",
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            },
+            {
+              "offsets": [
+                6,
+                14,
+                25
+              ],
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "h_score": 0,
+              "m_score": 0,
+              "s_score": 0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "win": 1000,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 26 — All three hands score",
+          "description": "H offset 0 (exact hour), M offset 58 (within 2s), S offset 5 (within 4s). All three hands score simultaneously. No respin, no specials. H score 1, M score 3, S score 6.",
+          "features": [
+            "three-hand-win",
+            "exact-hit",
+            "all-hands",
+            "no-respin"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            0,
+            58,
+            5
+          ],
+          "respin_type": "No",
+          "prize_type": "0  2  3",
+          "score": 10,
+          "h_score": 1,
+          "m_score": 3,
+          "s_score": 6
+        }
+      }
+    ]
+  },
+  {
+    "win": 5010,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 3157 — Jackpot 3 won via S special",
+          "description": "S special J 3 56 triggers jackpot 3 at S offset 56. Small S hand prize also scored (score 0.1). No respin. Total includes jackpot payout ($50.10). Tests jackpot activation on a standard spin.",
+          "features": [
+            "jackpot",
+            "jackpot-3",
+            "s-wins",
+            "no-respin"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            9,
+            28,
+            56
+          ],
+          "respin_type": "No",
+          "prize_type": "W W 3",
+          "score": 50.1,
+          "second_special_code": "J 3 56",
+          "extra_code": "J 3",
+          "h_score": 0,
+          "m_score": 0,
+          "s_score": 0.1
+        }
+      }
+    ]
+  },
+  {
+    "win": 5020,
+    "n": "<from math spec>",
+    "scenarios": [
+      {
+        "_meta": {
+          "label": "Game 7337 — Full respin with M win and jackpot 3",
+          "description": "Full respin triggered (H→2, M→55, S→36). After respin M hand scores and S special J 3 36 activates jackpot 3. Total includes jackpot payout ($50.20). Tests combined respin + jackpot flow.",
+          "features": [
+            "jackpot",
+            "jackpot-3",
+            "respin",
+            "respin-with-jackpot",
+            "m-wins"
+          ]
+        },
+        "scenario": {
+          "offsets": [
+            10,
+            33,
+            19
+          ],
+          "respin_type": "full",
+          "respin_offsets": "2  55  36",
+          "prize_type": "2  3  W",
+          "score": 50.2,
+          "second_special_code": "J 3 36",
+          "extra_code": "J 3",
+          "h_score": 0,
+          "m_score": 0.2,
+          "s_score": 0
+        }
+      }
+    ]
+  }
+]

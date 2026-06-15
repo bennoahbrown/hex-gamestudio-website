@@ -1,0 +1,2965 @@
+[
+  {
+    "win": 0,
+    "n": 5746,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 4,
+          "label": "Game 4 — Simple miss",
+          "description": "Ticket 4. Total paid score: 0. Final prize: None. Spins: 1.",
+          "features": [
+            "no-respin",
+            "no-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 9,
+            "minute": 12,
+            "second": 19
+          },
+          "respin_type": "No",
+          "prize_type": "None",
+          "score": 0,
+          "accum_score": 0,
+          "hour_hand_score": 0,
+          "minute_hand_score": 0,
+          "second_hand_score": 0,
+          "ticket_number": 4,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      },
+      {
+        "_meta": {
+          "ticket_number": 16,
+          "label": "Game 16 — Full respin, still no win",
+          "description": "Ticket 16. Total paid score: 0. Final prize: None. Spins: 1.",
+          "features": [
+            "no-win",
+            "respin"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 7,
+            "minute": 32,
+            "second": 42
+          },
+          "respin_type": "full",
+          "respin_offsets": {
+            "hour": 6,
+            "minute": 30,
+            "second": 17
+          },
+          "prize_type": "None",
+          "score": 0,
+          "accum_score": 0,
+          "hour_hand_score": 0,
+          "minute_hand_score": 0,
+          "second_hand_score": 0,
+          "ticket_number": 16,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      },
+      {
+        "_meta": {
+          "ticket_number": 7,
+          "label": "Game 7 — Simple miss",
+          "description": "Ticket 7. Total paid score: 0. Final prize: None. Spins: 1.",
+          "features": [
+            "bonus-visible-not-activated",
+            "no-respin",
+            "no-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 8,
+            "minute": 6,
+            "second": 50
+          },
+          "respin_type": "No",
+          "prize_type": "None",
+          "score": 0,
+          "accum_score": 0,
+          "hour_hand_score": 0,
+          "minute_hand_score": 0,
+          "second_hand_score": 0,
+          "ticket_number": 7,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "B 50",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      },
+      {
+        "_meta": {
+          "ticket_number": 7391,
+          "label": "Game 7391 — Simple miss",
+          "description": "Ticket 7391. Total paid score: 0. Final prize: None. Spins: 1.",
+          "features": [
+            "jackpot",
+            "no-respin",
+            "no-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 8,
+            "minute": 12,
+            "second": 41
+          },
+          "respin_type": "No",
+          "prize_type": "None",
+          "score": 0,
+          "accum_score": 0,
+          "hour_hand_score": 0,
+          "minute_hand_score": 0,
+          "second_hand_score": 0,
+          "ticket_number": 7391,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "J 1  26",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "win": 10,
+    "n": 1167,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 29,
+          "label": "Game 29 — 0.1 total paid",
+          "description": "Ticket 29. Total paid score: 0.1. Final prize: W 3  W. Spins: 1.",
+          "features": [
+            "m-wins",
+            "no-respin",
+            "single-hand-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 8,
+            "minute": 4,
+            "second": 8
+          },
+          "respin_type": "No",
+          "prize_type": "W 3  W",
+          "score": 0.1,
+          "accum_score": 0.1,
+          "hour_hand_score": 0,
+          "minute_hand_score": 0.1,
+          "second_hand_score": 0,
+          "ticket_number": 29,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "win": 30,
+    "n": 1021,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 1,
+          "label": "Game 1 — 0.3 total paid",
+          "description": "Ticket 1. Total paid score: 0.3. Final prize: W W 1. Spins: 1.",
+          "features": [
+            "no-respin",
+            "s-wins",
+            "single-hand-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 8,
+            "minute": 27,
+            "second": 59
+          },
+          "respin_type": "No",
+          "prize_type": "W W 1",
+          "score": 0.3,
+          "accum_score": 0.3,
+          "hour_hand_score": 0,
+          "minute_hand_score": 0,
+          "second_hand_score": 0.3,
+          "ticket_number": 1,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "win": 80,
+    "n": 8,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 642,
+          "label": "Game 642 — Free spins ticket, 0.8 total paid",
+          "description": "Ticket 642. Total paid score: 0.8. Final prize: None. Spins: 7.",
+          "features": [
+            "bonus-visible-not-activated",
+            "free-spin-symbol",
+            "free-spins",
+            "free-spins-trigger",
+            "h-wins",
+            "m-wins",
+            "respin",
+            "two-hand-win"
+          ]
+        },
+        "scenario": {
+          "ticket_number": 642,
+          "free_spins": true,
+          "spin_count": 7,
+          "total_score": 0.8,
+          "spins": [
+            {
+              "spin_number": 0,
+              "offsets": {
+                "hour": 7,
+                "minute": 55,
+                "second": 26
+              },
+              "respin_type": "No",
+              "prize_type": "W 3  W",
+              "score": 0.1,
+              "accum_score": 0.1,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0.1,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "B 4",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "F 6  26",
+                    "extra_info": "FreeSpins: 6"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 1,
+              "offsets": {
+                "hour": 5,
+                "minute": 19,
+                "second": 20
+              },
+              "respin_type": "full",
+              "respin_offsets": {
+                "hour": 9,
+                "minute": 40,
+                "second": 46
+              },
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 0.1,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 2,
+              "offsets": {
+                "hour": 8,
+                "minute": 58,
+                "second": 37
+              },
+              "respin_type": "No",
+              "prize_type": "W 2  W",
+              "score": 0.2,
+              "accum_score": 0.3,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0.2,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 3,
+              "offsets": {
+                "hour": 1,
+                "minute": 2,
+                "second": 50
+              },
+              "respin_type": "No",
+              "prize_type": "1  2  W",
+              "score": 0.5,
+              "accum_score": 0.8,
+              "hour_hand_score": 0.2,
+              "minute_hand_score": 0.3,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 4,
+              "offsets": {
+                "hour": 9,
+                "minute": 26,
+                "second": 28
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 0.8,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 5,
+              "offsets": {
+                "hour": 7,
+                "minute": 6,
+                "second": 35
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 0.8,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 6,
+              "offsets": {
+                "hour": 6,
+                "minute": 10,
+                "second": 7
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 0.8,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "win": 100,
+    "n": 1070,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 8,
+          "label": "Game 8 — 1 total paid",
+          "description": "Ticket 8. Total paid score: 1. Final prize: 0  W W. Spins: 1.",
+          "features": [
+            "exact-hit",
+            "h-wins",
+            "no-respin",
+            "single-hand-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 0,
+            "minute": 32,
+            "second": 52
+          },
+          "respin_type": "No",
+          "prize_type": "0  W W",
+          "score": 1,
+          "accum_score": 1,
+          "hour_hand_score": 1,
+          "minute_hand_score": 0,
+          "second_hand_score": 0,
+          "ticket_number": 8,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "win": 190,
+    "n": 1,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 807,
+          "label": "Game 807 — Free spins ticket, 1.9 total paid",
+          "description": "Ticket 807. Total paid score: 1.9. Final prize: W W 1. Spins: 8.",
+          "features": [
+            "exact-hit",
+            "free-spin-symbol",
+            "free-spins",
+            "free-spins-trigger",
+            "h-wins",
+            "m-wins",
+            "no-respin",
+            "s-wins",
+            "three-hand-win"
+          ]
+        },
+        "scenario": {
+          "ticket_number": 807,
+          "free_spins": true,
+          "spin_count": 8,
+          "total_score": 1.9,
+          "spins": [
+            {
+              "spin_number": 0,
+              "offsets": {
+                "hour": 3,
+                "minute": 20,
+                "second": 9
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 0,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "F 7  3",
+                    "extra_info": "FreeSpins: 7"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 1,
+              "offsets": {
+                "hour": 1,
+                "minute": 49,
+                "second": 6
+              },
+              "respin_type": "No",
+              "prize_type": "1  W 4",
+              "score": 0.3,
+              "accum_score": 0.3,
+              "hour_hand_score": 0.2,
+              "minute_hand_score": 0,
+              "second_hand_score": 0.1,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 2,
+              "offsets": {
+                "hour": 0,
+                "minute": 9,
+                "second": 8
+              },
+              "respin_type": "No",
+              "prize_type": "0  W W",
+              "score": 1,
+              "accum_score": 1.3,
+              "hour_hand_score": 1,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 3,
+              "offsets": {
+                "hour": 2,
+                "minute": 51,
+                "second": 45
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 1.3,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 4,
+              "offsets": {
+                "hour": 4,
+                "minute": 44,
+                "second": 19
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 1.3,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "F 10  33",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 5,
+              "offsets": {
+                "hour": 5,
+                "minute": 4,
+                "second": 32
+              },
+              "respin_type": "No",
+              "prize_type": "W 3  W",
+              "score": 0.1,
+              "accum_score": 1.4,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0.1,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 6,
+              "offsets": {
+                "hour": 11,
+                "minute": 51,
+                "second": 21
+              },
+              "respin_type": "No",
+              "prize_type": "1  W W",
+              "score": 0.2,
+              "accum_score": 1.6,
+              "hour_hand_score": 0.2,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 7,
+              "offsets": {
+                "hour": 5,
+                "minute": 23,
+                "second": 59
+              },
+              "respin_type": "No",
+              "prize_type": "W W 1",
+              "score": 0.3,
+              "accum_score": 1.9,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0.3,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "win": 200,
+    "n": 777,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 18,
+          "label": "Game 18 — Full respin with win",
+          "description": "Ticket 18. Total paid score: 2. Final prize: 0  4  W. Spins: 1.",
+          "features": [
+            "h-wins",
+            "m-wins",
+            "respin",
+            "two-hand-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 2,
+            "minute": 31,
+            "second": 27
+          },
+          "respin_type": "full",
+          "respin_offsets": {
+            "hour": 0,
+            "minute": 53,
+            "second": 14
+          },
+          "prize_type": "0  4  W",
+          "score": 2,
+          "accum_score": 2,
+          "hour_hand_score": 1,
+          "minute_hand_score": 1,
+          "second_hand_score": 0,
+          "ticket_number": 18,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "win": 230,
+    "n": 18,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 283,
+          "label": "Game 283 — Bonus activated",
+          "description": "Ticket 283. Total paid score: 2.3. Final prize: 2  2  W. Spins: 1.",
+          "features": [
+            "bonus-won",
+            "m-wins",
+            "respin",
+            "single-hand-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 3,
+            "minute": 46,
+            "second": 34
+          },
+          "respin_type": "full",
+          "respin_offsets": {
+            "hour": 2,
+            "minute": 2,
+            "second": 33
+          },
+          "prize_type": "2  2  W",
+          "score": 2.3,
+          "accum_score": 2.3,
+          "hour_hand_score": 0,
+          "minute_hand_score": 0.3,
+          "second_hand_score": 0,
+          "ticket_number": 283,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "B 33",
+                "extra_info": "Bonus:  2  6  9  7  1"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "win": 700,
+    "n": 7,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 80,
+          "label": "Game 80 — Bonus activated",
+          "description": "Ticket 80. Total paid score: 7. Final prize: 0  W W. Spins: 1.",
+          "features": [
+            "bonus-won",
+            "exact-hit",
+            "h-wins",
+            "no-respin",
+            "single-hand-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 0,
+            "minute": 10,
+            "second": 29
+          },
+          "respin_type": "No",
+          "prize_type": "0  W W",
+          "score": 7,
+          "accum_score": 7,
+          "hour_hand_score": 1,
+          "minute_hand_score": 0,
+          "second_hand_score": 0,
+          "ticket_number": 80,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "B 0",
+                "extra_info": "Bonus:  8  1  8  6  2"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "win": 880,
+    "n": 1,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 885,
+          "label": "Game 885 — Free spins ticket, 8.8 total paid",
+          "description": "Ticket 885. Total paid score: 8.799999. Final prize: None. Spins: 16.",
+          "features": [
+            "bonus-visible-not-activated",
+            "free-spin-symbol",
+            "free-spins",
+            "free-spins-trigger",
+            "h-wins",
+            "m-wins",
+            "respin",
+            "s-wins",
+            "three-hand-win"
+          ]
+        },
+        "scenario": {
+          "ticket_number": 885,
+          "free_spins": true,
+          "spin_count": 16,
+          "total_score": 8.799999,
+          "spins": [
+            {
+              "spin_number": 0,
+              "offsets": {
+                "hour": 2,
+                "minute": 45,
+                "second": 40
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 0,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "F 6  45",
+                    "extra_info": "FreeSpins: 6"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 1,
+              "offsets": {
+                "hour": 7,
+                "minute": 25,
+                "second": 57
+              },
+              "respin_type": "No",
+              "prize_type": "W W 2",
+              "score": 0.2,
+              "accum_score": 0.2,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0.2,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "F 9  10",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 2,
+              "offsets": {
+                "hour": 3,
+                "minute": 3,
+                "second": 46
+              },
+              "respin_type": "No",
+              "prize_type": "W 2  W",
+              "score": 0.2,
+              "accum_score": 0.4,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0.2,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 3,
+              "offsets": {
+                "hour": 6,
+                "minute": 25,
+                "second": 39
+              },
+              "respin_type": "full",
+              "respin_offsets": {
+                "hour": 0,
+                "minute": 54,
+                "second": 10
+              },
+              "prize_type": "0  4  W",
+              "score": 2,
+              "accum_score": 2.4,
+              "hour_hand_score": 1,
+              "minute_hand_score": 1,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 4,
+              "offsets": {
+                "hour": 8,
+                "minute": 31,
+                "second": 34
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 2.4,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "F 9  34",
+                    "extra_info": "FreeSpins: 9"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 5,
+              "offsets": {
+                "hour": 8,
+                "minute": 29,
+                "second": 28
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 2.4,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "B 7",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 6,
+              "offsets": {
+                "hour": 6,
+                "minute": 6,
+                "second": 39
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 2.4,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 7,
+              "offsets": {
+                "hour": 2,
+                "minute": 29,
+                "second": 0
+              },
+              "respin_type": "No",
+              "prize_type": "2  W 0",
+              "score": 3,
+              "accum_score": 5.4,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 3,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 8,
+              "offsets": {
+                "hour": 5,
+                "minute": 15,
+                "second": 57
+              },
+              "respin_type": "No",
+              "prize_type": "W W 2",
+              "score": 0.2,
+              "accum_score": 5.6,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0.2,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "B 44",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 9,
+              "offsets": {
+                "hour": 5,
+                "minute": 2,
+                "second": 24
+              },
+              "respin_type": "No",
+              "prize_type": "W 2  W",
+              "score": 0.2,
+              "accum_score": 5.8,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0.2,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 10,
+              "offsets": {
+                "hour": 7,
+                "minute": 10,
+                "second": 23
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 5.8,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 11,
+              "offsets": {
+                "hour": 9,
+                "minute": 38,
+                "second": 23
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 5.8,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 12,
+              "offsets": {
+                "hour": 10,
+                "minute": 47,
+                "second": 21
+              },
+              "respin_type": "full",
+              "respin_offsets": {
+                "hour": 9,
+                "minute": 32,
+                "second": 0
+              },
+              "prize_type": "W W 0",
+              "score": 2,
+              "accum_score": 7.8,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 2,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 13,
+              "offsets": {
+                "hour": 4,
+                "minute": 54,
+                "second": 3
+              },
+              "respin_type": "No",
+              "prize_type": "W 4  2",
+              "score": 1,
+              "accum_score": 8.799999,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 1,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 14,
+              "offsets": {
+                "hour": 7,
+                "minute": 18,
+                "second": 24
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 8.799999,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "B 4",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            },
+            {
+              "spin_number": 15,
+              "offsets": {
+                "hour": 6,
+                "minute": 14,
+                "second": 25
+              },
+              "respin_type": "No",
+              "prize_type": "None",
+              "score": 0,
+              "accum_score": 8.799999,
+              "hour_hand_score": 0,
+              "minute_hand_score": 0,
+              "second_hand_score": 0,
+              "ring_special_codes": {
+                "hour_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "minute_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                },
+                "second_ring_special_codes": {
+                  "bonus": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "freespin": {
+                    "code": "none",
+                    "extra_info": "none"
+                  },
+                  "progressive": {
+                    "code": "none",
+                    "extra_info": "none"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "win": 1000,
+    "n": 80,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 26,
+          "label": "Game 26 — 10 total paid",
+          "description": "Ticket 26. Total paid score: 10. Final prize: 0  2  3. Spins: 1.",
+          "features": [
+            "exact-hit",
+            "h-wins",
+            "m-wins",
+            "no-respin",
+            "s-wins",
+            "three-hand-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 0,
+            "minute": 58,
+            "second": 5
+          },
+          "respin_type": "No",
+          "prize_type": "0  2  3",
+          "score": 10,
+          "accum_score": 10,
+          "hour_hand_score": 1,
+          "minute_hand_score": 3,
+          "second_hand_score": 6,
+          "ticket_number": 26,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "win": 5010,
+    "n": 1,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 3157,
+          "label": "Game 3157 — 50.1 total paid",
+          "description": "Ticket 3157. Total paid score: 50.1. Final prize: W W 3. Spins: 1.",
+          "features": [
+            "jackpot",
+            "no-respin",
+            "s-wins",
+            "single-hand-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 9,
+            "minute": 28,
+            "second": 56
+          },
+          "respin_type": "No",
+          "prize_type": "W W 3",
+          "score": 50.1,
+          "accum_score": 50.1,
+          "hour_hand_score": 0,
+          "minute_hand_score": 0,
+          "second_hand_score": 0.1,
+          "ticket_number": 3157,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "J 3 56",
+                "extra_info": "J 3"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "win": 5020,
+    "n": 2,
+    "scenarios": [
+      {
+        "_meta": {
+          "ticket_number": 7337,
+          "label": "Game 7337 — Full respin with win",
+          "description": "Ticket 7337. Total paid score: 50.2. Final prize: 2  3  W. Spins: 1.",
+          "features": [
+            "jackpot",
+            "m-wins",
+            "respin",
+            "single-hand-win"
+          ]
+        },
+        "scenario": {
+          "spin_number": 0,
+          "offsets": {
+            "hour": 10,
+            "minute": 33,
+            "second": 19
+          },
+          "respin_type": "full",
+          "respin_offsets": {
+            "hour": 2,
+            "minute": 55,
+            "second": 36
+          },
+          "prize_type": "2  3  W",
+          "score": 50.2,
+          "accum_score": 50.2,
+          "hour_hand_score": 0,
+          "minute_hand_score": 0.2,
+          "second_hand_score": 0,
+          "ticket_number": 7337,
+          "ring_special_codes": {
+            "hour_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "minute_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "none",
+                "extra_info": "none"
+              }
+            },
+            "second_ring_special_codes": {
+              "bonus": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "freespin": {
+                "code": "none",
+                "extra_info": "none"
+              },
+              "progressive": {
+                "code": "J 3 36",
+                "extra_info": "J 3"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

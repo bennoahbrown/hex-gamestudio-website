@@ -1,0 +1,2870 @@
+{
+	"textures": [
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1931,
+				"h": 2040
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00000.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1927,
+						"y": 1,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1927,
+						"y": 1,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1927,
+						"y": 1,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1927,
+						"y": 1,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00077.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 132,
+						"w": 640,
+						"h": 508
+					},
+					"frame": {
+						"x": 1285,
+						"y": 513,
+						"w": 640,
+						"h": 508
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00080.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 130,
+						"w": 640,
+						"h": 510
+					},
+					"frame": {
+						"x": 643,
+						"y": 1,
+						"w": 640,
+						"h": 510
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00097.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 133,
+						"w": 640,
+						"h": 507
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1023,
+						"w": 640,
+						"h": 507
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00099.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 131,
+						"w": 640,
+						"h": 509
+					},
+					"frame": {
+						"x": 643,
+						"y": 513,
+						"w": 640,
+						"h": 509
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00100.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 134,
+						"w": 640,
+						"h": 506
+					},
+					"frame": {
+						"x": 1,
+						"y": 1025,
+						"w": 640,
+						"h": 506
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00104.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 130,
+						"w": 640,
+						"h": 510
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1,
+						"w": 640,
+						"h": 510
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00105.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 131,
+						"w": 640,
+						"h": 509
+					},
+					"frame": {
+						"x": 1,
+						"y": 514,
+						"w": 640,
+						"h": 509
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00106.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 134,
+						"w": 640,
+						"h": 506
+					},
+					"frame": {
+						"x": 1,
+						"y": 1533,
+						"w": 640,
+						"h": 506
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00117.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 129,
+						"w": 640,
+						"h": 511
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 640,
+						"h": 511
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00118.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 137,
+						"w": 640,
+						"h": 503
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1532,
+						"w": 640,
+						"h": 503
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00119.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 133,
+						"w": 640,
+						"h": 507
+					},
+					"frame": {
+						"x": 643,
+						"y": 1024,
+						"w": 640,
+						"h": 507
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00122.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 134,
+						"w": 640,
+						"h": 506
+					},
+					"frame": {
+						"x": 643,
+						"y": 1533,
+						"w": 640,
+						"h": 506
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00130.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1927,
+						"y": 1,
+						"w": 3,
+						"h": 3
+					}
+				}
+			]
+		},
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1926,
+				"h": 2005
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00078.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 141,
+						"w": 640,
+						"h": 499
+					},
+					"frame": {
+						"x": 1285,
+						"y": 501,
+						"w": 640,
+						"h": 499
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00083.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 141,
+						"w": 640,
+						"h": 499
+					},
+					"frame": {
+						"x": 1,
+						"y": 1001,
+						"w": 640,
+						"h": 499
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00087.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 142,
+						"w": 640,
+						"h": 498
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 640,
+						"h": 498
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00088.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 140,
+						"w": 640,
+						"h": 500
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1002,
+						"w": 640,
+						"h": 500
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00101.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 142,
+						"w": 640,
+						"h": 498
+					},
+					"frame": {
+						"x": 643,
+						"y": 1,
+						"w": 640,
+						"h": 498
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00110.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 142,
+						"w": 640,
+						"h": 498
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1,
+						"w": 640,
+						"h": 498
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00113.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 140,
+						"w": 640,
+						"h": 500
+					},
+					"frame": {
+						"x": 1,
+						"y": 1502,
+						"w": 640,
+						"h": 500
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00116.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 142,
+						"w": 640,
+						"h": 498
+					},
+					"frame": {
+						"x": 1,
+						"y": 501,
+						"w": 640,
+						"h": 498
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00120.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 141,
+						"w": 640,
+						"h": 499
+					},
+					"frame": {
+						"x": 643,
+						"y": 1001,
+						"w": 640,
+						"h": 499
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00123.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 140,
+						"w": 640,
+						"h": 500
+					},
+					"frame": {
+						"x": 643,
+						"y": 1502,
+						"w": 640,
+						"h": 500
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00124.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 142,
+						"w": 640,
+						"h": 498
+					},
+					"frame": {
+						"x": 643,
+						"y": 501,
+						"w": 640,
+						"h": 498
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00127.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 140,
+						"w": 640,
+						"h": 500
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1504,
+						"w": 640,
+						"h": 500
+					}
+				}
+			]
+		},
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1926,
+				"h": 1985
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00075.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 147,
+						"w": 640,
+						"h": 493
+					},
+					"frame": {
+						"x": 643,
+						"y": 501,
+						"w": 640,
+						"h": 493
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00086.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 147,
+						"w": 640,
+						"h": 493
+					},
+					"frame": {
+						"x": 643,
+						"y": 996,
+						"w": 640,
+						"h": 493
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00090.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 148,
+						"w": 640,
+						"h": 492
+					},
+					"frame": {
+						"x": 1,
+						"y": 1492,
+						"w": 640,
+						"h": 492
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00091.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 147,
+						"w": 640,
+						"h": 493
+					},
+					"frame": {
+						"x": 1,
+						"y": 997,
+						"w": 640,
+						"h": 493
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00092.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 143,
+						"w": 640,
+						"h": 497
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1,
+						"w": 640,
+						"h": 497
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00094.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 149,
+						"w": 640,
+						"h": 491
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1493,
+						"w": 640,
+						"h": 491
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00096.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 146,
+						"w": 640,
+						"h": 494
+					},
+					"frame": {
+						"x": 1,
+						"y": 501,
+						"w": 640,
+						"h": 494
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00103.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 148,
+						"w": 640,
+						"h": 492
+					},
+					"frame": {
+						"x": 1285,
+						"y": 999,
+						"w": 640,
+						"h": 492
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00111.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 143,
+						"w": 640,
+						"h": 497
+					},
+					"frame": {
+						"x": 1285,
+						"y": 500,
+						"w": 640,
+						"h": 497
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00126.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 142,
+						"w": 640,
+						"h": 498
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 640,
+						"h": 498
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00128.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 142,
+						"w": 640,
+						"h": 498
+					},
+					"frame": {
+						"x": 643,
+						"y": 1,
+						"w": 640,
+						"h": 498
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00129.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 147,
+						"w": 640,
+						"h": 493
+					},
+					"frame": {
+						"x": 643,
+						"y": 1491,
+						"w": 640,
+						"h": 493
+					}
+				}
+			]
+		},
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1926,
+				"h": 1945
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00055.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 163,
+						"w": 640,
+						"h": 477
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1462,
+						"w": 640,
+						"h": 477
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00056.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 159,
+						"w": 640,
+						"h": 481
+					},
+					"frame": {
+						"x": 643,
+						"y": 978,
+						"w": 640,
+						"h": 481
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00061.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 157,
+						"w": 640,
+						"h": 483
+					},
+					"frame": {
+						"x": 1285,
+						"y": 977,
+						"w": 640,
+						"h": 483
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00066.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 150,
+						"w": 640,
+						"h": 490
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 640,
+						"h": 490
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00068.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 155,
+						"w": 640,
+						"h": 485
+					},
+					"frame": {
+						"x": 643,
+						"y": 491,
+						"w": 640,
+						"h": 485
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00071.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 154,
+						"w": 640,
+						"h": 486
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1,
+						"w": 640,
+						"h": 486
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00079.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 159,
+						"w": 640,
+						"h": 481
+					},
+					"frame": {
+						"x": 1,
+						"y": 980,
+						"w": 640,
+						"h": 481
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00082.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 155,
+						"w": 640,
+						"h": 485
+					},
+					"frame": {
+						"x": 1,
+						"y": 493,
+						"w": 640,
+						"h": 485
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00098.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 154,
+						"w": 640,
+						"h": 486
+					},
+					"frame": {
+						"x": 1285,
+						"y": 489,
+						"w": 640,
+						"h": 486
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00102.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 152,
+						"w": 640,
+						"h": 488
+					},
+					"frame": {
+						"x": 643,
+						"y": 1,
+						"w": 640,
+						"h": 488
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00112.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 159,
+						"w": 640,
+						"h": 481
+					},
+					"frame": {
+						"x": 643,
+						"y": 1461,
+						"w": 640,
+						"h": 481
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00114.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 159,
+						"w": 640,
+						"h": 481
+					},
+					"frame": {
+						"x": 1,
+						"y": 1463,
+						"w": 640,
+						"h": 481
+					}
+				}
+			]
+		},
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1926,
+				"h": 1955
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 113,
+						"y": 471,
+						"w": 472,
+						"h": 105
+					},
+					"frame": {
+						"x": 495,
+						"y": 1849,
+						"w": 472,
+						"h": 105
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 101,
+						"y": 469,
+						"w": 492,
+						"h": 107
+					},
+					"frame": {
+						"x": 1,
+						"y": 1847,
+						"w": 492,
+						"h": 107
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 70,
+						"y": 463,
+						"w": 534,
+						"h": 115
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1827,
+						"w": 534,
+						"h": 115
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00050.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 192,
+						"w": 640,
+						"h": 448
+					},
+					"frame": {
+						"x": 1,
+						"y": 947,
+						"w": 640,
+						"h": 448
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00051.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 192,
+						"w": 640,
+						"h": 448
+					},
+					"frame": {
+						"x": 1285,
+						"y": 478,
+						"w": 640,
+						"h": 448
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00052.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 192,
+						"w": 640,
+						"h": 448
+					},
+					"frame": {
+						"x": 1285,
+						"y": 928,
+						"w": 640,
+						"h": 448
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00054.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 192,
+						"w": 640,
+						"h": 448
+					},
+					"frame": {
+						"x": 643,
+						"y": 951,
+						"w": 640,
+						"h": 448
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00063.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 174,
+						"w": 640,
+						"h": 466
+					},
+					"frame": {
+						"x": 1,
+						"y": 479,
+						"w": 640,
+						"h": 466
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00064.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 194,
+						"w": 640,
+						"h": 446
+					},
+					"frame": {
+						"x": 643,
+						"y": 1401,
+						"w": 640,
+						"h": 446
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00065.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 169,
+						"w": 640,
+						"h": 471
+					},
+					"frame": {
+						"x": 643,
+						"y": 478,
+						"w": 640,
+						"h": 471
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00069.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 164,
+						"w": 640,
+						"h": 476
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 640,
+						"h": 476
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00072.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 165,
+						"w": 640,
+						"h": 475
+					},
+					"frame": {
+						"x": 643,
+						"y": 1,
+						"w": 640,
+						"h": 475
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00073.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 165,
+						"w": 640,
+						"h": 475
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1,
+						"w": 640,
+						"h": 475
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00093.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 193,
+						"w": 640,
+						"h": 447
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1378,
+						"w": 640,
+						"h": 447
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00095.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 192,
+						"w": 640,
+						"h": 448
+					},
+					"frame": {
+						"x": 1,
+						"y": 1397,
+						"w": 640,
+						"h": 448
+					}
+				}
+			]
+		},
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1926,
+				"h": 2047
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 378,
+						"w": 589,
+						"h": 260
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1786,
+						"w": 589,
+						"h": 260
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00048.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 195,
+						"w": 640,
+						"h": 445
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 640,
+						"h": 445
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00058.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 195,
+						"w": 640,
+						"h": 445
+					},
+					"frame": {
+						"x": 1,
+						"y": 448,
+						"w": 640,
+						"h": 445
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00059.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 195,
+						"w": 640,
+						"h": 445
+					},
+					"frame": {
+						"x": 1,
+						"y": 895,
+						"w": 640,
+						"h": 445
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00067.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 195,
+						"w": 640,
+						"h": 445
+					},
+					"frame": {
+						"x": 1,
+						"y": 1342,
+						"w": 640,
+						"h": 445
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00070.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 196,
+						"w": 640,
+						"h": 444
+					},
+					"frame": {
+						"x": 1285,
+						"y": 448,
+						"w": 640,
+						"h": 444
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00074.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 195,
+						"w": 640,
+						"h": 445
+					},
+					"frame": {
+						"x": 643,
+						"y": 1,
+						"w": 640,
+						"h": 445
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00076.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 196,
+						"w": 640,
+						"h": 444
+					},
+					"frame": {
+						"x": 1285,
+						"y": 894,
+						"w": 640,
+						"h": 444
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00084.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 195,
+						"w": 640,
+						"h": 445
+					},
+					"frame": {
+						"x": 643,
+						"y": 448,
+						"w": 640,
+						"h": 445
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00089.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 195,
+						"w": 640,
+						"h": 445
+					},
+					"frame": {
+						"x": 643,
+						"y": 895,
+						"w": 640,
+						"h": 445
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00107.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 195,
+						"w": 640,
+						"h": 445
+					},
+					"frame": {
+						"x": 643,
+						"y": 1342,
+						"w": 640,
+						"h": 445
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00109.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 195,
+						"w": 640,
+						"h": 445
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1,
+						"w": 640,
+						"h": 445
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00115.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 196,
+						"w": 640,
+						"h": 444
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1340,
+						"w": 640,
+						"h": 444
+					}
+				}
+			]
+		},
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-6.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1926,
+				"h": 2041
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 336,
+						"w": 639,
+						"h": 304
+					},
+					"frame": {
+						"x": 1275,
+						"y": 1736,
+						"w": 639,
+						"h": 304
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 340,
+						"w": 630,
+						"h": 300
+					},
+					"frame": {
+						"x": 643,
+						"y": 1727,
+						"w": 630,
+						"h": 300
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 252,
+						"w": 625,
+						"h": 388
+					},
+					"frame": {
+						"x": 643,
+						"y": 1337,
+						"w": 625,
+						"h": 388
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00046.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 214,
+						"w": 640,
+						"h": 426
+					},
+					"frame": {
+						"x": 1275,
+						"y": 891,
+						"w": 640,
+						"h": 426
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00049.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 225,
+						"w": 634,
+						"h": 415
+					},
+					"frame": {
+						"x": 1275,
+						"y": 1319,
+						"w": 634,
+						"h": 415
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00053.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 196,
+						"w": 630,
+						"h": 444
+					},
+					"frame": {
+						"x": 643,
+						"y": 891,
+						"w": 630,
+						"h": 444
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00057.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 197,
+						"w": 640,
+						"h": 443
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 640,
+						"h": 443
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00060.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 197,
+						"w": 640,
+						"h": 443
+					},
+					"frame": {
+						"x": 643,
+						"y": 1,
+						"w": 640,
+						"h": 443
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00062.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 199,
+						"w": 640,
+						"h": 441
+					},
+					"frame": {
+						"x": 1,
+						"y": 1335,
+						"w": 640,
+						"h": 441
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00081.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 197,
+						"w": 640,
+						"h": 443
+					},
+					"frame": {
+						"x": 1285,
+						"y": 1,
+						"w": 640,
+						"h": 443
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00085.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 198,
+						"w": 640,
+						"h": 442
+					},
+					"frame": {
+						"x": 1,
+						"y": 891,
+						"w": 640,
+						"h": 442
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00108.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 197,
+						"w": 640,
+						"h": 443
+					},
+					"frame": {
+						"x": 1,
+						"y": 446,
+						"w": 640,
+						"h": 443
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00121.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 197,
+						"w": 640,
+						"h": 443
+					},
+					"frame": {
+						"x": 643,
+						"y": 446,
+						"w": 640,
+						"h": 443
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00125.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 197,
+						"w": 640,
+						"h": 443
+					},
+					"frame": {
+						"x": 1285,
+						"y": 446,
+						"w": 640,
+						"h": 443
+					}
+				}
+			]
+		},
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-7.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1914,
+				"h": 1855
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 295,
+						"w": 630,
+						"h": 345
+					},
+					"frame": {
+						"x": 1,
+						"y": 1155,
+						"w": 630,
+						"h": 345
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 294,
+						"w": 633,
+						"h": 346
+					},
+					"frame": {
+						"x": 1,
+						"y": 807,
+						"w": 633,
+						"h": 346
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 294,
+						"w": 637,
+						"h": 346
+					},
+					"frame": {
+						"x": 633,
+						"y": 1160,
+						"w": 637,
+						"h": 346
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 291,
+						"w": 640,
+						"h": 349
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1126,
+						"w": 640,
+						"h": 349
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 287,
+						"w": 640,
+						"h": 353
+					},
+					"frame": {
+						"x": 1273,
+						"y": 417,
+						"w": 640,
+						"h": 353
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 294,
+						"w": 634,
+						"h": 346
+					},
+					"frame": {
+						"x": 633,
+						"y": 1508,
+						"w": 634,
+						"h": 346
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 292,
+						"w": 634,
+						"h": 348
+					},
+					"frame": {
+						"x": 636,
+						"y": 810,
+						"w": 634,
+						"h": 348
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 300,
+						"w": 630,
+						"h": 340
+					},
+					"frame": {
+						"x": 1,
+						"y": 1502,
+						"w": 630,
+						"h": 340
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 291,
+						"w": 640,
+						"h": 349
+					},
+					"frame": {
+						"x": 1272,
+						"y": 1477,
+						"w": 640,
+						"h": 349
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 288,
+						"w": 640,
+						"h": 352
+					},
+					"frame": {
+						"x": 1273,
+						"y": 772,
+						"w": 640,
+						"h": 352
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 245,
+						"w": 635,
+						"h": 395
+					},
+					"frame": {
+						"x": 636,
+						"y": 413,
+						"w": 635,
+						"h": 395
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 230,
+						"w": 640,
+						"h": 410
+					},
+					"frame": {
+						"x": 636,
+						"y": 1,
+						"w": 640,
+						"h": 410
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 253,
+						"w": 626,
+						"h": 387
+					},
+					"frame": {
+						"x": 1,
+						"y": 418,
+						"w": 626,
+						"h": 387
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 225,
+						"w": 633,
+						"h": 415
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 633,
+						"h": 415
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00047.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 226,
+						"w": 632,
+						"h": 414
+					},
+					"frame": {
+						"x": 1278,
+						"y": 1,
+						"w": 632,
+						"h": 414
+					}
+				}
+			]
+		},
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-8.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1913,
+				"h": 2013
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 355,
+						"w": 623,
+						"h": 285
+					},
+					"frame": {
+						"x": 637,
+						"y": 1352,
+						"w": 623,
+						"h": 285
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 337,
+						"w": 640,
+						"h": 303
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 640,
+						"h": 303
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 340,
+						"w": 626,
+						"h": 300
+					},
+					"frame": {
+						"x": 1284,
+						"y": 342,
+						"w": 626,
+						"h": 300
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 337,
+						"w": 637,
+						"h": 303
+					},
+					"frame": {
+						"x": 641,
+						"y": 700,
+						"w": 637,
+						"h": 303
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 314,
+						"w": 636,
+						"h": 326
+					},
+					"frame": {
+						"x": 1,
+						"y": 999,
+						"w": 636,
+						"h": 326
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 305,
+						"w": 634,
+						"h": 335
+					},
+					"frame": {
+						"x": 1,
+						"y": 1674,
+						"w": 634,
+						"h": 335
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 301,
+						"w": 633,
+						"h": 339
+					},
+					"frame": {
+						"x": 1271,
+						"y": 1672,
+						"w": 633,
+						"h": 339
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 294,
+						"w": 638,
+						"h": 346
+					},
+					"frame": {
+						"x": 642,
+						"y": 352,
+						"w": 638,
+						"h": 346
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 301,
+						"w": 627,
+						"h": 339
+					},
+					"frame": {
+						"x": 1284,
+						"y": 1,
+						"w": 627,
+						"h": 339
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 297,
+						"w": 634,
+						"h": 343
+					},
+					"frame": {
+						"x": 1275,
+						"y": 1327,
+						"w": 634,
+						"h": 343
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 300,
+						"w": 632,
+						"h": 340
+					},
+					"frame": {
+						"x": 1280,
+						"y": 985,
+						"w": 632,
+						"h": 340
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 300,
+						"w": 638,
+						"h": 340
+					},
+					"frame": {
+						"x": 1,
+						"y": 657,
+						"w": 638,
+						"h": 340
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 301,
+						"w": 630,
+						"h": 339
+					},
+					"frame": {
+						"x": 1282,
+						"y": 644,
+						"w": 630,
+						"h": 339
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 291,
+						"w": 639,
+						"h": 349
+					},
+					"frame": {
+						"x": 643,
+						"y": 1,
+						"w": 639,
+						"h": 349
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 291,
+						"w": 639,
+						"h": 349
+					},
+					"frame": {
+						"x": 1,
+						"y": 306,
+						"w": 639,
+						"h": 349
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 295,
+						"w": 634,
+						"h": 345
+					},
+					"frame": {
+						"x": 639,
+						"y": 1005,
+						"w": 634,
+						"h": 345
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 295,
+						"w": 634,
+						"h": 345
+					},
+					"frame": {
+						"x": 1,
+						"y": 1327,
+						"w": 634,
+						"h": 345
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 300,
+						"w": 632,
+						"h": 340
+					},
+					"frame": {
+						"x": 637,
+						"y": 1672,
+						"w": 632,
+						"h": 340
+					}
+				}
+			]
+		},
+		{
+			"image": "columns_glyphs_reveal_640p_12fps_v1-9.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 638,
+				"h": 905
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 342,
+						"w": 635,
+						"h": 298
+					},
+					"frame": {
+						"x": 1,
+						"y": 306,
+						"w": 635,
+						"h": 298
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 337,
+						"w": 636,
+						"h": 303
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 636,
+						"h": 303
+					}
+				},
+				{
+					"filename": "Columns_Light_Reveal_VFX_alpha_640p_12fps_V1_00016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 640,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 342,
+						"w": 632,
+						"h": 298
+					},
+					"frame": {
+						"x": 1,
+						"y": 606,
+						"w": 632,
+						"h": 298
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:69c581522c2f9966d7c048b06eedad8a:b749daec842b011db02c373b81bb2c8d:078af254b617c68a0908b9623276a750$"
+	}
+}

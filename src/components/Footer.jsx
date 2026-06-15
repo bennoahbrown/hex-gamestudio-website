@@ -14,6 +14,7 @@ export default function Footer() {
                 width={28}
                 height={28}
                 className="opacity-90"
+                unoptimized
               />
               HEX GAME STUDIO
             </div>

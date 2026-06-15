@@ -68,6 +68,7 @@ export default function SiteNav() {
               height={30}
               className="site-brand-logo"
               priority
+              unoptimized
             />
             <span className="site-brand-bracket">⟨</span>
             <span className="site-brand-name">Hex Game Studio</span>

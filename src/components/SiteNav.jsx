@@ -70,9 +70,7 @@ export default function SiteNav() {
               priority
               unoptimized
             />
-            <span className="site-brand-bracket">⟨</span>
             <span className="site-brand-name">Hex Game Studio</span>
-            <span className="site-brand-bracket">⟩</span>
           </Link>
 
           {/* Desktop Navigation */}

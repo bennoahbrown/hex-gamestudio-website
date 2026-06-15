@@ -231,6 +231,7 @@ p {
 
 .site-brand-name {
   font-size: 18px; /* unchanged */
+  color: var(--nav-accent);
 }
 
 .site-nav-links {

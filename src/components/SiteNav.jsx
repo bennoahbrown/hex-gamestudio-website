@@ -2,6 +2,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import ColorCustomizer from "./ColorCustomizer";
@@ -60,6 +61,14 @@ export default function SiteNav() {
       <div className="px-4 sm:px-6 h-full">
         <div className="site-nav-inner mx-auto max-w-6xl">
           <Link href="/" className="site-brand">
+            <Image
+              src="/hex-logo.png"
+              alt="Hex Game Studio logo"
+              width={30}
+              height={30}
+              className="site-brand-logo"
+              priority
+            />
             <span className="site-brand-bracket">⟨</span>
             <span className="site-brand-name">Hex Game Studio</span>
             <span className="site-brand-bracket">⟩</span>

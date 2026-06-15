@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="border-t px-6 py-8" style={{ borderColor: "var(--surface-border)", background: "rgba(0,0,0,0.95)" }}>
@@ -5,7 +7,14 @@ export default function Footer() {
         <div className="grid gap-8 lg:grid-cols-12">
           {/* Left: Studio info */}
           <div className="lg:col-span-5">
-            <div className="text-xl font-bold tracking-tight" style={{ color: "rgba(255,255,255,0.95)" }}>
+            <div className="flex items-center gap-3 text-xl font-bold tracking-tight" style={{ color: "rgba(255,255,255,0.95)" }}>
+              <Image
+                src="/hex-logo.png"
+                alt="Hex Game Studio logo"
+                width={28}
+                height={28}
+                className="opacity-90"
+              />
               HEX GAME STUDIO
             </div>
             <p className="mt-2 text-sm leading-6" style={{ color: "rgba(255,255,255,0.65)" }}>

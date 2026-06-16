@@ -21,11 +21,13 @@ html {
   overscroll-behavior: none;
   overscroll-behavior-y: none;
   overflow-x: hidden;
+  background-color: #000000;
 }
 
 body {
   height: 100%;
   background: var(--bg);
+  background-color: #000000;
   color: var(--fg);
   font-family: var(--font-geist-sans);
   margin: 0;

@@ -198,17 +198,17 @@ export default function CashClockPage() {
                 This partnership reflects EQL's mission to support forward-thinking startups and bring fresh thinking to the lottery space.
               </p>
 
-              {/* EQL logo floated right on mobile — beside CTA, anchored at bottom of content */}
-              <div className="float-right w-[140px] lg:hidden ml-4 mt-2">
+              {/* Mobile-only EQL logo — centered, below body text, above CTA */}
+              <div className="lg:hidden mt-8 flex justify-center">
                 <img
                   src="/eql-logo.png"
                   alt="EQL Games"
-                  className="w-full h-auto object-contain"
+                  className="w-[160px] h-auto object-contain"
                   style={{ imageRendering: "auto" }}
                 />
               </div>
 
-              <div className="mt-8">
+              <div className="mt-6">
                 <a
                   href="https://www.eqlgames.com/eql-games-onboards-chance-lottery-reinforcing-commitment-to-lottery-startups/"
                   target="_blank"
@@ -223,16 +223,15 @@ export default function CashClockPage() {
                   Read Press Release →
                 </a>
               </div>
-              <div className="clear-both lg:hidden"></div>
             </div>
 
-            {/* Desktop: square logo */}
+            {/* Desktop: logo at 60% of column width */}
             <div className="hidden lg:flex lg:col-span-5 justify-center items-center">
-              <div className="w-[400px] h-[400px] aspect-square flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 <img
                   src="/eql-logo.png"
                   alt="EQL Games"
-                  className="w-full object-contain"
+                  className="w-[240px] h-auto object-contain"
                   style={{ imageRendering: "auto" }}
                 />
               </div>

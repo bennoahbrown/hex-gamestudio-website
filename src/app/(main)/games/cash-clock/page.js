@@ -198,8 +198,8 @@ export default function CashClockPage() {
                 This partnership reflects EQL's mission to support forward-thinking startups and bring fresh thinking to the lottery space.
               </p>
 
-              {/* Mobile-only EQL logo — left-aligned, below body text, above CTA */}
-              <div className="lg:hidden mt-8">
+              {/* Mobile-only EQL logo — centered, below body text, above CTA */}
+              <div className="lg:hidden mt-8 flex justify-center">
                 <img
                   src="/eql-logo.png"
                   alt="EQL Games"
@@ -208,7 +208,7 @@ export default function CashClockPage() {
                 />
               </div>
 
-              <div className="mt-6">
+              <div className="mt-6 lg:mt-8 flex lg:block justify-center">
                 <a
                   href="https://www.eqlgames.com/eql-games-onboards-chance-lottery-reinforcing-commitment-to-lottery-startups/"
                   target="_blank"

@@ -122,25 +122,31 @@ export default function CashClockDemoPage() {
                   ))}
                 </div>
 
-                {/* Mobile-only hero image */}
-                <div className="lg:hidden mt-6 flex justify-center">
-                  <img
-                    src="/cash-clock.webp"
-                    alt="Cash Clock key art"
-                    className="w-full max-w-[320px] sm:max-w-[400px] h-auto object-contain"
-                    style={{ imageRendering: "auto" }}
-                  />
-                </div>
-
                 <p className="mt-5 sm:mt-7 max-w-xl text-base sm:text-lg leading-7 sm:leading-8 text-[var(--muted)]">
                   Cash Clock is a fresh eInstant game built around one of the most universally
                   understood concepts in the world: time.
                 </p>
+
+                {/* Mobile-only: float image right, ~40% off-screen */}
+                <div
+                  className="float-right w-[340px] sm:w-[490px] md:w-[620px] h-[312px] sm:h-[440px] md:h-[540px] lg:hidden ml-3"
+                  style={{ marginRight: "-136px" }}
+                >
+                  <img
+                    src="/cash-clock.webp"
+                    alt="Cash Clock key art"
+                    className="w-full h-full object-contain"
+                    style={{ imageRendering: "auto" }}
+                  />
+                </div>
+
                 <p className="mt-3 sm:mt-4 max-w-xl text-base sm:text-lg leading-7 sm:leading-8 text-[var(--muted)]">
                   Players select an hour, minute, and second, then watch the clock spin. Exact
                   matches win the jackpot while partial and near matches unlock additional prize
                   opportunities.
                 </p>
+
+                <div className="clear-both lg:hidden"></div>
 
                 <div className="mt-8 sm:mt-10">
                   <a

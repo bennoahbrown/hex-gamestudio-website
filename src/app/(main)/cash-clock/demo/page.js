@@ -106,20 +106,36 @@ export default function CashClockDemoPage() {
                   Game / Operator Demo
                 </div>
 
-                <h1 className="heading-hero text-[clamp(72px,8vw,92px)]">
-                  <span className="block text-white">CASH CLOCK</span>
-                </h1>
+                {/* Mobile: flex row — title+taglines left, image right (partial off-screen) */}
+                {/* Desktop: normal block, image is in the right column */}
+                <div className="flex items-center lg:block">
+                  <div className="flex-1 min-w-0">
+                    <h1 className="heading-hero text-[clamp(72px,8vw,92px)]">
+                      <span className="block text-white">CASH CLOCK</span>
+                    </h1>
 
-                <div className="mt-4 sm:mt-6 space-y-1">
-                  {["PICK A TIME.", "SPIN THE CLOCK.", "WIN THE JACKPOT."].map((t) => (
-                    <div
-                      key={t}
-                      className="text-2xl font-semibold tracking-[0.02em] sm:text-2xl lg:text-3xl"
-                      style={{ color: "transparent", WebkitTextStroke: "1px rgba(0,255,140,0.55)" }}
-                    >
-                      {t}
+                    <div className="mt-4 sm:mt-6 space-y-1">
+                      {["PICK A TIME.", "SPIN THE CLOCK.", "WIN THE JACKPOT."].map((t) => (
+                        <div
+                          key={t}
+                          className="text-2xl font-semibold tracking-[0.02em] sm:text-2xl lg:text-3xl"
+                          style={{ color: "transparent", WebkitTextStroke: "1px rgba(0,255,140,0.55)" }}
+                        >
+                          {t}
+                        </div>
+                      ))}
                     </div>
-                  ))}
+                  </div>
+
+                  {/* Mobile-only image — ~40% off right edge */}
+                  <div className="shrink-0 lg:hidden" style={{ width: "180px", marginRight: "-96px" }}>
+                    <img
+                      src="/cash-clock.webp"
+                      alt="Cash Clock key art"
+                      className="w-full h-auto object-contain"
+                      style={{ imageRendering: "auto" }}
+                    />
+                  </div>
                 </div>
 
                 <p className="mt-5 sm:mt-7 max-w-xl text-base sm:text-lg leading-7 sm:leading-8 text-[var(--muted)]">
@@ -127,26 +143,11 @@ export default function CashClockDemoPage() {
                   understood concepts in the world: time.
                 </p>
 
-                {/* Mobile-only: float image right, ~40% off-screen */}
-                <div
-                  className="float-right w-[340px] sm:w-[490px] md:w-[620px] h-[312px] sm:h-[440px] md:h-[540px] lg:hidden ml-3"
-                  style={{ marginRight: "-136px" }}
-                >
-                  <img
-                    src="/cash-clock.webp"
-                    alt="Cash Clock key art"
-                    className="w-full h-full object-contain"
-                    style={{ imageRendering: "auto" }}
-                  />
-                </div>
-
                 <p className="mt-3 sm:mt-4 max-w-xl text-base sm:text-lg leading-7 sm:leading-8 text-[var(--muted)]">
                   Players select an hour, minute, and second, then watch the clock spin. Exact
                   matches win the jackpot while partial and near matches unlock additional prize
                   opportunities.
                 </p>
-
-                <div className="clear-both lg:hidden"></div>
 
                 <div className="mt-8 sm:mt-10">
                   <a

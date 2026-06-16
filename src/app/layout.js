@@ -46,9 +46,17 @@ export const metadata = {
   },
 };
 
+export const viewport = {
+  themeColor: "#000000",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${firaCode.variable} ${inter.variable} antialiased`}>
         <GlobalBackground />
         <ScrollToTop />

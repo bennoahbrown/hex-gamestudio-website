@@ -153,7 +153,7 @@ export default function CashClockDemoPage() {
               {/* Right: artwork (desktop only) */}
               <div className="hidden lg:flex lg:col-span-5 items-center justify-center">
                 <img
-                  src="/cash-clock.png"
+                  src="/cash-clock.webp"
                   alt="Cash Clock key art"
                   className="w-full h-auto object-contain"
                   style={{ maxHeight: "420px", imageRendering: "auto" }}

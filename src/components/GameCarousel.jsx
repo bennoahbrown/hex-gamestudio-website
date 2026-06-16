@@ -70,12 +70,12 @@ export default function GameCarousel() {
                   {/* Image floated on mobile/tablet - half visible, text wraps around */}
                   <div className="float-right w-[480px] sm:w-[560px] md:w-[680px] h-[360px] sm:h-[420px] md:h-[480px] lg:hidden flex items-center ml-2" style={{ marginRight: '-240px' }}>
                     <img
-                      src={slide.id === 'cash-clock' ? '/cash-clock.png' : '/chance.png'}
+                      src={slide.id === 'cash-clock' ? '/cash-clock.webp' : '/chance.webp'}
                       alt={`${slide.title} key art`}
                       className="w-full h-full object-contain transition-all duration-300"
                       style={{ 
                         imageRendering: "auto",
-                        shapeOutside: `url(${slide.id === 'cash-clock' ? '/cash-clock.png' : '/chance.png'})`,
+                        shapeOutside: `url(${slide.id === 'cash-clock' ? '/cash-clock.webp' : '/chance.webp'})`,
                         shapeMargin: '0.25rem'
                       }}
                     />
@@ -135,7 +135,7 @@ export default function GameCarousel() {
                 <div className="hidden lg:flex lg:col-span-5 lg:items-center lg:justify-center">
                   <div className="w-full max-w-[400px] aspect-square flex items-center justify-center">
                     <img
-                      src={slide.id === 'cash-clock' ? '/cash-clock.png' : '/chance.png'}
+                      src={slide.id === 'cash-clock' ? '/cash-clock.webp' : '/chance.webp'}
                       alt={`${slide.title} key art`}
                       className="w-full h-full object-contain"
                       style={{ imageRendering: "auto" }}

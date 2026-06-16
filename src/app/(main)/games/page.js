@@ -30,14 +30,14 @@ export default function Games() {
       kicker: "E-INSTANT",
       note: "Key art / UI stills (placeholder)",
       href: "/games/cash-clock",
-      image: "/cash-clock.png",
+      image: "/cash-clock.webp",
     },
     {
       title: "CHANCE LOTTERY",
       kicker: "FLAGSHIP VISION",
       note: "Long-term strategic direction",
       href: "/games/chance-lottery",
-      image: "/chance.png",
+      image: "/chance.webp",
     },
     {
       title: "NEXT TITLE",
@@ -293,12 +293,12 @@ export default function Games() {
               {/* Image floated on mobile/tablet - half visible, text wraps around */}
               <div className="float-right w-[480px] sm:w-[560px] md:w-[680px] h-[360px] sm:h-[420px] md:h-[480px] lg:hidden flex items-center ml-2" style={{ marginRight: '-240px' }}>
                 <img
-                  src="/cash-clock.png"
+                  src="/cash-clock.webp"
                   alt="Cash Clock key art"
                   className="w-full h-full object-contain"
                   style={{ 
                     imageRendering: "auto",
-                    shapeOutside: 'url(/cash-clock.png)',
+                    shapeOutside: 'url(/cash-clock.webp)',
                     shapeMargin: '0.25rem'
                   }}
                 />
@@ -354,7 +354,7 @@ export default function Games() {
             <div className="hidden lg:flex lg:col-span-5 justify-center items-center">
               <div className="w-[400px] h-[400px] aspect-square">
                 <img
-                  src="/cash-clock.png"
+                  src="/cash-clock.webp"
                   alt="Cash Clock key art"
                   className="w-full h-full object-contain"
                   style={{ imageRendering: "auto" }}
@@ -503,12 +503,12 @@ export default function Games() {
               {/* Image floated on mobile/tablet - half visible, text wraps around */}
               <div className="float-right w-[480px] sm:w-[560px] md:w-[680px] h-[360px] sm:h-[420px] md:h-[480px] lg:hidden flex items-center ml-2" style={{ marginRight: '-240px' }}>
                 <img
-                  src="/chance.png"
+                  src="/chance.webp"
                   alt="Chance Lottery key art"
                   className="w-full h-full object-contain"
                   style={{ 
                     imageRendering: "auto",
-                    shapeOutside: 'url(/chance.png)',
+                    shapeOutside: 'url(/chance.webp)',
                     shapeMargin: '0.25rem'
                   }}
                 />
@@ -564,7 +564,7 @@ export default function Games() {
             <div className="hidden lg:flex lg:col-span-5 justify-center items-center">
               <div className="w-[400px] h-[400px] aspect-square">
                 <img
-                  src="/chance.png"
+                  src="/chance.webp"
                   alt="Chance Lottery key art"
                   className="w-full h-full object-contain"
                   style={{ imageRendering: "auto" }}

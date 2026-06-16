@@ -59,7 +59,7 @@ export default function Home() {
               <div className="relative w-full max-w-[280px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-none lg:h-full lg:flex lg:items-center">
                 <div className="w-full lg:flex lg:items-center lg:justify-center lg:h-full">
                   <img
-                    src="/hero-games.png"
+                    src="/hero-games.webp"
                     alt="Cash Clock and Chance Lottery key art"
                     className="h-auto w-full object-contain"
                     style={{ imageRendering: "auto", maxHeight: "400px" }}

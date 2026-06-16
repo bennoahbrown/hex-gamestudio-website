@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
-import ColorCustomizer from "./ColorCustomizer";
 
 const nav = [
   { href: "/studio", label: "Studio" },
@@ -55,6 +54,30 @@ export default function SiteNav() {
     if (href === "/") return pathname === "/";
     return pathname === href || pathname.startsWith(href + "/");
   };
+
+  // Minimal portal nav for Cash Clock demo routes — no links, no clickable brand
+  if (pathname.startsWith("/cash-clock/")) {
+    return (
+      <header className="site-nav">
+        <div className="px-4 sm:px-6 h-full">
+          <div className="site-nav-inner mx-auto max-w-6xl">
+            <div className="site-brand" style={{ cursor: "default" }}>
+              <Image
+                src="/hex-logo.png"
+                alt="Hex Game Studio logo"
+                width={30}
+                height={30}
+                className="site-brand-logo"
+                priority
+                unoptimized
+              />
+              <span className="site-brand-name">Cash Clock Demo</span>
+            </div>
+          </div>
+        </div>
+      </header>
+    );
+  }
 
   return (
     <header className="site-nav">
@@ -137,9 +160,6 @@ export default function SiteNav() {
                 )}
               </div>
             ))}
-            
-            {/* Color Customizer */}
-            <ColorCustomizer />
           </nav>
 
           {/* Mobile Menu Button */}

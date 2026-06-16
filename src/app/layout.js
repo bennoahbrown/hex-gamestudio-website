@@ -27,9 +27,22 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://www.hex-gamestudio.com"),
   title: "Hex Game Studio",
   description:
     "Hex Game Studio designs original e-instant games built around time-based systems and alternative play patterns.",
+  openGraph: {
+    title: "Hex Game Studio",
+    description: "Concept-driven iLottery games built on original mechanics.",
+    url: "https://www.hex-gamestudio.com",
+    siteName: "Hex Game Studio",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hex Game Studio",
+    description: "Concept-driven iLottery games built on original mechanics.",
+  },
 };
 
 export default function RootLayout({ children }) {

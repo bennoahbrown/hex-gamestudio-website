@@ -12,8 +12,8 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/cash-clock/demo",
-        destination: "/cash-clock/demo/index.html",
+        source: "/cash-clock/live-demo",
+        destination: "/cash-clock/live-demo/index.html",
       },
     ];
   },

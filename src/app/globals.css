@@ -224,11 +224,6 @@ p {
   text-transform: uppercase;
 }
 
-.site-brand-bracket {
-  color: var(--nav-accent);
-  font-weight: 800;
-}
-
 .site-brand-name {
   font-size: 18px; /* unchanged */
   color: var(--nav-accent);

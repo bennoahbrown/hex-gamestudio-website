@@ -5,6 +5,7 @@ import ThemeProvider from "../design/ThemeProvider";
 import SiteNav from "../components/SiteNav";
 import Footer from "../components/Footer";
 import GlobalBackground from "../components/GlobalBackground";
+import ScrollToTop from "../components/ScrollToTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -50,6 +51,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} ${firaCode.variable} ${inter.variable} antialiased`}>
         <GlobalBackground />
+        <ScrollToTop />
         <ThemeProvider>
           <div className="site-frame">
             <SiteNav />

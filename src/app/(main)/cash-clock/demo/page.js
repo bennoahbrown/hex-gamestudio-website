@@ -122,6 +122,16 @@ export default function CashClockDemoPage() {
                   ))}
                 </div>
 
+                {/* Mobile-only hero image */}
+                <div className="lg:hidden mt-6 flex justify-center">
+                  <img
+                    src="/cash-clock.webp"
+                    alt="Cash Clock key art"
+                    className="w-full max-w-[320px] sm:max-w-[400px] h-auto object-contain"
+                    style={{ imageRendering: "auto" }}
+                  />
+                </div>
+
                 <p className="mt-5 sm:mt-7 max-w-xl text-base sm:text-lg leading-7 sm:leading-8 text-[var(--muted)]">
                   Cash Clock is a fresh eInstant game built around one of the most universally
                   understood concepts in the world: time.

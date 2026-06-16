@@ -33,20 +33,6 @@ export default function ChanceLotteryPage() {
         <div className="mx-auto max-w-6xl">
           <div className="lg:grid lg:gap-12 lg:grid-cols-12 lg:items-start">
             <div className="lg:col-span-7">
-              {/* Image floated on mobile/tablet - half visible, text wraps around */}
-              <div className="float-right w-[480px] sm:w-[560px] md:w-[680px] h-[360px] sm:h-[420px] md:h-[480px] lg:hidden flex items-center ml-2" style={{ marginRight: '-240px' }}>
-                <img
-                  src="/chance.webp"
-                  alt="Chance Lottery key art"
-                  className="w-full h-full object-contain"
-                  style={{ 
-                    imageRendering: "auto",
-                    shapeOutside: 'url(/chance.webp)',
-                    shapeMargin: '0.25rem'
-                  }}
-                />
-              </div>
-
               <div className="text-xs sm:text-sm font-medium uppercase" style={{ color: "rgba(0,255,140,0.75)", fontFamily: "var(--font-fira-code)" }}>
                 Platform / The Flagship Vision
               </div>
@@ -73,15 +59,28 @@ export default function ChanceLotteryPage() {
               <p className="mt-4 sm:mt-6 max-w-2xl text-base sm:text-lg leading-7 sm:leading-8 text-[var(--muted)]">
                 Chance Lottery is the long-term flagship platform from Hex Game Studio.
               </p>
-              
+
+              {/* Image floated on mobile/tablet — anchored bottom-right, between paragraphs */}
+              <div className="float-right w-[340px] sm:w-[490px] md:w-[620px] h-[312px] sm:h-[440px] md:h-[540px] lg:hidden pl-4 sm:pl-0" style={{ marginRight: '-136px' }}>
+                <img
+                  src="/chance.webp"
+                  alt="Chance Lottery key art"
+                  className="w-full h-full object-contain"
+                  style={{ imageRendering: "auto" }}
+                />
+              </div>
+
               <p className="mt-3 sm:mt-4 max-w-2xl text-base sm:text-lg leading-7 sm:leading-8 text-[var(--muted)]">
                 While our e-instant games generate momentum, Chance Lottery defines the category — rethinking how players relate to probability over time.
               </p>
 
+              {/* Clear float before CTA so buttons render full-width */}
+              <div className="clear-both lg:hidden"></div>
+
               <div className="mt-8 sm:mt-10 flex flex-row gap-3 sm:gap-4">
                 <a
                   href="/contact"
-                  className="inline-flex items-center justify-center px-6 py-3 text-sm font-medium btn-cta-invert flex-1"
+                  className="inline-flex h-12 items-center justify-center px-6 text-sm font-medium btn-cta-invert flex-1 whitespace-nowrap"
                   style={{ background: "var(--cta-bg)", color: "var(--cta-fg)", minWidth: 0 }}
                 >
                   Learn More
@@ -89,7 +88,7 @@ export default function ChanceLotteryPage() {
 
                 <a
                   href="/games"
-                  className="inline-flex items-center justify-center border px-6 py-3 text-sm font-medium btn-hover-green flex-1"
+                  className="inline-flex h-12 items-center justify-center border px-6 text-sm font-medium btn-hover-green flex-1 whitespace-nowrap"
                   style={{
                     borderColor: "rgba(0,255,140,0.35)",
                     background: "transparent",
@@ -98,7 +97,8 @@ export default function ChanceLotteryPage() {
                     minWidth: 0
                   }}
                 >
-                  ← Back to Games
+                  <span className="sm:hidden">← Back</span>
+                  <span className="hidden sm:inline">← Back to Games</span>
                 </a>
               </div>
             </div>

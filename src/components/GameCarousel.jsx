@@ -67,8 +67,17 @@ export default function GameCarousel() {
               <div className="lg:grid lg:gap-12 lg:grid-cols-12 lg:items-start">
                 {/* Text content with floating image on mobile/tablet */}
                 <div className="lg:col-span-7">
-                  {/* Image floated on mobile/tablet - half visible, text wraps around */}
-                  <div className="float-right w-[480px] sm:w-[560px] md:w-[680px] h-[360px] sm:h-[420px] md:h-[480px] lg:hidden flex items-center ml-2" style={{ marginRight: '-240px' }}>
+                  <div className="text-xs sm:text-sm font-medium" style={{ color: "rgba(0,255,140,0.75)", fontFamily: "var(--font-fira-code)", textTransform: "uppercase" }}>
+                    {slide.stamp}
+                  </div>
+                  <h2 className="mt-2 sm:mt-3 md:mt-4 text-3xl sm:text-3xl lg:text-4xl font-bold tracking-tight" style={{ fontFamily: "var(--font-inter)", textTransform: "uppercase" }}>
+                    <a href={slide.link} className="hover:opacity-80 transition-opacity">
+                      {slide.title}
+                    </a>
+                  </h2>
+
+                  {/* Image floated on mobile/tablet — anchored upper-right, after title */}
+                  <div className="float-right w-[260px] sm:w-[380px] md:w-[480px] h-[240px] sm:h-[340px] md:h-[420px] lg:hidden ml-3" style={{ marginRight: '-104px' }}>
                     <img
                       src={slide.id === 'cash-clock' ? '/cash-clock.webp' : '/chance.webp'}
                       alt={`${slide.title} key art`}
@@ -81,14 +90,6 @@ export default function GameCarousel() {
                     />
                   </div>
 
-                  <div className="text-xs sm:text-sm font-medium" style={{ color: "rgba(0,255,140,0.75)", fontFamily: "var(--font-fira-code)", textTransform: "uppercase" }}>
-                    {slide.stamp}
-                  </div>
-                  <h2 className="mt-2 sm:mt-3 md:mt-4 text-3xl sm:text-3xl lg:text-4xl font-bold tracking-tight" style={{ fontFamily: "var(--font-inter)", textTransform: "uppercase" }}>
-                    <a href={slide.link} className="hover:opacity-80 transition-opacity">
-                      {slide.title}
-                    </a>
-                  </h2>
                   {slide.subtitle && (
                     <p className="mt-2 text-base sm:text-lg" style={{ color: "rgba(0,255,140,0.85)" }}>
                       {slide.subtitle}
@@ -106,10 +107,13 @@ export default function GameCarousel() {
                     </p>
                   )}
                   
+                  {/* Clear float before CTA so buttons render full-width */}
+                  <div className="clear-both lg:hidden"></div>
+
                   <div className="mt-5 sm:mt-6 md:mt-8">
                     <a
                       href={slide.link}
-                      className={`inline-flex h-11 sm:h-12 items-center justify-center px-6 sm:px-8 text-sm font-semibold ${
+                      className={`inline-flex h-11 sm:h-12 items-center justify-center px-6 sm:px-8 text-sm font-semibold whitespace-nowrap ${
                         slide.id === 'cash-clock' ? 'btn-cta-invert' : 'border btn-hover-green'
                       }`}
                       style={

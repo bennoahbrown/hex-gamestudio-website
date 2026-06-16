@@ -105,7 +105,7 @@ export default function Home() {
             <div className="lg:col-span-7 flex flex-row gap-3 sm:gap-4 lg:justify-start">
               <a
                 href="/studio"
-                className="inline-flex h-11 sm:h-12 flex-1 lg:flex-none items-center justify-center text-center px-3 sm:px-6 lg:px-8 text-sm font-semibold btn-cta-invert"
+                className="inline-flex h-11 sm:h-12 flex-1 lg:flex-none items-center justify-center text-center px-3 sm:px-6 lg:px-8 text-sm font-semibold whitespace-nowrap btn-cta-invert"
                 style={{ background: "var(--cta-bg)", color: "var(--cta-fg)", minWidth: 0 }}
               >
                 Studio Story
@@ -113,7 +113,7 @@ export default function Home() {
 
               <a
                 href="/contact"
-                className="inline-flex h-11 sm:h-12 flex-1 lg:flex-none items-center justify-center text-center border px-3 sm:px-5 lg:px-8 text-sm font-semibold btn-hover-green"
+                className="inline-flex h-11 sm:h-12 flex-1 lg:flex-none items-center justify-center text-center border px-3 sm:px-5 lg:px-8 text-sm font-semibold whitespace-nowrap btn-hover-green"
                 style={{
                   borderColor: "rgba(255,255,255,0.18)",
                   color: "rgba(255,255,255,0.88)",

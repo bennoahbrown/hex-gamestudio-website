@@ -290,8 +290,16 @@ export default function Games() {
         <div className="mx-auto max-w-6xl">
           <div className="lg:grid lg:gap-12 lg:grid-cols-12 lg:items-start">
             <div className="lg:col-span-7">
-              {/* Image floated on mobile/tablet - half visible, text wraps around */}
-              <div className="float-right w-[480px] sm:w-[560px] md:w-[680px] h-[360px] sm:h-[420px] md:h-[480px] lg:hidden flex items-center ml-2" style={{ marginRight: '-240px' }}>
+              <div className="text-xs sm:text-sm font-medium" style={{ color: "rgba(0,255,140,0.75)", fontFamily: "var(--font-fira-code)" }}>
+                E-INSTANT DEBUT
+              </div>
+
+              <h2 className="heading-section mt-3 sm:mt-4 text-3xl sm:text-3xl lg:text-4xl text-white">
+                CASH CLOCK
+              </h2>
+
+              {/* Image floated on mobile/tablet — anchored upper-right, after title */}
+              <div className="float-right w-[260px] sm:w-[380px] md:w-[480px] h-[240px] sm:h-[340px] md:h-[420px] lg:hidden ml-3" style={{ marginRight: '-104px' }}>
                 <img
                   src="/cash-clock.webp"
                   alt="Cash Clock key art"
@@ -303,14 +311,6 @@ export default function Games() {
                   }}
                 />
               </div>
-
-              <div className="text-xs sm:text-sm font-medium" style={{ color: "rgba(0,255,140,0.75)", fontFamily: "var(--font-fira-code)" }}>
-                E-INSTANT DEBUT
-              </div>
-
-              <h2 className="heading-section mt-3 sm:mt-4 text-3xl sm:text-3xl lg:text-4xl text-white">
-                CASH CLOCK
-              </h2>
 
               <p className="mt-4 sm:mt-6 max-w-2xl text-base sm:text-lg leading-7 sm:leading-8 text-[var(--muted)]">
                 Cash Clock is our first e-instant release and the foundation of our portfolio.
@@ -328,24 +328,28 @@ export default function Games() {
                 Distribution partner: EQL Games
               </p>
 
+              {/* Clear float before CTA so buttons render full-width */}
+              <div className="clear-both lg:hidden"></div>
+
               <div className="mt-8 sm:mt-10 flex flex-row gap-3 sm:gap-4">
                 <a
                   href="/games/cash-clock"
-                  className="inline-flex h-12 items-center justify-center px-8 text-sm font-semibold btn-cta-invert"
+                  className="inline-flex h-12 items-center justify-center px-8 text-sm font-semibold btn-cta-invert flex-1 whitespace-nowrap"
                   style={{ background: "var(--cta-bg)", color: "var(--cta-fg)" }}
                 >
                   VIEW DETAILS
                 </a>
                 <a
                   href="/contact"
-                  className="inline-flex h-12 items-center justify-center border px-6 text-sm font-semibold btn-hover-green"
+                  className="inline-flex h-12 items-center justify-center border px-6 text-sm font-semibold btn-hover-green flex-1 whitespace-nowrap"
                   style={{
                     borderColor: "rgba(255,255,255,0.18)",
                     color: "rgba(255,255,255,0.88)",
                     background: "rgba(0,0,0,0.20)",
                   }}
                 >
-                  DISCUSS WITH US
+                  <span className="sm:hidden">DISCUSS</span>
+                  <span className="hidden sm:inline">DISCUSS WITH US</span>
                 </a>
               </div>
             </div>
@@ -500,8 +504,16 @@ export default function Games() {
         <div className="mx-auto max-w-6xl">
           <div className="lg:grid lg:gap-12 lg:grid-cols-12 lg:items-start">
             <div className="lg:col-span-7">
-              {/* Image floated on mobile/tablet - half visible, text wraps around */}
-              <div className="float-right w-[480px] sm:w-[560px] md:w-[680px] h-[360px] sm:h-[420px] md:h-[480px] lg:hidden flex items-center ml-2" style={{ marginRight: '-240px' }}>
+              <div className="text-sm font-medium" style={{ color: "rgba(0,255,140,0.75)", fontFamily: "var(--font-fira-code)" }}>
+                FLAGSHIP VISION
+              </div>
+
+              <h2 className="heading-section mt-4 text-3xl sm:text-4xl text-white">
+                CHANCE LOTTERY
+              </h2>
+
+              {/* Image floated on mobile/tablet — anchored upper-right, after title */}
+              <div className="float-right w-[260px] sm:w-[380px] md:w-[480px] h-[240px] sm:h-[340px] md:h-[420px] lg:hidden ml-3" style={{ marginRight: '-104px' }}>
                 <img
                   src="/chance.webp"
                   alt="Chance Lottery key art"
@@ -513,14 +525,6 @@ export default function Games() {
                   }}
                 />
               </div>
-
-              <div className="text-sm font-medium" style={{ color: "rgba(0,255,140,0.75)", fontFamily: "var(--font-fira-code)" }}>
-                FLAGSHIP VISION
-              </div>
-
-              <h2 className="heading-section mt-4 text-3xl sm:text-4xl text-white">
-                CHANCE LOTTERY
-              </h2>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-[var(--muted)]">
                 Chance Lottery is our long-term flagship platform.
@@ -538,24 +542,28 @@ export default function Games() {
                 Long-term strategic direction
               </p>
 
+              {/* Clear float before CTA so buttons render full-width */}
+              <div className="clear-both lg:hidden"></div>
+
               <div className="mt-10 flex flex-row gap-4">
                 <a
                   href="/games/chance-lottery"
-                  className="inline-flex h-12 items-center justify-center px-8 text-sm font-semibold btn-cta-invert"
+                  className="inline-flex h-12 items-center justify-center px-8 text-sm font-semibold btn-cta-invert flex-1 whitespace-nowrap"
                   style={{ background: "var(--cta-bg)", color: "var(--cta-fg)" }}
                 >
                   VIEW DETAILS
                 </a>
                 <a
                   href="/contact"
-                  className="inline-flex h-12 items-center justify-center border px-6 text-sm font-semibold btn-hover-green"
+                  className="inline-flex h-12 items-center justify-center border px-6 text-sm font-semibold btn-hover-green flex-1 whitespace-nowrap"
                   style={{
                     borderColor: "rgba(255,255,255,0.18)",
                     color: "rgba(255,255,255,0.88)",
                     background: "rgba(0,0,0,0.20)",
                   }}
                 >
-                  DISCUSS WITH US
+                  <span className="sm:hidden">DISCUSS</span>
+                  <span className="hidden sm:inline">DISCUSS WITH US</span>
                 </a>
               </div>
             </div>

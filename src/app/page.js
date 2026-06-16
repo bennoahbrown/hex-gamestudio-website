@@ -43,6 +43,16 @@ export default function Home() {
                 ))}
               </div>
 
+              {/* Mobile-only hero image — sits between taglines and body text */}
+              <div className="lg:hidden mt-6 flex justify-center">
+                <img
+                  src="/hero-games.webp"
+                  alt="Cash Clock and Chance Lottery key art"
+                  className="w-full max-w-[320px] sm:max-w-[400px] h-auto object-contain"
+                  style={{ imageRendering: "auto" }}
+                />
+              </div>
+
               <p className="mt-5 sm:mt-7 max-w-xl text-base sm:text-lg leading-7 sm:leading-8 text-[var(--muted)]">
                 Hex Game Studio designs concept-driven iLottery games — not reskins — starting with time as a universal human driver.
               </p>
@@ -54,7 +64,7 @@ export default function Home() {
             </div>
 
             {/* Right: “figure” + CTA */}
-            <div className="lg:col-span-5 flex items-center justify-center lg:items-stretch lg:self-stretch">
+            <div className="hidden lg:flex lg:col-span-5 items-center justify-center lg:items-stretch lg:self-stretch">
               {/* Figure container (placeholder for later real image/video) */}
               <div className="relative w-full max-w-[280px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-none lg:h-full lg:flex lg:items-center">
                 <div className="w-full lg:flex lg:items-center lg:justify-center lg:h-full">

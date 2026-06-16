@@ -31,7 +31,7 @@ export default function ChanceLotteryPage() {
       {/* Hero */}
       <section className="px-4 sm:px-6 pb-10 sm:pb-12">
         <div className="mx-auto max-w-6xl">
-          <div className="lg:grid lg:gap-12 lg:grid-cols-12 lg:items-start">
+          <div className="lg:grid lg:gap-12 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-7">
               <div className="text-xs sm:text-sm font-medium uppercase" style={{ color: "rgba(0,255,140,0.75)", fontFamily: "var(--font-fira-code)" }}>
                 Platform / The Flagship Vision

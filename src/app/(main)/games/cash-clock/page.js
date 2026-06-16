@@ -53,7 +53,7 @@ export default function CashClockPage() {
               <div className="mt-8 sm:mt-10 flex flex-row gap-3 sm:gap-4">
                 <a
                   href="/contact"
-                  className="inline-flex h-12 items-center justify-center px-6 text-sm font-medium btn-cta-invert flex-1 whitespace-nowrap"
+                  className="inline-flex h-12 items-center justify-center px-6 text-sm font-semibold btn-cta-invert flex-1 whitespace-nowrap"
                   style={{ background: "var(--cta-bg)", color: "var(--cta-fg)", minWidth: 0 }}
                 >
                   Learn More
@@ -61,7 +61,7 @@ export default function CashClockPage() {
 
                 <a
                   href="/games"
-                  className="inline-flex h-12 items-center justify-center border px-6 text-sm font-medium btn-hover-green flex-1 whitespace-nowrap"
+                  className="inline-flex h-12 items-center justify-center border px-6 text-sm font-semibold btn-hover-green flex-1 whitespace-nowrap"
                   style={{
                     borderColor: "rgba(0,255,140,0.35)",
                     background: "transparent",
@@ -213,12 +213,11 @@ export default function CashClockPage() {
                   href="https://www.eqlgames.com/eql-games-onboards-chance-lottery-reinforcing-commitment-to-lottery-startups/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center border px-6 py-3 text-sm font-medium btn-hover-green"
+                  className="inline-flex items-center justify-center border px-6 py-3 text-sm font-semibold btn-hover-green"
                   style={{
                     borderColor: "rgba(0,255,140,0.35)",
                     background: "transparent",
                     color: "rgba(0,255,140,0.85)",
-                    fontFamily: "var(--font-fira-code)",
                   }}
                 >
                   Read Press Release →

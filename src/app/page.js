@@ -129,14 +129,15 @@ export default function Home() {
             <div className="lg:col-span-5 flex flex-row w-full items-stretch gap-2 sm:gap-3">
               <a
                 href="/games"
-                className="inline-flex h-11 sm:h-12 flex-1 items-center justify-center text-center px-2 sm:px-3 text-xs sm:text-sm font-semibold btn-cta-invert"
+                className="inline-flex h-11 sm:h-12 flex-1 items-center justify-center text-center px-2 sm:px-3 text-sm font-semibold whitespace-nowrap btn-cta-invert"
                 style={{ background: "var(--cta-bg)", color: "var(--cta-fg)", minWidth: 0 }}
               >
-                Explore Games
+                <span className="sm:hidden">Games</span>
+                <span className="hidden sm:inline">Explore Games</span>
               </a>
               <a
                 href="/games/cash-clock"
-                className="inline-flex h-11 sm:h-12 flex-1 items-center justify-center text-center border px-2 sm:px-3 text-xs sm:text-sm font-semibold btn-hover-green"
+                className="inline-flex h-11 sm:h-12 flex-1 items-center justify-center text-center border px-2 sm:px-3 text-sm font-semibold whitespace-nowrap btn-hover-green"
                 style={{
                   borderColor: "rgba(0,255,140,0.55)",
                   color: "rgba(220,255,235,0.95)",
@@ -150,7 +151,7 @@ export default function Home() {
               </a>
               <a
                 href="/games/chance-lottery"
-                className="inline-flex h-11 sm:h-12 flex-1 items-center justify-center text-center border px-2 sm:px-3 text-xs sm:text-sm font-semibold btn-hover-green"
+                className="inline-flex h-11 sm:h-12 flex-1 items-center justify-center text-center border px-2 sm:px-3 text-sm font-semibold whitespace-nowrap btn-hover-green"
                 style={{
                   borderColor: "rgba(0,255,140,0.55)",
                   color: "rgba(220,255,235,0.95)",
@@ -160,7 +161,8 @@ export default function Home() {
                   minWidth: 0,
                 }}
               >
-                Chance Lottery
+                <span className="sm:hidden">Chance</span>
+                <span className="hidden sm:inline">Chance Lottery</span>
               </a>
             </div>
           </div>

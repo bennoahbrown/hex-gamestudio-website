@@ -135,17 +135,13 @@ export default function CashClockDemoPage() {
                 <div className="mt-8 sm:mt-10">
                   <a
                     href={LIVE_DEMO_URL}
-                    className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium btn-cta-invert"
+                    className="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold btn-cta-invert"
                     style={{
                       background: "var(--cta-bg)",
                       color: "var(--cta-fg)",
-                      fontFamily: "var(--font-geist-sans)",
-                      fontWeight: "800",
-                      letterSpacing: "0.04em",
-                      textTransform: "uppercase",
                     }}
                   >
-                    LAUNCH LIVE DEMO
+                    Launch Live Demo
                   </a>
                 </div>
               </div>
@@ -435,17 +431,13 @@ export default function CashClockDemoPage() {
             </p>
             <a
               href={LIVE_DEMO_URL}
-              className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium btn-cta-invert"
+              className="inline-flex items-center justify-center px-8 py-4 text-sm font-semibold btn-cta-invert"
               style={{
                 background: "var(--cta-bg)",
                 color: "var(--cta-fg)",
-                fontFamily: "var(--font-geist-sans)",
-                fontWeight: "800",
-                letterSpacing: "0.04em",
-                textTransform: "uppercase",
               }}
             >
-              LAUNCH LIVE DEMO
+              Launch Live Demo
             </a>
           </div>
         </div>

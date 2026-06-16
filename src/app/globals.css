@@ -275,6 +275,9 @@ p {
    ------------------------------ */
 
 .btn-hover-green {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
   transition: color 0.2s ease;
 }
 
@@ -283,6 +286,9 @@ p {
 }
 
 .btn-cta-invert {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
   transition: background 0.2s ease, color 0.2s ease;
 }
 

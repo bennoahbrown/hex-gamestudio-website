@@ -67,11 +67,11 @@ export default function Footer() {
               CONNECT
             </div>
             <a 
-              href="mailto:contact@hexgamestudio.com" 
+              href="mailto:benbrown@hex-perpetual.com"
               className="block text-sm link-hover-green" 
               style={{ color: "rgba(255,255,255,0.75)" }}
             >
-              contact@hexgamestudio.com
+              benbrown@hex-perpetual.com
             </a>
           </div>
         </div>

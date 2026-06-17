@@ -201,11 +201,11 @@ export default function ContactPage() {
                   DIRECT CONTACT
                 </h3>
                 <a 
-                  href="mailto:contact@hexgamestudio.com"
+                  href="mailto:benbrown@hex-perpetual.com"
                   className="text-xl font-bold text-white hover:text-[#00ff8a] transition-colors block mb-8"
                   style={{ fontFamily: "var(--font-geist-sans)" }}
                 >
-                  contact@hexgamestudio.com
+                  benbrown@hex-perpetual.com
                 </a>
 
                 <div className="pt-8">

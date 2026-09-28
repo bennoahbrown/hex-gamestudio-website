@@ -1,7 +1,7 @@
 {
   "release": "cash-clock-v2-partner-demo-v1-fixture",
-  "generatedAt": "2026-09-28T21:47:42.570Z",
-  "sourceCommit": "e228c3effd863715aadde843bb1ff17f26892802",
+  "generatedAt": "2026-09-28T21:51:47.615Z",
+  "sourceCommit": "ffd8d6086d3a4acd97d42fcd68d263aad885f1dd",
   "scenarioFixture": {
     "file": "games/CASHCLOCK/assets/eqlLimitedScenarios.live-demo-v1.json",
     "sha256": "f2d0f54384923a06025a33ad7c44b99e6c0df0224747f7f1a8b4bd4ca6887f01",
@@ -20,7 +20,7 @@
     "enlarged selected numbers",
     "new special icons and glow states",
     "bonus and progressive banners from V1-compatible triggers",
-    "legacy V1 respin flow"
+    "REWIND banner presentation over legacy V1 respin flow"
   ],
   "artifactBytesBeforeManifest": 26996895
 }

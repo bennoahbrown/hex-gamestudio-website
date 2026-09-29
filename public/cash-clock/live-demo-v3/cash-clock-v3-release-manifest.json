@@ -1,0 +1,168 @@
+{
+  "release": "cash-clock-v3-opening-2026-09-28",
+  "generatedAt": "2026-09-29T02:53:49.613Z",
+  "sourceCommit": "80d8b0eb0f98a21d6ab574b8283178d2bc25d3b9",
+  "sourceRepository": "https://github.com/morriebrown/cashclock_2026_phaser_4",
+  "sourceBranch": "codex/release-v3-opening-20260928",
+  "sourceTree": "clean",
+  "dependencies": {
+    "phaser": "4.0.0",
+    "vite": "5.3.2",
+    "rollup": "4.17.2",
+    "terser": "5.31.0",
+    "esbuild": "0.21.5",
+    "web-haptics": "0.0.6"
+  },
+  "nodeVersion": "v22.23.2",
+  "build": {
+    "command": "npm run build:web:partner-v3",
+    "profile": "partner-v1",
+    "opening": "v3-animated",
+    "config": "vite/config.web.mjs",
+    "base": "./",
+    "packagedAssetRoot": "games/CASHCLOCK/"
+  },
+  "scenarioFixture": {
+    "file": "games/CASHCLOCK/assets/eqlLimitedScenarios.live-demo-v1.json",
+    "sha256": "f2d0f54384923a06025a33ad7c44b99e6c0df0224747f7f1a8b4bd4ca6887f01",
+    "origin": "frozen copy of the original /cash-clock/live-demo runtime fixture",
+    "schema": "original V1 limited demo fixture; not the forthcoming production JSON"
+  },
+  "restrictions": {
+    "standaloneFixturePlayback": true,
+    "productionEql": false,
+    "wagerRequests": false,
+    "settlement": false,
+    "mockBalanceFooter": false,
+    "robots": "noindex,nofollow"
+  },
+  "demonstrationScenarios": [
+    {
+      "tickets": [
+        4,
+        7,
+        7391
+      ],
+      "expected": "No win"
+    },
+    {
+      "tickets": [
+        16
+      ],
+      "expected": "Full rewind, no win"
+    },
+    {
+      "tickets": [
+        29
+      ],
+      "expected": "Minute win, 0.10 total"
+    },
+    {
+      "tickets": [
+        1
+      ],
+      "expected": "0.30 total"
+    },
+    {
+      "tickets": [
+        8
+      ],
+      "expected": "1.00 total"
+    },
+    {
+      "tickets": [
+        18
+      ],
+      "expected": "Full rewind, 2.00 total"
+    },
+    {
+      "tickets": [
+        283
+      ],
+      "expected": "Bonus/rewind, 2.30 total"
+    },
+    {
+      "tickets": [
+        80
+      ],
+      "expected": "Bonus activation, 7.00 total"
+    },
+    {
+      "tickets": [
+        26
+      ],
+      "expected": "Three winning hands, 10.00 total"
+    },
+    {
+      "tickets": [
+        3157
+      ],
+      "expected": "Progressive and second-hand win, 50.10 total"
+    },
+    {
+      "tickets": [
+        7337
+      ],
+      "expected": "Full rewind/progressive, 50.20 total"
+    }
+  ],
+  "dataSafety": {
+    "fixture": "Byte-identical to the previously approved public V1 fixture; no production prize table or new operator material",
+    "gameLogic": "No prize math, schema, wagering, settlement or outcome-selection changes",
+    "authoring": "PSD masters, intermediate images, review portal and local performance tools are excluded"
+  },
+  "review": {
+    "ben": "Approved opening artwork and separate V3 publication; accepted known load-weight findings for a later optimization pass",
+    "paul": "No new architectural review recorded; standalone demo only, not production EQL integration approval",
+    "joseph": "No new math/schema approval claimed; original fixture and logic unchanged"
+  },
+  "qa": {
+    "tests": "19 Node tests pass; production-style build succeeds",
+    "desktop": "Opening and click-through to existing main game verified; no observed console errors or warnings",
+    "mobile": "1080x1920 opening composition and teardown verified on desktop browser; physical phone and portrait gameplay not re-certified",
+    "lifecycle": "Opening listeners/generated textures and opening-only images cleaned on exit; hidden-tab updates skipped; reduced-motion preference supported",
+    "determinism": "Opening uses a deterministic 12-second loop and fixed 12-sprite fountain; no game outcome dependencies",
+    "performance": {
+      "newArtworkBytes": 166912,
+      "incrementalGameJsGzipBytes": 7292,
+      "localDesktopMs": {
+        "opening": 385.1,
+        "assetsReady": 1664.7
+      },
+      "localMobileMs": {
+        "opening": 489.5,
+        "assetsReady": 1853
+      },
+      "simulated10MbpsMobileMs": {
+        "opening": 2647.5,
+        "assetsReady": 20922.2
+      },
+      "limitations": "Single-run Mac observations; simulated aggregate body bandwidth, 40ms response delay, gzip text and no cache. Not real-device, public-CDN or LCP certification. Existing eager asset load remains heavy."
+    },
+    "remaining": "Physical low-end phones, GPU/battery/FPS distribution, high-DPR, broad accessibility, interruption/error recovery and all-fixture play-throughs not exhaustively re-certified"
+  },
+  "presentation": [
+    "current canonical Phaser presentation",
+    "enlarged selected numbers",
+    "new special icons and glow states",
+    "bonus and progressive banners from V1-compatible triggers",
+    "REWIND banner presentation over legacy V1 respin flow",
+    "eight-second sequential hand landings with a slower final approach",
+    "bonus and progressive banners deferred until participating hands stop",
+    "orange, purple, and blue pulsing outlines during hand slowdown",
+    "winning gem interiors pulse after landing, reusing existing artwork",
+    "approved animated opening: actual PSD ClockFace in all cards",
+    "horizontal mobile-game title with gemstone glow and gold sheen",
+    "whole-card sequential growth and glow: 1, 2, 3",
+    "open AI-upscaled PSD chest with a pooled coin and gem fountain",
+    "opening-only 30fps effect updates, reduced motion, and shutdown cleanup"
+  ],
+  "artifactBytesBeforeManifest": 27181214,
+  "artifact": {
+    "path": "dist/",
+    "fileCountExcludingManifest": 380,
+    "bytesExcludingManifest": 27181214,
+    "treeSha256ExcludingManifest": "e6d3ac2ac0499a5ff9ec5d23f924fb634236b95c2440b09cc01543bfbc3e364d",
+    "checksumMethod": "Sorted relative paths: SHA256(path + NUL + file SHA256 + LF); excludes this manifest. Website base-href transformation is recorded separately."
+  }
+}

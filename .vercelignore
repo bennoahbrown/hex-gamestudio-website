@@ -1,0 +1,11 @@
+# Local-only authoring/context must never be uploaded with a public demo.
+.codex-context/
+AGENTS.md
+.git/
+.next/
+node_modules/
+.env*
+.DS_Store
+**/.DS_Store
+*.pem
+npm-debug.log*

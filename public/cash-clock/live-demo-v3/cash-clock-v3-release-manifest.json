@@ -1,7 +1,7 @@
 {
   "release": "cash-clock-v3-opening-2026-09-28",
-  "generatedAt": "2026-09-29T02:49:55.225Z",
-  "sourceCommit": "abf999d115a1bd9e0f92a6754843ec284e7a8eac",
+  "generatedAt": "2026-09-29T02:53:49.613Z",
+  "sourceCommit": "80d8b0eb0f98a21d6ab574b8283178d2bc25d3b9",
   "sourceRepository": "https://github.com/morriebrown/cashclock_2026_phaser_4",
   "sourceBranch": "codex/release-v3-opening-20260928",
   "sourceTree": "clean",
@@ -157,12 +157,12 @@
     "open AI-upscaled PSD chest with a pooled coin and gem fountain",
     "opening-only 30fps effect updates, reduced motion, and shutdown cleanup"
   ],
-  "artifactBytesBeforeManifest": 27187362,
+  "artifactBytesBeforeManifest": 27181214,
   "artifact": {
     "path": "dist/",
-    "fileCountExcludingManifest": 381,
-    "bytesExcludingManifest": 27187362,
-    "treeSha256ExcludingManifest": "57650239dab7375eb4639728bfea8996d1d1ee2ec9afb8d98a2ff236eda415af",
+    "fileCountExcludingManifest": 380,
+    "bytesExcludingManifest": 27181214,
+    "treeSha256ExcludingManifest": "e6d3ac2ac0499a5ff9ec5d23f924fb634236b95c2440b09cc01543bfbc3e364d",
     "checksumMethod": "Sorted relative paths: SHA256(path + NUL + file SHA256 + LF); excludes this manifest. Website base-href transformation is recorded separately."
   }
 }

@@ -1,0 +1,1096 @@
+{
+	"textures": [
+		{
+			"image": "clockfacevfx-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1891,
+				"h": 1883
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00007.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 7,
+						"w": 942,
+						"h": 943
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 942,
+						"h": 943
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00025.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 947,
+						"h": 933
+					},
+					"frame": {
+						"x": 1,
+						"y": 946,
+						"w": 947,
+						"h": 933
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00020.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 5,
+						"w": 945,
+						"h": 936
+					},
+					"frame": {
+						"x": 945,
+						"y": 1,
+						"w": 945,
+						"h": 936
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00008.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 6,
+						"w": 938,
+						"h": 943
+					},
+					"frame": {
+						"x": 950,
+						"y": 939,
+						"w": 938,
+						"h": 943
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00000.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 945,
+						"y": 939,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00045.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 945,
+						"y": 939,
+						"w": 3,
+						"h": 3
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1890,
+				"h": 1879
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00006.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 9,
+						"w": 942,
+						"h": 941
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 942,
+						"h": 941
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00028.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 5,
+						"w": 945,
+						"h": 934
+					},
+					"frame": {
+						"x": 1,
+						"y": 944,
+						"w": 945,
+						"h": 934
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00013.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 5,
+						"w": 944,
+						"h": 934
+					},
+					"frame": {
+						"x": 945,
+						"y": 1,
+						"w": 944,
+						"h": 934
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00009.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 7,
+						"w": 941,
+						"h": 941
+					},
+					"frame": {
+						"x": 948,
+						"y": 937,
+						"w": 941,
+						"h": 941
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1887,
+				"h": 1884
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00014.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 4,
+						"w": 940,
+						"h": 940
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 940,
+						"h": 940
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00012.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 6,
+						"w": 943,
+						"h": 939
+					},
+					"frame": {
+						"x": 1,
+						"y": 943,
+						"w": 943,
+						"h": 939
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00039.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 8,
+						"w": 943,
+						"h": 939
+					},
+					"frame": {
+						"x": 943,
+						"y": 1,
+						"w": 943,
+						"h": 939
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00011.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 6,
+						"w": 938,
+						"h": 941
+					},
+					"frame": {
+						"x": 946,
+						"y": 942,
+						"w": 938,
+						"h": 941
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1889,
+				"h": 1881
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00040.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 942,
+						"h": 939
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 942,
+						"h": 939
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00015.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 5,
+						"w": 943,
+						"h": 938
+					},
+					"frame": {
+						"x": 1,
+						"y": 942,
+						"w": 943,
+						"h": 938
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00023.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 5,
+						"w": 943,
+						"h": 936
+					},
+					"frame": {
+						"x": 945,
+						"y": 1,
+						"w": 943,
+						"h": 936
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00022.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 4,
+						"w": 936,
+						"h": 940
+					},
+					"frame": {
+						"x": 946,
+						"y": 939,
+						"w": 936,
+						"h": 940
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1888,
+				"h": 1879
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00037.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 8,
+						"w": 942,
+						"h": 938
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 942,
+						"h": 938
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00024.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 5,
+						"w": 943,
+						"h": 935
+					},
+					"frame": {
+						"x": 1,
+						"y": 941,
+						"w": 943,
+						"h": 935
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00016.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 7,
+						"w": 942,
+						"h": 937
+					},
+					"frame": {
+						"x": 945,
+						"y": 1,
+						"w": 942,
+						"h": 937
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00026.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 4,
+						"w": 941,
+						"h": 938
+					},
+					"frame": {
+						"x": 946,
+						"y": 940,
+						"w": 941,
+						"h": 938
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1888,
+				"h": 1878
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00031.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 942,
+						"h": 937
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 942,
+						"h": 937
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00034.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 7,
+						"w": 942,
+						"h": 937
+					},
+					"frame": {
+						"x": 945,
+						"y": 1,
+						"w": 942,
+						"h": 937
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00035.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 5,
+						"w": 942,
+						"h": 937
+					},
+					"frame": {
+						"x": 1,
+						"y": 940,
+						"w": 942,
+						"h": 937
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00010.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 8,
+						"w": 939,
+						"h": 937
+					},
+					"frame": {
+						"x": 945,
+						"y": 940,
+						"w": 939,
+						"h": 937
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-6.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1882,
+				"h": 1876
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00005.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 10,
+						"w": 937,
+						"h": 937
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 937,
+						"h": 937
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00019.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 6,
+						"w": 942,
+						"h": 931
+					},
+					"frame": {
+						"x": 1,
+						"y": 940,
+						"w": 942,
+						"h": 931
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00017.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 5,
+						"w": 941,
+						"h": 935
+					},
+					"frame": {
+						"x": 940,
+						"y": 1,
+						"w": 941,
+						"h": 935
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00038.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 7,
+						"w": 936,
+						"h": 937
+					},
+					"frame": {
+						"x": 945,
+						"y": 938,
+						"w": 936,
+						"h": 937
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-7.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1886,
+				"h": 1874
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00027.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 5,
+						"w": 941,
+						"h": 935
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 941,
+						"h": 935
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00032.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 941,
+						"h": 935
+					},
+					"frame": {
+						"x": 944,
+						"y": 1,
+						"w": 941,
+						"h": 935
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00036.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 941,
+						"h": 935
+					},
+					"frame": {
+						"x": 1,
+						"y": 938,
+						"w": 941,
+						"h": 935
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00030.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 6,
+						"w": 940,
+						"h": 935
+					},
+					"frame": {
+						"x": 944,
+						"y": 938,
+						"w": 940,
+						"h": 935
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-8.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1882,
+				"h": 1869
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00029.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 5,
+						"w": 939,
+						"h": 934
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 939,
+						"h": 934
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00018.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 10,
+						"w": 941,
+						"h": 927
+					},
+					"frame": {
+						"x": 1,
+						"y": 937,
+						"w": 941,
+						"h": 927
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00033.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 939,
+						"h": 932
+					},
+					"frame": {
+						"x": 942,
+						"y": 1,
+						"w": 939,
+						"h": 932
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00021.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 7,
+						"w": 937,
+						"h": 933
+					},
+					"frame": {
+						"x": 944,
+						"y": 935,
+						"w": 937,
+						"h": 933
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-9.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1868,
+				"h": 1862
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00042.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 10,
+						"w": 932,
+						"h": 932
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 932,
+						"h": 932
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00004.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 14,
+						"w": 932,
+						"h": 929
+					},
+					"frame": {
+						"x": 935,
+						"y": 1,
+						"w": 932,
+						"h": 929
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00041.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 11,
+						"w": 932,
+						"h": 929
+					},
+					"frame": {
+						"x": 935,
+						"y": 932,
+						"w": 932,
+						"h": 929
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00043.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 16,
+						"w": 923,
+						"h": 923
+					},
+					"frame": {
+						"x": 1,
+						"y": 935,
+						"w": 923,
+						"h": 923
+					}
+				}
+			]
+		},
+		{
+			"image": "clockfacevfx-10.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1795,
+				"h": 1820
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "MB_ClockFace_VFX_V4__00003.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 17,
+						"w": 919,
+						"h": 920
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 919,
+						"h": 920
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00044.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 27,
+						"w": 896,
+						"h": 896
+					},
+					"frame": {
+						"x": 1,
+						"y": 923,
+						"w": 896,
+						"h": 896
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00002.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 29,
+						"w": 895,
+						"h": 890
+					},
+					"frame": {
+						"x": 899,
+						"y": 923,
+						"w": 895,
+						"h": 890
+					}
+				},
+				{
+					"filename": "MB_ClockFace_VFX_V4__00001.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 960,
+						"h": 960
+					},
+					"spriteSourceSize": {
+						"x": 72,
+						"y": 57,
+						"w": 818,
+						"h": 824
+					},
+					"frame": {
+						"x": 922,
+						"y": 1,
+						"w": 818,
+						"h": 824
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9e435c1631e714ac140c47eb80fd0016:6875eea9af75860ef61eadef3f611ae0:db2e089fc8dd66fc8721ae2c83bfd715$"
+	}
+}

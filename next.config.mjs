@@ -16,20 +16,8 @@ const nextConfig = {
         destination: "/cash-clock/live-demo/index.html",
       },
       {
-        source: "/cash-clock/v2-demo",
-        destination: "/cash-clock/v2-demo/index.html",
-      },
-      {
-        source: "/cash-clock/live-demo-v2",
-        destination: "/cash-clock/v2-demo/index.html",
-      },
-      {
-        source: "/cash-clock/live-demo-v3",
-        destination: "/cash-clock/live-demo-v3/index.html",
-      },
-      {
-        source: "/cash-clock/live-demo-v4",
-        destination: "/cash-clock/live-demo-v4/index.html",
+        source: "/cash-clock/v1-demo",
+        destination: "/cash-clock/v1-demo/index.html",
       },
     ];
   },

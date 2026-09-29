@@ -1,0 +1,131 @@
+{
+  "clock": {
+    "files": [
+      {
+        "url": "assets/Hands/Hands_A1.png",
+        "type": "image",
+        "key": "hourHand"
+      },
+      {
+        "url": "assets/Hands/Hands_A2.png",
+        "type": "image",
+        "key": "minuteHand"
+      },
+      {
+        "url": "assets/Hands/Hands_A3.png",
+        "type": "image",
+        "key": "secondHand"
+      },
+      {
+        "url": "assets/Screenshot 2026-01-28 at 17.42.22.png",
+        "type": "image",
+        "key": "Screenshot 2026-01-28 at 17.42.22"
+      },
+      {
+        "url": "assets/clock_with_number.png",
+        "type": "image",
+        "key": "clock_with_number"
+      },
+      {
+        "url": "assets/clock_back.png",
+        "type": "image",
+        "key": "clock_back"
+      },
+      {
+        "url": "assets/clock_secondring.png",
+        "type": "image",
+        "key": "clock_secondring"
+      },
+      {
+        "url": "assets/clock_minutering.png",
+        "type": "image",
+        "key": "clock_minutering"
+      },
+      {
+        "url": "assets/clock_hourring.png",
+        "type": "image",
+        "key": "clock_hourring"
+      },
+      {
+        "url": "assets/clock_innerring.png",
+        "type": "image",
+        "key": "clock_innerring"
+      },
+      {
+        "url": "assets/SpecialIcons/SpecialIcons_A3.png",
+        "type": "image",
+        "key": "special_jackpot"
+      },
+      {
+        "url": "assets/SelectorRings/minutedash.png",
+        "type": "image",
+        "key": "minutedash"
+      },
+      {
+        "url": "assets/SelectorRings/minutedashLarge.png",
+        "type": "image",
+        "key": "minutedashLarge"
+      },
+      {
+        "url": "assets/SelectorRings/seconddash.png",
+        "type": "image",
+        "key": "seconddash"
+      },
+      {
+        "url": "assets/SelectorRings/seconddashLarge.png",
+        "type": "image",
+        "key": "seconddashLarge"
+      },
+      {
+        "url": "assets/clockface/gearsall.png",
+        "type": "image",
+        "key": "gearsall"
+      },
+      {
+        "url": "assets/clockface/innerdome.png",
+        "type": "image",
+        "key": "innerdome"
+      },
+      {
+        "url": "assets/clockface/gearcluster/gear1.png",
+        "type": "image",
+        "key": "gear1"
+      },
+      {
+        "url": "assets/clockface/gearcluster/gear2.png",
+        "type": "image",
+        "key": "gear2"
+      },
+      {
+        "url": "assets/clockface/gearcluster/gear3.png",
+        "type": "image",
+        "key": "gear3"
+      },
+      {
+        "url": "assets/clockface/gearcluster/gear4.png",
+        "type": "image",
+        "key": "gear4"
+      },
+      {
+        "url": "assets/clockface/gearcluster/gear5.png",
+        "type": "image",
+        "key": "gear5"
+      },
+      {
+        "url": "assets/clockface/gearcluster/gear6.png",
+        "type": "image",
+        "key": "gear6"
+      },
+      {
+        "url": "assets/clockface/gearcluster/gear7.png",
+        "type": "image",
+        "key": "gear7"
+      },
+      {
+        "url": "assets/clockface/gearcluster/gear8.png",
+        "type": "image",
+        "key": "gear8"
+      }
+    ]
+  }
+}

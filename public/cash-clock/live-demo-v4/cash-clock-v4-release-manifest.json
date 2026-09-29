@@ -1,0 +1,175 @@
+{
+  "release": "cash-clock-v4-2026-09-29",
+  "generatedAt": "2026-09-29T08:47:25.382Z",
+  "sourceCommit": "b7b2b415803d6ebe28ebdd47b61c2ecab1f98f22",
+  "sourceRepository": "https://github.com/morriebrown/cashclock_2026_phaser_4",
+  "sourceBranch": "codex/release-v4-demo-20260929",
+  "sourceTree": "dirty",
+  "sourceInputs": "clean; all source, public assets, scripts, configuration and tests committed",
+  "excludedLocalChanges": "Generated dist, dependency cache and unbundled local designer/authoring files may remain dirty; none are build inputs",
+  "dependencies": {
+    "phaser": "4.0.0",
+    "vite": "5.3.2",
+    "rollup": "4.17.2",
+    "terser": "5.31.0",
+    "esbuild": "0.21.5",
+    "web-haptics": "0.0.6"
+  },
+  "nodeVersion": "v22.23.2",
+  "build": {
+    "command": "npm run build:web:partner-v4",
+    "profile": "partner-v1",
+    "opening": "v4-temple-animated",
+    "config": "vite/config.web.mjs",
+    "base": "./",
+    "packagedAssetRoot": "games/CASHCLOCK/"
+  },
+  "scenarioFixture": {
+    "file": "games/CASHCLOCK/assets/eqlLimitedScenarios.live-demo-v1.json",
+    "sha256": "f2d0f54384923a06025a33ad7c44b99e6c0df0224747f7f1a8b4bd4ca6887f01",
+    "origin": "frozen copy of the original /cash-clock/live-demo runtime fixture",
+    "schema": "original V1 limited demo fixture; not the forthcoming production JSON"
+  },
+  "restrictions": {
+    "standaloneFixturePlayback": true,
+    "productionEql": false,
+    "wagerRequests": false,
+    "settlement": false,
+    "mockBalanceFooter": false,
+    "robots": "noindex,nofollow"
+  },
+  "demonstrationScenarios": [
+    {
+      "tickets": [
+        4,
+        7,
+        7391
+      ],
+      "expected": "No win"
+    },
+    {
+      "tickets": [
+        16
+      ],
+      "expected": "Full rewind, no win"
+    },
+    {
+      "tickets": [
+        29
+      ],
+      "expected": "Minute win, 0.10 total"
+    },
+    {
+      "tickets": [
+        1
+      ],
+      "expected": "0.30 total"
+    },
+    {
+      "tickets": [
+        8
+      ],
+      "expected": "1.00 total"
+    },
+    {
+      "tickets": [
+        18
+      ],
+      "expected": "Full rewind, 2.00 total"
+    },
+    {
+      "tickets": [
+        283
+      ],
+      "expected": "Bonus/rewind, 2.30 total"
+    },
+    {
+      "tickets": [
+        80
+      ],
+      "expected": "Bonus activation, 7.00 total"
+    },
+    {
+      "tickets": [
+        26
+      ],
+      "expected": "Three winning hands, 10.00 total"
+    },
+    {
+      "tickets": [
+        3157
+      ],
+      "expected": "Progressive and second-hand win, 50.10 total"
+    },
+    {
+      "tickets": [
+        7337
+      ],
+      "expected": "Full rewind/progressive, 50.20 total"
+    }
+  ],
+  "dataSafety": {
+    "fixture": "Byte-identical to the previously approved public V1 fixture; no production prize table or new operator material",
+    "gameLogic": "No prize math, schema, wagering, settlement or outcome-selection changes",
+    "authoring": "PSD masters, intermediate images, review portal and local performance tools are excluded"
+  },
+  "review": {
+    "ben": "Approved current V4 build for commit and production publication at /cash-clock/live-demo-v4 on 2026-09-29; original, V2 and V3 routes must remain unchanged",
+    "paul": "No new architectural sign-off recorded; this remains a standalone demonstration, not approved EQL integration",
+    "joseph": "No new math/schema approval claimed; frozen V1 fixture and outcome logic retained. Complete current prize table unavailable; known mobile Hour table discrepancy retained pending approved values"
+  },
+  "qa": {
+    "tests": "83 presentation/lifecycle/unit tests passed before release packaging; npm run build and npm run build:web passed",
+    "desktop": "1920x1080 logical game and scaled desktop reviewed; all column colors/phases and restart cleanup verified",
+    "mobile": "1080x1920 logical game, 390x844 and 430x932 browser viewports reviewed; selector grids, six prize tables, banners, four chest states and rotate/recover verified; not physical-device certification",
+    "gameplay": "Frozen Game26: 75/75 coins arrived before results; no rendered results frames with outstanding coins. Game4 no-award turn verified. Winnings scroll-cycle and teardown unit-tested",
+    "lifecycle": "Scene pause/resume and restart, overlapping column triggers, masks, reduced-motion ambience and paused stars verified",
+    "determinism": "Presentation-only effects; no changes to fixture, prize math, wager/settlement, or random outcome selection",
+    "performance": {
+      "additionalReflectionDownloadBytes": 0,
+      "backgroundTransferDeltaBytes": {
+        "desktop": 1543776,
+        "mobile": 1703866
+      },
+      "mobileMacBrowser10SecondSample": {
+        "frames": 751,
+        "p50FrameMs": 13.3,
+        "p95FrameMs": 14.2,
+        "maxFrameMs": 14.8
+      },
+      "limitations": "Mac-browser samples only. Eager asset loading remains heavy; new lossless approved artwork increases payload. Public-CDN timings recorded separately after deployment. No low-end phone/GPU/battery certification"
+    },
+    "remaining": "All-fixture play-through, physical devices, broad accessibility, high-DPR performance, autoplay/skip/cancel and interruption/error recovery not exhaustively re-certified. Public prize-table values are historical demo content, not validated final math"
+  },
+  "presentation": [
+    "current canonical Phaser presentation",
+    "enlarged selected numbers",
+    "new special icons and glow states",
+    "bonus and progressive banners from V1-compatible triggers",
+    "REWIND banner presentation over legacy V1 respin flow",
+    "eight-second sequential hand landings with a slower final approach",
+    "bonus and progressive banners deferred until participating hands stop",
+    "orange, purple, and blue pulsing outlines during hand slowdown",
+    "winning gem interiors pulse after landing, reusing existing artwork",
+    "approved animated opening: actual PSD ClockFace in all cards",
+    "horizontal mobile-game title with gemstone glow and gold sheen",
+    "whole-card sequential growth and glow: 1, 2, 3",
+    "open AI-upscaled PSD chest with a pooled coin and gem fountain",
+    "opening-only 30fps effect updates, reduced motion, and shutdown cleanup",
+    "V4 temple opening cards and registered Egyptian main-game scenery/columns",
+    "Ornate winnings medallion, treasury fonts and line-by-line scroll cycle with auto-close",
+    "Bonus gem sectors, contact lightning/steam and animated Egyptian scenery",
+    "Gold typography, new REWIND/Bonus/Jackpot banners and clean dome gears",
+    "Main-game gold sparkles, title/chest/hand gem pulses and ring glow",
+    "Soft feathered reflections using existing textures and native vertex alpha; no added reflection images",
+    "Coin-arrival gating before winnings display; money-label all-direction shadow"
+  ],
+  "artifactBytesBeforeManifest": 32631699,
+  "artifact": {
+    "path": "dist/",
+    "fileCountExcludingManifest": 401,
+    "bytesExcludingManifest": 32631699,
+    "treeSha256ExcludingManifest": "e19e7a9d8e450d0f93e00f0e5ef9216dccbec53f04c66955a1bbf84629d927a9",
+    "checksumMethod": "Sorted relative paths: SHA256(path + NUL + file SHA256 + LF); excludes this manifest. Website base-href transformation is recorded separately."
+  }
+}

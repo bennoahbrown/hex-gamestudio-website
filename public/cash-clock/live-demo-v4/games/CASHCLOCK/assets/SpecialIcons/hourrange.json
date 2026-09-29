@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "hourrange.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 540,
+				"h": 26
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Hour_BrightYellow_SuperCloseWin.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 24
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 133,
+						"h": 24
+					}
+				},
+				{
+					"filename": "Hour_Green_ExactWin.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 24
+					},
+					"frame": {
+						"x": 136,
+						"y": 1,
+						"w": 133,
+						"h": 24
+					}
+				},
+				{
+					"filename": "Hour_LightYellow_CloseWin.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 24
+					},
+					"frame": {
+						"x": 271,
+						"y": 1,
+						"w": 133,
+						"h": 24
+					}
+				},
+				{
+					"filename": "Hour_White_NoWin.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 24
+					},
+					"frame": {
+						"x": 406,
+						"y": 1,
+						"w": 133,
+						"h": 24
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:07c541e3e6c11e2aec8b6888d7b5bf41:27a84e2518278b73da146b1dd463986a:3c56dcf6833b300fad144dd90be183e7$"
+	}
+}

@@ -1,27 +1,4 @@
-'use client';
-
-import { useState } from 'react';
-
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    organization: '',
-    message: ''
-  });
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Form submission logic would go here
-  };
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
   return (
     <div className="min-h-screen" style={{ background: "transparent" }}>
       {/* Hero Section */}
@@ -70,7 +47,10 @@ export default function ContactPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid gap-12 lg:grid-cols-12">
             <div className="lg:col-span-7">
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form action="https://formsubmit.co/benbrown@hex-perpetual.com" method="POST" className="space-y-6">
+                <input type="hidden" name="_subject" value="Hex Game Studio website inquiry" />
+                <input type="hidden" name="_template" value="table" />
+                {/* FormSubmit enables CAPTCHA by default. Do not add _captcha=false. */}
                 <div>
                   <label 
                     htmlFor="name" 
@@ -83,8 +63,10 @@ export default function ContactPage() {
                     type="text"
                     id="name"
                     name="name"
-                    value={formData.name}
-                    onChange={handleChange}
+                    pattern={".*\\S.*"}
+                    title="Please enter more than spaces."
+                    autoComplete="name"
+                    maxLength={120}
                     required
                     className="w-full px-4 py-3 bg-transparent border text-white focus:outline-none focus:border-[#00ff8a] transition-colors"
                     style={{
@@ -106,8 +88,8 @@ export default function ContactPage() {
                     type="email"
                     id="email"
                     name="email"
-                    value={formData.email}
-                    onChange={handleChange}
+                    autoComplete="email"
+                    maxLength={254}
                     required
                     className="w-full px-4 py-3 bg-transparent border text-white focus:outline-none focus:border-[#00ff8a] transition-colors"
                     style={{
@@ -129,8 +111,10 @@ export default function ContactPage() {
                     type="text"
                     id="organization"
                     name="organization"
-                    value={formData.organization}
-                    onChange={handleChange}
+                    pattern={".*\\S.*"}
+                    title="Please enter more than spaces."
+                    autoComplete="organization"
+                    maxLength={200}
                     required
                     className="w-full px-4 py-3 bg-transparent border text-white focus:outline-none focus:border-[#00ff8a] transition-colors"
                     style={{
@@ -151,8 +135,7 @@ export default function ContactPage() {
                   <textarea
                     id="message"
                     name="message"
-                    value={formData.message}
-                    onChange={handleChange}
+                    maxLength={5000}
                     required
                     rows={8}
                     className="w-full px-4 py-3 bg-transparent border text-white focus:outline-none focus:border-[#00ff8a] transition-colors resize-none"
@@ -165,7 +148,7 @@ export default function ContactPage() {
 
                 <button
                   type="submit"
-                  className="px-8 py-4 font-semibold text-black transition-all hover:shadow-lg"
+                  className="px-8 py-4 font-semibold text-black transition-all hover:shadow-lg hover:brightness-90"
                   style={{
                     background: "#00ff8a",
                     fontFamily: "var(--font-geist-sans)",
@@ -173,15 +156,14 @@ export default function ContactPage() {
                     letterSpacing: "0.05em",
                     fontSize: "14px"
                   }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "#00cc6e";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "#00ff8a";
-                  }}
                 >
                   Send Message
                 </button>
+                <p className="text-sm text-gray-300 leading-relaxed">
+                  Complete the spam check on the next page to finish sending.
+                  FormSubmit processes your contact details and message.
+                  If the form does not complete, <a href="mailto:benbrown@hex-perpetual.com" className="text-[#00ff8a] underline">email us directly</a>.
+                </p>
               </form>
             </div>
 
@@ -202,7 +184,7 @@ export default function ContactPage() {
                 </h3>
                 <a 
                   href="mailto:benbrown@hex-perpetual.com"
-                  className="text-xl font-bold text-white hover:text-[#00ff8a] transition-colors block mb-8"
+                  className="text-xl font-bold text-white hover:text-[#00ff8a] transition-colors block mb-8 break-words"
                   style={{ fontFamily: "var(--font-geist-sans)" }}
                 >
                   benbrown@hex-perpetual.com

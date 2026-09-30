@@ -31,10 +31,11 @@ for(const [oldName,newName,count] of [['live-demo','v1-demo',426],['live-demo-v4
   }
  });
 }
-test('only canonical live and archived V1 demo entry rewrites remain',async()=>{
+test('canonical live and archived V1 remain alongside the separately approved V5 route',async()=>{
  assert.deepEqual(await config.rewrites(),[
   {source:'/cash-clock/live-demo',destination:'/cash-clock/live-demo/index.html'},
   {source:'/cash-clock/v1-demo',destination:'/cash-clock/v1-demo/index.html'},
+  {source:'/cash-clock/v5-demo',destination:'/cash-clock/v5-demo/index.html'},
  ]);
  for(const retired of ['v2-demo','live-demo-v2','live-demo-v3','live-demo-v4']){
   await assert.rejects(access(path.join(root,'public/cash-clock',retired)),{code:'ENOENT'});

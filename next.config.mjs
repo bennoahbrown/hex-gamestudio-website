@@ -19,6 +19,10 @@ const nextConfig = {
         source: "/cash-clock/v1-demo",
         destination: "/cash-clock/v1-demo/index.html",
       },
+      {
+        source: "/cash-clock/v5-demo",
+        destination: "/cash-clock/v5-demo/index.html",
+      },
     ];
   },
 };

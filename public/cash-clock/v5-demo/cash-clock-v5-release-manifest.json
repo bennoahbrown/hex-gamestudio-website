@@ -1,0 +1,1939 @@
+{
+  "release": "cash-clock-v5-2026-09-30",
+  "generatedAt": "2026-09-30T22:24:35.544Z",
+  "sourceRepository": "https://github.com/morriebrown/cashclock_2026_phaser_4",
+  "sourceBranch": "codex/release-v5-demo-20260930",
+  "sourceCommit": "1055c98ac5611349817460ba0c8f9cac8b57f254",
+  "sourceTree": "dirty only in unrelated dependency caches and unbundled designer work",
+  "sourceInputs": "clean; approved source, runtime assets, build scripts and tests committed; all 78 compiled input hashes verified against this commit",
+  "provenance": "Exact approved 2026-09-30T21:38:58.974Z review artifact frozen without rebuilding. Review report predates the source commit; compiled input hashes establish equivalence.",
+  "dependencies": {
+    "phaser": "4.0.0",
+    "vite": "5.3.2",
+    "rollup": "4.17.2",
+    "terser": "5.31.0",
+    "esbuild": "0.21.5",
+    "web-haptics": "0.0.6"
+  },
+  "nodeVersion": "v22.23.2",
+  "build": {
+    "command": "CASH_CLOCK_V5_SELECTOR_ART=1 CASH_CLOCK_PYTHON=/opt/homebrew/bin/python3.11 NODE_PATH=<local-release-tools>/node_modules ESBUILD_BINARY_PATH=<local-release-tools>/node_modules/@esbuild/darwin-arm64/bin/esbuild npm run build:v5:local -- --review=v5-integrated",
+    "config": "vite/config.web.mjs",
+    "base": "./",
+    "packagedAssetRoot": "games/CASHCLOCK/",
+    "profile": "partner-v1",
+    "opening": "v3",
+    "assembly": "v5",
+    "templeArt": true,
+    "selectorArt": true,
+    "losslessEncoder": "cwebp 1.6.0 -z 6 -exact -metadata icc"
+  },
+  "scenarioFixture": {
+    "file": "games/CASHCLOCK/assets/eqlLimitedScenarios.live-demo-v1.json",
+    "sha256": "f2d0f54384923a06025a33ad7c44b99e6c0df0224747f7f1a8b4bd4ca6887f01",
+    "origin": "frozen copy of the original /cash-clock/live-demo runtime fixture",
+    "schema": "original V1 limited demo fixture; not the forthcoming production JSON"
+  },
+  "demonstrationScenarios": [
+    {
+      "tickets": [
+        4,
+        7,
+        7391
+      ],
+      "expected": "No win"
+    },
+    {
+      "tickets": [
+        16
+      ],
+      "expected": "Full rewind, no win"
+    },
+    {
+      "tickets": [
+        29
+      ],
+      "expected": "Minute win, 0.10 total"
+    },
+    {
+      "tickets": [
+        1
+      ],
+      "expected": "0.30 total"
+    },
+    {
+      "tickets": [
+        8
+      ],
+      "expected": "1.00 total"
+    },
+    {
+      "tickets": [
+        18
+      ],
+      "expected": "Full rewind, 2.00 total"
+    },
+    {
+      "tickets": [
+        283
+      ],
+      "expected": "Bonus/rewind, 2.30 total"
+    },
+    {
+      "tickets": [
+        80
+      ],
+      "expected": "Bonus activation, 7.00 total"
+    },
+    {
+      "tickets": [
+        26
+      ],
+      "expected": "Three winning hands, 10.00 total"
+    },
+    {
+      "tickets": [
+        3157
+      ],
+      "expected": "Progressive and second-hand win, 50.10 total"
+    },
+    {
+      "tickets": [
+        7337
+      ],
+      "expected": "Full rewind/progressive, 50.20 total"
+    }
+  ],
+  "restrictions": {
+    "standaloneFixturePlayback": true,
+    "productionEql": false,
+    "wagerRequests": false,
+    "settlement": false,
+    "mockBalanceFooter": false,
+    "robots": "noindex,nofollow"
+  },
+  "dataSafety": {
+    "fixture": "Byte-identical to the previously approved public V1 fixture; no production prize table or new operator material",
+    "gameLogic": "No prize math, schema, wagering, settlement or outcome-selection changes",
+    "authoring": "PSD masters, intermediate images, review portal and local performance tools are excluded"
+  },
+  "review": {
+    "ben": "Explicitly approved reviewed V5 candidate for deployment at hex-gamestudio.com/cash-clock/v5-demo on 2026-09-30. Preserve existing live-demo and v1-demo.",
+    "paul": "No new architectural sign-off recorded; this remains a standalone demonstration, not approved EQL integration",
+    "joseph": "No new math/schema approval claimed; frozen V1 fixture and outcome logic retained. Complete current prize table unavailable; known mobile Hour table discrepancy retained pending approved values"
+  },
+  "qa": {
+    "tests": "126/126 Node tests pass; 341 output hashes and 78 runtime input hashes verified immediately before freezing.",
+    "desktop": "1280x720 opening/assembly/main, hour/minute grids and choices, normal play, actual winnings popup, bonus title; no console errors in local review.",
+    "mobile": "390x844 and430x932 opening/assembly/main, grids/choices, resize retains state, play returns idle; no console errors in local review.",
+    "effects": "Current logo/title/gem/frame textures installed before shine/glow masks. Desktop/mobile effects reviewed; old-title mask not reused.",
+    "lifecycle": "Assembly input lock, exact final transforms, pause/hidden/reduced motion, cancellation and cleanup covered by tests. Winnings 7/12-row complete-cycle close-once and pause/resume reviewed. Selector restart cache bounded and released at game destruction.",
+    "replay": "Frozen legacy scenario outcomes and math unchanged; fixture regression tests pass; no exhaustive all-fixture play-through.",
+    "accessibility": "Existing reduced-motion handling preserved; full accessibility and physical-device certification not claimed.",
+    "remaining": "No physical-phone GPU/memory/thermal certification or controlled cellular benchmark. Optional legacy reels dependency coverage checked, not every browser/flag combination. Historical displayed prize tables remain unapproved final math. Hosted smoke checks recorded in website release receipt."
+  },
+  "weight": {
+    "completePackageBytes": 25324023,
+    "v4PackageBytes": 32638968,
+    "savedBytesVsV4": 7314945,
+    "desktopDeclaredAssetBytes": 19574069,
+    "mobileDeclaredAssetBytes": 19229445,
+    "optimizedV5BaselineBytes": 23062022,
+    "additionalApprovedFeaturesBytes": 2262001,
+    "note": "Raw file bytes, not compressed wire transfer or a load-time guarantee. No new dependencies."
+  },
+  "artifact": {
+    "path": ".codex-context/releases/v5-2026-09-30/build",
+    "fileCountExcludingManifest": 341,
+    "bytesExcludingManifest": 25324023,
+    "treeSha256ExcludingManifest": "d3412e26d904501242f9da52d9ff3515fee856ce5ff956821d29cbc03ec6175b",
+    "checksumMethod": "Sorted relative paths: SHA256(path + NUL + file SHA256 + LF); excludes manifest. Website HTML-only transform recorded separately."
+  },
+  "runtimeInputs": {
+    "src/autoplayLayout.mjs": "dbedfa1dd46670d74097cf6301c86e612d537d1482a80904fffd47521aa81730",
+    "src/autoplayModal.css": "e66f2c4e1ed5bfaf7b0be84fc7e97fab38a32633d855ba658a98d032f4e8fb6a",
+    "src/autoplayModal.js": "80dae87a27ac626982658cca2865f59faec008de0e85fc45ce9da818d186d5dd",
+    "src/config.js": "4fb7c1a701aa11f139a19b65bd7101828ec5961ded2ce4ec28ef9d3a1e3558fa",
+    "src/config/AssetPack.js": "68fae045b71520a77c95d28e8d9c46ad6a89ffd3a4ce22f1793fef9a9b35db39",
+    "src/config/demoProfile.js": "59ef6ca1d36f27a2d5ad2ab65cc4fd3f644e6adef9e2c7cd7afb6edfdd91f877",
+    "src/config/gamePath.js": "308dc2af9c7c751b693a735fc18ffff34d7c6638e0fd3d7db507f1365834858e",
+    "src/config/jurisdiction.js": "caaa7353361a816b9d61c475cdadb5cd534da792a5fe25c50891de69d06fc5a2",
+    "src/eql/EQLClient.js": "1a759553f7c3b2e026250d5be7a3686ba2c5912e8c7d5bf30d3bc85fe601642a",
+    "src/eql/mockWrapper.css": "4e913f8fcee049cdbd4f7c29498b5fce3de02568147c407b0425899577b6e063",
+    "src/eql/mockWrapper.js": "d788c6dec634195be39d36a2f48a934735ef81d96082e2815fee6388e04dfaff",
+    "src/main.js": "778425916e6c51c4513b6660ad4daf4cfa0c29caac46e3c14d0f889262d10e29",
+    "src/objects/AutoplayButton.js": "76b94d3584cf78a2a1cd901ddbfbf0c7d87e9e3e9a6f2c7543d1d0b0b2637007",
+    "src/objects/BonusGame.js": "767316706752b3af4c85007da6ffdde0dd2dcad2a33490a36a152bbe8b5a1020",
+    "src/objects/ClockController.js": "6daac568708bef6ead1f7ff911f63868c859a374e6ff91b9b007e69b5ca79ed8",
+    "src/objects/ClockNumbers.js": "941a0af354482470e4dc1ccc5b5827de2df224bcf84eec6fa10efc3571890969",
+    "src/objects/HandGemPulse.js": "56068dce2e469fda9275fff4cb70d6ded877a91ff4935792c98eceb4740c8f9c",
+    "src/objects/HandLandingGlow.js": "20e2675c498cc5683f769949616a7e978de0e929be1f297f2e3b5f1e3627f11a",
+    "src/objects/Haptics.js": "5ef4fd464d1cb6cbfc96eca20bf2d7cf0b1d63add1a5af6222b3e85067ae3913",
+    "src/objects/HourRangeController.js": "5b6b62e61466d0d78957df237fbb60c4c1b86ce5efe992a55014d206aad69009",
+    "src/objects/ImageButton.js": "08b14aba2e6438a744781e8e8fa799ebe44c8cf3934ffac59f01c0a65e653d3f",
+    "src/objects/InfoButton.js": "35f90124bc832718decaee6e302bf0ba56ea8b36cfef27a25cec2cdff4f174d6",
+    "src/objects/InfoPopup.js": "f84b8ee1fac6a19f66b9848c14d6cb9ea006ecad70dc23dfbf056972736130fe",
+    "src/objects/MainGameShimmer.js": "4beb66fb5be0cdac2875026d397862a6e6ee19c7a51723213cdcba4ddf9bb12a",
+    "src/objects/MinuteRangeController.js": "6add3535a74cdc1f9d7bdf1752585714e92b560150969fc4294aefcfca6441b5",
+    "src/objects/NumberPicker.js": "e6d45eb076d196fb2c7f6bfabe801f245bbe7f88c052a36905da3e7df27fa078",
+    "src/objects/NumberPickerKeypad.js": "c3eea3eae5bc2aa2dc94e741e9a2fc8a20c731cda96ce4917538772396059beb",
+    "src/objects/PlayButton.js": "8dc89cd408f007df016223a2c52f3722993f46b731ce3ce717c3b02bac7e36c1",
+    "src/objects/PopupArrowButton.js": "cfe856e74a849a6dbfc3238e99ee2921175cbb637d87af9557dabf54599176d0",
+    "src/objects/RandomizeButton.js": "095dfc6990a853cbc102b0cd4131592e2571e7b0f24cf1423de0656366f0ba5b",
+    "src/objects/RectButton.js": "c3c9223c08bb9f4be05398624ae48e126237fa9e5b3e9d899af537e1026541f1",
+    "src/objects/SecondRangeController.js": "995fcab53a7683e62147a00c1e63b1446316ed7063f47a2b31d04496597c8b70",
+    "src/objects/SelectorRingController.js": "fd62fd5f66a1da7470908bf23d0e87943a92654cc7d22dfc452e526f544e62a9",
+    "src/objects/SmokeEffect.js": "57ad774998ecbb2a8c963f15d8b409c4987c72278c435f66f76570511723bdb1",
+    "src/objects/SpecialIconController.js": "48a2d217a14bb39e116d25f581e2a15145f24bb522935297a35fb169ce8c39d9",
+    "src/objects/StarField.js": "3ea6edd1c7a2c7c98a1191626adffa3350b0eb06608cc2ac1ef98cd342fa5e6a",
+    "src/objects/TicketSelector.js": "566983fa58e50aafcf9f21c185f9aff45b0c35104ee84d13d5379c2275d358f4",
+    "src/objects/TimeSelector.js": "c62ea15791aacd29daa073ff473012779585cac74ee30d5cc3cc1f9eee830904",
+    "src/objects/TimeSelectorButton.js": "347179d9c39ab9f443956084f0e0ab043c6f8b1c2af00c461f1109d7950a67f9",
+    "src/objects/TimerResults.js": "8d5e1f730293a4e6648f9a6688d87fafa2b24412e0f884257618edc1e480c2af",
+    "src/objects/TreasureChest.js": "bd905305c80e54449e906fca0285e33aac2f77964fb312cd0e136876d55dd4e2",
+    "src/objects/WinningsDisplay.js": "bd5f144eeed64cd571b01ad483a50a446a6691304ce47f2eb105aee503ad4596",
+    "src/objects/ambient/background-layout.mjs": "30763c5b9d792525028477955bba4280849c8bd413bfa0c2985f87b25e66929a",
+    "src/objects/ambient/dome-gears.mjs": "7298232141f45c71896961da3d85e770eb93712c6fe0ba08445fa846adb02fe8",
+    "src/objects/ambient/pyramid-crystal.js": "da7c1db10c7d52a5ce4c64b9ab2b01df3cc02d2a85f287d4914d81e7a7f5b040",
+    "src/objects/ambient/shimmer-math.mjs": "729a74b73826b6dd4f6118a701755d10f457053c2f71ed52e9c2e3a2dfd897db",
+    "src/objects/ambient/soft-reflection.mjs": "2f9a700ba122f52b983cab41a5c5f2747cd4217187f2d694bd29ace3a4b26a5e",
+    "src/objects/ambient/treasury-text.js": "147835aec68c148d55b9b7d019034e3c786209cf84498f29e466b9c9e4c5a95a",
+    "src/objects/bonus/BackgroundAmbience.js": "30603177541ecc79e654e971ac5f67b240b64018b043a243c9139251678d0c13",
+    "src/objects/bonus/BonusPresentation.js": "dc0dc356925cdd7db5d8abc7243b40642e1d3d641eefcf85c4ee0bf3b2ec1b9e",
+    "src/objects/bonus/CleanHeaderGears.js": "01b0213a88ea84ea976c209b357c5d2c11123849d299a5d99c0b0f3d95856ee7",
+    "src/objects/bonus/GearContactEffects.js": "362c1e6ed2a2071f40e96e0eaa46cfd014b67632d3e4d9b7b6ac789ef6974454",
+    "src/objects/bonus/MultiplierSlices.js": "3990d16e502aa76f3e8962038ecd38da8d5c728fe42f2c81d7ab19b96ce43186",
+    "src/objects/bonus/background-motion.mjs": "906c72eb8f0f5ac66e1c15a5e733668cd15be766ba559d69b545d9dd5b8c1687",
+    "src/objects/bonus/contact-geometry.mjs": "60e890882137659e3692e5a2be56d3902b6f780b82a7760054f7a568f589c76a",
+    "src/objects/bonus/slice-style.mjs": "f07150ea0e42efe97c8b218ab165f4c6489252f2c73aa7199c53410dc083309a",
+    "src/objects/bonus/steam-burst.mjs": "58899194ce5310a6ed05c79a7d07c8bbd1b752c0a66e94b3642b852b611072cc",
+    "src/objects/intro/GameAssemblyTransition.js": "47716b8d4eb418257b39ea5c0c2bf9125360a22aa97da0b20a2be82e76623c14",
+    "src/objects/intro/OpeningAssemblyExit.js": "bf1f7127ae812cb137b62bca489ecc9f9b6cd74ccd64697b381ec6fa92ec07ca",
+    "src/objects/intro/assembly-motion.mjs": "d5ffe52ec8ada15f82f4f4a1cc44e4c361fc9197c31afaad53533b54966a6f13",
+    "src/objects/opening/OpeningArtwork.js": "c8a77b7593ca38d0c726933776bd1d9453769b23e5784dcb02fc80ec55efc1c2",
+    "src/objects/opening/OpeningPresentationLayer.js": "f4faaec2fb5ab4ea5f2af481c254cb3668027585ade5002db0adbb36de0cb30b",
+    "src/objects/opening/PsdCardMotionLayer.js": "13db0e5a065cd5068c3327e6ef1cdeebb88f569a5a58b3964fcd44ee6da29f0d",
+    "src/objects/opening/TempleCardSkin.js": "71cdd159f1cb8c535a237ab7867ea89030369530f0731b951c6eac0ec16a994b",
+    "src/objects/opening/card-motion.mjs": "f26898e66d12b4ec749f26b3217b4c0103dc0402e21871d325d759a47c08bf19",
+    "src/objects/opening/faithful-config.mjs": "8ffe89b0e245b49cfcab1dede1fa32c5db1a4aac0afc7224a57bf0a4d3161323",
+    "src/objects/opening/psd-config.mjs": "97d91ba09eaa4d979cecc64e435963b135162cefe682e8df7a7c4d89b88fe1e2",
+    "src/objects/selector-v5/ArrowButtonSkin.js": "49cf53b11b2827be7b0e44e6fee7eb61dac791b70f5ae67109099b03673614f9",
+    "src/objects/selector-v5/index.js": "41a0b50e3136cf4d274ceceadd0a6ee4f335b4714798f5116b4965196d3727a1",
+    "src/objects/selector-v5/textures.js": "11667e1a5a3446699e9db94bf02c4c64b2e32e590c6e5c3410ffad121c1601d4",
+    "src/objects/winnings/WinningsEffects.js": "be76ae55d0bf9c12812b2821a885c1541ab23e78564cbdcb00b8d71100c05e15",
+    "src/objects/winnings/continue-state.mjs": "45db53bd1730ce507c1ce77c37206aa5002bb87b67692181b7f502c98c44dc0d",
+    "src/objects/winnings/format-money.mjs": "ea61df73eb804ad0b61f4b2181c68e5f4196678eda4c0447655672b0c954bd63",
+    "src/objects/winnings/scroll-cycle.mjs": "0b64bae6113b74fc1ab2bcb47f6688107a32c56e2ba6e9e8922f807f5a65385f",
+    "src/objects/winnings/temple-art.mjs": "050d1336bc18708382d9ff0d8d9edd1a8a2cb5e0f822df4eff6d9a455fb40cf7",
+    "src/scenes/Boot.js": "c7f56c7b100d0d916e74b48e0cbb2faed2a99a78f139add2988d3ee416a6352a",
+    "src/scenes/Game.js": "1f62a21dc296d3ae01367a0f03da77985b8271d8702f91d433d357398da97901",
+    "src/scenes/Preloader.js": "42f44750032b7f24aa000e713ec418e03f372b3b60e251da1884f30070f61201"
+  },
+  "files": [
+    {
+      "path": "games/CASHCLOCK/assets/Background/egyptian-v2/columns-blue-glow-1920x1920.lossless.webp",
+      "bytes": 198338,
+      "sha256": "27393785e01a974977e5ddf4920a250e55c6f2f58f00949a342f3b4443f3352c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/Background/egyptian-v2/columns-orange-glow-1920x1920.lossless.webp",
+      "bytes": 198914,
+      "sha256": "ea4761e6b047cc0189192308e6ffd90e95ba4a645177133f5364320d56762677"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/Background/egyptian-v2/columns-purple-glow-1920x1920.lossless.webp",
+      "bytes": 200024,
+      "sha256": "989a79b6d40e5525914c737c2b1fb6b2ce02c0bb124d37da4aadb3d31982deda"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/Background/egyptian-v2/desktop-scenery.webp",
+      "bytes": 2081244,
+      "sha256": "9d86a3cd8eee87c0df333a14048dbd14e20de4538e746f1aae4b069a0488d0a4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/Background/egyptian-v2/mobile-scenery.webp",
+      "bytes": 2241334,
+      "sha256": "3887e4794d01ccf97a870b2c5df15d72af4d52a7d26a15d9188e082e6eb97227"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/Background/egyptian-v2/new-columns-source-1920x1920.webp",
+      "bytes": 269676,
+      "sha256": "e46e65766e009c3e6d4158fe9987385387c92929bddf1018eb3b79e7415622ca"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/Hands/Hands_A1.webp",
+      "bytes": 4728,
+      "sha256": "be308ecfbecf989b7e9d82ad383af1a349f01dbac8f49d7ab2c45e4a5f5bcb55"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/Hands/Hands_A2.webp",
+      "bytes": 7710,
+      "sha256": "c4df71bbc48498f2f44e6011b72ea839b33ef7379f6f0c4cd1783e30e29d3e65"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/Hands/Hands_A3.webp",
+      "bytes": 9388,
+      "sha256": "8e8ded3d70cb40c229d864782295b3d6fa35ae0e8836c9a61bf4e761646e11d2"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/Hands/clockCenter.webp",
+      "bytes": 2600,
+      "sha256": "4d8a23ecd242ffbd8c3baf5012a71f9dbf625835d30c4a8e255272ffb4cf5780"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SelectorRings/HourSelectorPie Vertical.webp",
+      "bytes": 3814,
+      "sha256": "12dbeabaef39723150adbec6a095c5f35f0aed9213426cd6d51e3abfd6c7c910"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SelectorRings/MinuteSelectorPie Vertical.webp",
+      "bytes": 1808,
+      "sha256": "6b1bca6d18b7c0a3f9320207f95ec4a7b3cb9bd936b8c18f678e5e62d7dde3ca"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SelectorRings/SecondSelectorPie Vertical.webp",
+      "bytes": 1530,
+      "sha256": "a72403f08189039dee14214d5db4015059879861707d46bef8a638d8b6831022"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SelectorRings/minutedash.webp",
+      "bytes": 186,
+      "sha256": "b40c6fa40b42327955c8614b9cbe916666e1b4bdc451d6e68fc599dcd1bc8c01"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SelectorRings/minutedashLarge.webp",
+      "bytes": 218,
+      "sha256": "db112051b492dbe249852b22bb6058436905163e7235d1cc0b19698f3f398b95"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SelectorRings/seconddash.webp",
+      "bytes": 166,
+      "sha256": "b19c4f3bb1c8e985bd6fac737b2aa5fedbd3d437a9695279dec055324be378ac"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SelectorRings/seconddashLarge.webp",
+      "bytes": 244,
+      "sha256": "74e40a8d838173c40d316c5d4f79edd714a464734827c4813d8d0d527db57667"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/Minute_White_NoWin.webp",
+      "bytes": 220,
+      "sha256": "a52d4c0915b11c9662d9bac08993044b7cb621aa74bed7dc062b4060891a9fa6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/Second_White_NoWin.webp",
+      "bytes": 232,
+      "sha256": "930388210c0b6d47514294dc90d5ca0e6b1e21224354b79d6e184658ae4fdb8e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_HourRing/bonus_glow_icon_hourring.webp",
+      "bytes": 2974,
+      "sha256": "031afc514d0538652545c53df4a0e2f1932d1df21a4e4fd8c722fd56e497313b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_HourRing/bonus_icon_hourring.webp",
+      "bytes": 4128,
+      "sha256": "ae069f71fc3499b673729082cec61b440bb05d775efdf6755ded9a30601ca5f3"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_HourRing/progressive_glow_icon_hourring.webp",
+      "bytes": 3680,
+      "sha256": "2270353cae49c3114dd5f7facfe77c15cdb555f563232f02d1a83c5eaf525ea9"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_HourRing/progressive_icon_hourring.webp",
+      "bytes": 2608,
+      "sha256": "5828a95dab0eb12bcb3530f6fc6cd2fb8759a8287629d20d01041254c1eacabd"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_HourRing/rewind_glow_icon_hourring.webp",
+      "bytes": 3652,
+      "sha256": "658b90b93c4418374e57b09d630cbaca766b459b3fba47f3975477e03ebb600e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_HourRing/rewind_icon_hourring.webp",
+      "bytes": 2572,
+      "sha256": "d5b3c54418c432842c71ae676b7ab93c3496a3a07700d72dd49135fa7d8ddcb2"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_MinuteRing/bonus_glow_icon_minutering.webp",
+      "bytes": 2678,
+      "sha256": "3b54476146ec7d20489051d6834ebec410f113d61c1fb1191b5c0a9447c521a3"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_MinuteRing/bonus_icon_minutering.webp",
+      "bytes": 3644,
+      "sha256": "fb90af51031eb333a0729460db5949b91e4919ed7bd729bab408321d06aadd2e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_MinuteRing/progressive_glow_icon_minutering.webp",
+      "bytes": 3312,
+      "sha256": "4ee4833b9638e664387f16eee0d1784fde52620cb09126b6dd4a54698f89db91"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_MinuteRing/progressive_icon_minutering.webp",
+      "bytes": 2284,
+      "sha256": "8030a05056fa95dba3a6fbfac71338f8c95e95860316338c65195a3c67c4da53"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_MinuteRing/rewind_glow_icon_minutering.webp",
+      "bytes": 3314,
+      "sha256": "e56463bfe948c41b47e9bfba5ea22a9af56f78722f0f2b0570871c708bca2bcd"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_MinuteRing/rewind_icon_minutering.webp",
+      "bytes": 2240,
+      "sha256": "ed0cef0043801e10218e5f2d7d1e8dfc8883eda7f952758664da28dfe0bfee8e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_SecondRing/bonus_glow_icon_secondring.webp",
+      "bytes": 1638,
+      "sha256": "8f2a3c6b6442f51d1326e0a945e98e84b4dfc816157fe9c2e6a2dce8646f5350"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_SecondRing/bonus_icon_secondring.webp",
+      "bytes": 2236,
+      "sha256": "260372fa2ce64d3284af7c84569aca6ae17c213d7d454995633d573c90f76ac5"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_SecondRing/progressive_glow_icon_secondring.webp",
+      "bytes": 1946,
+      "sha256": "9b1e09d4712c64f9a9067d46e3c392e107f87282aac186f4285a1739886156d6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_SecondRing/progressive_icon_secondring.webp",
+      "bytes": 1446,
+      "sha256": "acde509b70f9fcde77e35b8692a3404eef8539a9f570760ca157db8a232f2295"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_SecondRing/rewind_glow_icon_secondring.webp",
+      "bytes": 1978,
+      "sha256": "02a4b77e3fff7717944161228ba0419a197f085329afc339cdd09fccacf1c067"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/SpecialItems_Icons_SecondRing/rewind_icon_secondring.webp",
+      "bytes": 1368,
+      "sha256": "f8a73eaa6f40f3e2ecba5fd0fcab2ea2183b5281cb7c05577a7d6e6f2974926e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/SpecialIcons/hourrange.lossless.webp",
+      "bytes": 2498,
+      "sha256": "02e1e61d2423558819ed6833c18459ab0d24041d25ad264f52fee293a61667dc"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/TreasureChest/coins.webp",
+      "bytes": 1672,
+      "sha256": "585edb6dd97d59ef0dbf0357bbcbb73ee05455966e853cef551eb9a9ff3c7fd6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/TreasureChest/state1.webp",
+      "bytes": 11734,
+      "sha256": "8c4b9c6d4b59b0c31b49797bc8aec44b4955bec50fbed217ca31af026ef8c012"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/TreasureChest/state2.webp",
+      "bytes": 12172,
+      "sha256": "a2760cf0727eda04c671648ad38b7d042d04d0d103fdbcd11602eb485269d9ff"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/TreasureChest/state3.webp",
+      "bytes": 12556,
+      "sha256": "ddab2237159e98974e414e0cd68ff1da7bb7fae6a9d1b59fd6e3252357eae019"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/TreasureChest/state4.webp",
+      "bytes": 12006,
+      "sha256": "252cad3831d366283458daf4ed8635345002cfe57dad9fe56ba5efa20f90c7f7"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/audio/ON_START_SFX.mp3",
+      "bytes": 20504,
+      "sha256": "3ef1bf04500a0962cde48c17b0f3554f2f8c5c88bc479dc287961cc89957db5e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/audio/PLAY_TensionTimer_Loop.mp3",
+      "bytes": 266405,
+      "sha256": "d4a891822c06ba00bf83715e35abba0336158a82bddfa8326a3866ec2448561b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/AutoPlay Start Button/new/autoplaystart_clickstate.webp",
+      "bytes": 6708,
+      "sha256": "4a0f93ed3b63f2e84f830b891063374650175a212308f27303331c325ccc3b1c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/AutoPlay Start Button/new/autoplaystart_inactive.webp",
+      "bytes": 8834,
+      "sha256": "caafd337d228823b4586bd701a2b3ee8352ceea69374c733124b07886609ab4d"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/AutoPlay Start Button/new/autoplaystart_rollover.webp",
+      "bytes": 8888,
+      "sha256": "a8e0b5f2e477f467108b07ef43d12be40ac62a704b9733be8b18a79ff5facf40"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/AutoPlay Start Button/new/autoplaystart_static.webp",
+      "bytes": 12386,
+      "sha256": "22c4f0e655b60fb8025d340b654d698c170021614844bc324b72a6475195378e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/Button/ap_button_active.webp",
+      "bytes": 14124,
+      "sha256": "db5eb78cc2985290166a8807891eadebfc2b3383614899ce8e143841e15f4d1f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/Button/ap_button_clickstate.webp",
+      "bytes": 9022,
+      "sha256": "f9842badcc6a8542a61c10392b8cc770de20040c0edcf57ce3fbb6d028303a69"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/Button/ap_button_inactive.webp",
+      "bytes": 8778,
+      "sha256": "ddf5264bd97976904ac448292df463388aab3ba3191e3c47493c00fdc95a0d32"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/Button/ap_button_rollover.webp",
+      "bytes": 12650,
+      "sha256": "301efe578904e1aadb6d23f0c23ecf2c5c846e0793e3f2d45530fe34b00673d3"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/Dividers/fulldivider.webp",
+      "bytes": 2126,
+      "sha256": "5f0fed3ae4af59cb5dac0e812ce964455db19c1917cf3777488c2f90e438ceab"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplay/Frame/autoplay_frame.webp",
+      "bytes": 99618,
+      "sha256": "17b08396a98bf73a9fbf636cf5bed342cd6d192ad72948d25a4bc450f6cb5c18"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/AutoPlay Start Button/new/autoplaystart_clickstate.webp",
+      "bytes": 4132,
+      "sha256": "29b211802f0f241799a59d0a9b499e594fe979aa14c3529a1b36cafb97a9cfca"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/AutoPlay Start Button/new/autoplaystart_inactive.webp",
+      "bytes": 5044,
+      "sha256": "85c65a90364ab8e7d8f33125810e03bdeb658ca13b365ac2da89ec913fc1f8ca"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/AutoPlay Start Button/new/autoplaystart_rollover.webp",
+      "bytes": 5278,
+      "sha256": "2e480a5159392ccccae8f03d9bd4bfcafa4facd0999181996eb4b4e5295b036d"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/AutoPlay Start Button/new/autoplaystart_static.webp",
+      "bytes": 7588,
+      "sha256": "71b2935381370606de8093bbe2d79cc37387b27a7e9bc507fc287d049764beeb"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/Buttons/normalstate copy.webp",
+      "bytes": 6584,
+      "sha256": "d39f5936e468d3612fe7c231dcfd07c8c215c9a2965bd4ab5c23aed2541c1a90"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/Buttons/normalstate_green copy.webp",
+      "bytes": 10098,
+      "sha256": "aa4f4895fbbf01838a2775f400e0428d6aefeee306acc9d2c712153d92222552"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/Buttons/pressedstate copy.webp",
+      "bytes": 6296,
+      "sha256": "95f2e9995ae7b8eb7c87805bfbb9ee51124c29bcdccde709fe8c70707821c8aa"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/Buttons/rolloverstate copy.webp",
+      "bytes": 8800,
+      "sha256": "afc6f3fbe0a0d62f87e08bf581319346736eb7f192a5166013733aeb723ef626"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/Dividers/autoplay_bottom_divider.webp",
+      "bytes": 1696,
+      "sha256": "d8b32dd66e5694f408547fe3597ed9054bb4d886f1da725e40966faa5a018dea"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/Dividers/autoplay_top_divider.webp",
+      "bytes": 1678,
+      "sha256": "cd13f6f6297490a63743616c4f23ae2dbeda2fad86610a9e7f126aece85b18ce"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/autoplaymobile/Frame/autoplay_frame.webp",
+      "bytes": 94784,
+      "sha256": "cb61f83502f5a52c27d8bb7b927b384cf006d924795643b7692912ab1ae5392b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonus-v4/egyptian-bonus-landscape-v1.webp",
+      "bytes": 212190,
+      "sha256": "12aaa9056dd11e541eea9aef72572f57c791c22f0e4b71825fd81dde43970bf7"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonus-v4/egyptian-bonus-portrait-v1.webp",
+      "bytes": 220142,
+      "sha256": "4a4a7ad49639fbb61a4571fbf787a97dc5833a7b3ae02046a8b72e76c05ddf03"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear1/1x activated.webp",
+      "bytes": 6614,
+      "sha256": "5ce8770228ce9c3e3d40439d7f2f2b8a75e622b24d92930704a11abf2629ecac"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear1/1x glow.lossless.webp",
+      "bytes": 26022,
+      "sha256": "cd6813a5454e43d420a4feafe0d18710cda1ca539e43ac4e2f80ff7df5513348"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear1/1x static.webp",
+      "bytes": 5186,
+      "sha256": "e399146aaea66a8c1a1baf272cf644f141f589b6ee86789e1d3aa5a511213f27"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear1/gear1.webp",
+      "bytes": 55404,
+      "sha256": "eee47098069efef719eafff1c4d78ab02803836c66d2239d9ea430d5e6492088"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear1/gear1_rangefilled.webp",
+      "bytes": 50254,
+      "sha256": "0ba5bfee69c832d336844d7a0bdd2036b7aacc9488dc7298bd53e104b8c15d6a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear1/gear1_winningrange.webp",
+      "bytes": 50412,
+      "sha256": "9ccb8017fce2697d3f41ca21c865241f207b866e84c9603758a2811c0b9027b5"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear2/2x activated.webp",
+      "bytes": 5280,
+      "sha256": "a145196551b8e0f9ae2569ed36b61d9f74966d8611845f6906c52398181569a7"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear2/2x glow.lossless.webp",
+      "bytes": 17472,
+      "sha256": "9ee486fe2f361e78dc2985220dadfbb0f501d40d23413af9b7fc808cb0e1e74f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear2/2x static.webp",
+      "bytes": 3778,
+      "sha256": "f83789ef14d9afcfd3e584286dc85d699fdb418d7ba70db1dca8db3295d11b71"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear2/gear2.webp",
+      "bytes": 40448,
+      "sha256": "d0e923baa22dfa49f6c24fe3a394c6e5566bf511466e2aa179974801d856578c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear2/gear2_rangefilled.webp",
+      "bytes": 36172,
+      "sha256": "21133dc6869a4950718e4421f7e7831370fec58683a08d64a3a28360a84a8da9"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear2/gear2_winningrange.webp",
+      "bytes": 27856,
+      "sha256": "98153b2c66c4bb910d5a0e4636ab8541b6caa0306312e9c5e41c3e75945f1acd"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear3/6x activated.webp",
+      "bytes": 3650,
+      "sha256": "486fbe7f03ae7ffea5961413b78ec0c5f58da873f6b8d1a748f3127615898e62"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear3/6x glow.lossless.webp",
+      "bytes": 11844,
+      "sha256": "510ed7cafcca0f0749552838c098fbfd7203ee9f439ff672ea3c92ad99fbf128"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear3/6x static.webp",
+      "bytes": 2922,
+      "sha256": "3164539616fb7ca8832af0cfe354d13c8ea0eab19257e246cd74a64436fb4f8a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear3/gear3.webp",
+      "bytes": 28232,
+      "sha256": "9ee26579be68be4dc6be083dfe45a615c6ccb1fe5be2915d44da50443a701423"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear3/gear3_rangefilled.webp",
+      "bytes": 24190,
+      "sha256": "e842ce4bea924b721a9c98ae2d0f70e254028ab66dd0f9d8aac40782f73ec296"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear3/gear3_winningrange.webp",
+      "bytes": 8942,
+      "sha256": "96b82c7c800406720f723a3e4445bd1dbdbd29c0c4f11cd33f3bdee45baee41f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear4/24x activated.webp",
+      "bytes": 2392,
+      "sha256": "fe9b9c40f39385dbea736b9cff125823a07a8d6ff0479b28352ff4861dc3e0b2"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear4/24x glow.lossless.webp",
+      "bytes": 7568,
+      "sha256": "699db178258d76327440940aa481c6931f8f3de8a0d28f284807b2f10bb07647"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear4/24x static.webp",
+      "bytes": 1938,
+      "sha256": "24fe8910dea84e54dd3fd5c810a18cc9ada0fa18d46b1946126483c1ef553cb4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear4/gear4.webp",
+      "bytes": 17870,
+      "sha256": "f3f49dbf6f9304f220fc105179e1693bbf5ddf452e6aa41ef91387481e50e211"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear4/gear4_rangefilled.webp",
+      "bytes": 15262,
+      "sha256": "b915476082adf7f12ab2b58bdbadec9b7c111451b850a6495a476d8dba466933"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear4/gear4_winningrange.webp",
+      "bytes": 3538,
+      "sha256": "2870e9adca442599ef99f1eb4071336e98d3b27cd852dd49e47dac7d941a9446"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear5/120x activated.webp",
+      "bytes": 1402,
+      "sha256": "7a5110e524de97d498e6181545bac64389559d3635dc6244b42d5868c435351a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear5/120x glow.lossless.webp",
+      "bytes": 4062,
+      "sha256": "3f9eb21a5614bc48bfefedc1e0f27ac8961fc31a05d90b23a613441426266649"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear5/120x static.webp",
+      "bytes": 1290,
+      "sha256": "8229cd9bc206008f384c3d9408dc1b89cc43fd753513e4298d6881184508e7a5"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear5/gear5.webp",
+      "bytes": 11770,
+      "sha256": "9e80a11a435a56e95bbddb99c4629a19119c9abffcc5078a5a85d6457a0fd221"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear5/gear5_rangefilled.webp",
+      "bytes": 10122,
+      "sha256": "9ae6c6300e74f7b4dd82adc1f09b34d2847fccd9cbf1ffbc1d5258bd36d2b07b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/Gear5/gear5_winningrange.webp",
+      "bytes": 1818,
+      "sha256": "0072005f551f8dba3c253407ad44c38a04a7e5605c352fc9d0a77f9982d9000a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear1/1x activated.webp",
+      "bytes": 5002,
+      "sha256": "03213f2be9445a3870d2d3fc90157340c8c15b7969db7c6f06ac14919c8ce946"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear1/1x glow.lossless.webp",
+      "bytes": 17802,
+      "sha256": "ff7bc3b2bd1a66f996f7547f61b5723e2d99991f2783e463c7faece5d0b28fb7"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear1/1x static.webp",
+      "bytes": 4136,
+      "sha256": "30c951b1a4adb7462cb229fa4393ffa6aee19e74d4788e9b290f4fb68962492f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear1/gear1.webp",
+      "bytes": 41372,
+      "sha256": "9f99521961f5156a99f0c17e46cdb394a63bfccd0c5b235e2bdc756aa951b569"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear1/gear1_rangefilled.webp",
+      "bytes": 36670,
+      "sha256": "14af10ca78966f9778d63e2560910a30cb252dc6e897cded075ddbdcaf7a8e83"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear1/gear1_winningrange.webp",
+      "bytes": 36670,
+      "sha256": "14af10ca78966f9778d63e2560910a30cb252dc6e897cded075ddbdcaf7a8e83"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear2/2x activated.webp",
+      "bytes": 3816,
+      "sha256": "e579cfc88a379ffede68a094d811aab99935b7ffe42dda800d15132c19d04627"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear2/2x glow.lossless.webp",
+      "bytes": 12448,
+      "sha256": "a1e95b0b1bfb4e3cbbb67c946c3e37e698930e0f35affc99772728317637ae58"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear2/2x static.webp",
+      "bytes": 2938,
+      "sha256": "4f94bd8ed8378c9642a2c49d98297ad30d796aa38e66a79f0bba64264126a4bc"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear2/gear2.webp",
+      "bytes": 29952,
+      "sha256": "04ef42ee66e455123bad876779298c47266862c5ae24c350140570ae1c2977e7"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear2/gear2_rangefilled.webp",
+      "bytes": 26228,
+      "sha256": "424f7cd35d59d8a7289f1e4a391ce82366f3357e9e891f8dc264b2f151409917"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear2/gear2_winningrange.webp",
+      "bytes": 17288,
+      "sha256": "e81dc0abe2230373626da377d7b28b491e6c15f690a53958afe349d1d7d847ce"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear3/6x activated.webp",
+      "bytes": 2756,
+      "sha256": "6cde934e94947cdd45bbf46adfd3e30f26b6304612ae62ca758ab789b08ba2ca"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear3/6x glow.lossless.webp",
+      "bytes": 8448,
+      "sha256": "e651541b2f5edecbac7a908c0b312e25a26938bac8045b1424ce6ff3d4081f98"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear3/6x static.webp",
+      "bytes": 2288,
+      "sha256": "3722745f1a4342a065cee2bb361f5100bc410cb836fa73f5f9139a683d817871"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear3/gear3.webp",
+      "bytes": 20158,
+      "sha256": "9a87075e2122a5d453d03211cddea24d794792f183d49edfb09c9e989d3412de"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear3/gear3_rangefilled.webp",
+      "bytes": 17134,
+      "sha256": "102b1e1e1520251bb96dca2dd32a6df10d643e7628cbd9761c254b42d7ac01e0"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear3/gear3_winningrange.webp",
+      "bytes": 5634,
+      "sha256": "e8460dca6da7704e9da260a146957d3bf7d910b22dad90b967798b87557e6d09"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear4/24x activated.webp",
+      "bytes": 1794,
+      "sha256": "15f3f7e19d157ac9f5b2542296380a35874d75b240181e025f724aef6bdd00e9"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear4/24x glow.lossless.webp",
+      "bytes": 5328,
+      "sha256": "5d41628421d5ddecc4e5c721fa45b1a887dced7ce959488a4121037aaa683a35"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear4/24x static.webp",
+      "bytes": 1534,
+      "sha256": "f63b3b74a1ff0923869c360807807b13e5874cc0d4911da3dc48b153420c1e61"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear4/gear4.webp",
+      "bytes": 13286,
+      "sha256": "9e0c88e06c5607dbbc143e27f40a010868d4dd25f9bf35fe1817b9715420f3f8"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear4/gear4_rangefilled.webp",
+      "bytes": 10970,
+      "sha256": "4d47821be3aab535c1a4efc498d3797e088cc596950dbf76c1f541bc1b9324f4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear4/gear4_winningrange.webp",
+      "bytes": 2296,
+      "sha256": "27cdac3338a6c84cc53abf3a8bb49dbc475e611083f6740de0061c6a6909b0df"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear5/120x activated.webp",
+      "bytes": 1032,
+      "sha256": "b4292f8d796b2cadf7fe35423b1021c99a1661434c9771c08b9b5e2a66e01b37"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear5/120x glow.lossless.webp",
+      "bytes": 2716,
+      "sha256": "911543034f55ea8b6afdaff0794e24bfc8c84b133e0c3c60c76d814b382ebc6c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear5/120x static.webp",
+      "bytes": 958,
+      "sha256": "3953db37a9646dc3bb3bb9e082bbd73b81e4c7bcfa3dceb6215743e6a96d7099"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear5/gear5.webp",
+      "bytes": 8696,
+      "sha256": "9b0fa5d23bec38dda6caadeccaf4f351eed4439944f0497992e526156868646f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear5/gear5_rangefilled.webp",
+      "bytes": 7520,
+      "sha256": "ac9b68fad6bf317a172094052156dceba2afd2f999677d7928038e19530354de"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/mobile/Gear5/gear5_winningrange.webp",
+      "bytes": 1278,
+      "sha256": "beec520a1e4b33b017316dd8c9974a10a6d51b7dd2c8268e11049daa75a501d5"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/multiplierbar/multiplierbar_120x.webp",
+      "bytes": 17216,
+      "sha256": "45394e36681420f6250c36bbbd60c7ffc30ba47d2221ba15bef70e3e738551d5"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/multiplierbar/multiplierbar_1x.webp",
+      "bytes": 18922,
+      "sha256": "87d9a45bc82c7b178b1f1079ecdcadef7fe4891541e03257155bee13d169ee48"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/multiplierbar/multiplierbar_24x.webp",
+      "bytes": 20234,
+      "sha256": "52285ece6cadf2f5bf840f22384eed5bd82d800518b75927ac7f3b04262659c2"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/multiplierbar/multiplierbar_2x.webp",
+      "bytes": 20394,
+      "sha256": "167b25c3f4b75eff46fa90a093870e69863a5f75e1cdbeee54c4db85bb9b30d4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/multiplierbar/multiplierbar_6x.webp",
+      "bytes": 19870,
+      "sha256": "8b14cfc43d0d5b4a1b6f35e5edab02e9f113418da2583f5c28cb40607398fbb0"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/bonusgame/playnow.webp",
+      "bytes": 63256,
+      "sha256": "a496399a9bd812ae9aca4f5e937ac6a53090f777bde8088c6caabd12af527ede"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/btnTextures/button_rectangle_depth_flat.webp",
+      "bytes": 598,
+      "sha256": "5c2ffe9250897b362e2fab2437603176318df321138403bdf0bab55ac7d9b99f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/btnTextures/button_rectangle_depth_gloss.webp",
+      "bytes": 716,
+      "sha256": "cf9efbb6ee6554ae02b587ecb2f8726edc16f52abf8f96f83b14185d9b3aff1c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/cashclock_explainer_desktop_1920x1080.webp",
+      "bytes": 270280,
+      "sha256": "f248822bca36b78c7f362f9f932271f71a505c4dbc7e99402083af522b0d0c02"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/cashclock_explainer_mobile_1080x1920.webp",
+      "bytes": 228162,
+      "sha256": "f3f62baed308e7d497819b1b8f3260bb5789f998310b5562a9b9a72137834a7d"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/clockAssets.json",
+      "bytes": 1951,
+      "sha256": "d8e40e22daee56c0fc8a376f50ca66d79d91a02e2846e38a67270d2efcdc2fab"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/clock_back.webp",
+      "bytes": 111342,
+      "sha256": "5f13f05354a5434a8abcd8aecf1219b4d0c464c40614aeb9af848b5300878e8b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/clock_hourring.webp",
+      "bytes": 52134,
+      "sha256": "fe6177f13a4e1927c2cab402921367c7b2eee38c08d3d7fdad4c73e343355d13"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/clock_innerring.webp",
+      "bytes": 25900,
+      "sha256": "d2dba1881e6ffe2981adf26a3bddc4fba3266b9c0693bc3e25abf8acabd38719"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/clock_minutering.webp",
+      "bytes": 74078,
+      "sha256": "8dfef9d7a71dedcea586f86ef8c6787bab6a338ac73aa6d922bad348e6ff2169"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/clock_secondring.webp",
+      "bytes": 89518,
+      "sha256": "33abb58eadeefb455a3441edb677090c5a27e74a82223586f2cf8b46c3c754cc"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/clockface/dome-gears-v4.webp",
+      "bytes": 57870,
+      "sha256": "14b19b2c7fcf48b4df265994421d6541d3a264bb36bcbb6c1ec46b103b6ec74d"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/clockface/gearsall.webp",
+      "bytes": 38902,
+      "sha256": "6fa4fb7d50c5319ac9be8e8da61d71961719f84f622509f5053cf19df27243fb"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/clockface/innerdome.webp",
+      "bytes": 8562,
+      "sha256": "b1652910665dbac11aa1f0d3124d555830c1a7e4647bb5b43c965ce02d13192a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/Task 4 - Staggered_Random_Ring - Blue_1920p_15fps_00023.lossless.webp",
+      "bytes": 1030740,
+      "sha256": "44e0d65a886fd4e55e6f21b0b5806acab6516996c4dd1a7ca954c3ff2d11ccbd"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/bluesmoke.json",
+      "bytes": 2130,
+      "sha256": "67e51834f1519ef910e173dbbf963cb57e662ca7516693975c21ace28ee54c60"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/bluesmoke.lossless.webp",
+      "bytes": 905734,
+      "sha256": "d904e41883ab95338b2b7f59a6a0113e900adbde2daee916acd7435b4545b36e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-0.lossless.webp",
+      "bytes": 279958,
+      "sha256": "63917d4a09c3b33fd554ccd1eb1b7d9154804899dd4edd2485cdd12f99ff2bbd"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-1.lossless.webp",
+      "bytes": 268726,
+      "sha256": "8239eaeb69d8291d2d3ebb441cc2033c0c40d4dcdd992563c772c377d3b1d500"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-10.lossless.webp",
+      "bytes": 389416,
+      "sha256": "659519f44eb7d1275fbbbc6da531bf0d4d6f9e3ab8eee4f21aeda9485e80cabf"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-2.lossless.webp",
+      "bytes": 324194,
+      "sha256": "056efdfd32bc025328232c416aee270b8fef940045e2d9025ee83e6a5def7606"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-3.lossless.webp",
+      "bytes": 405560,
+      "sha256": "4b525111153a18b8064d887976e65f62c7f1b7c055f808a7f39ca39cafa69db9"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-4.lossless.webp",
+      "bytes": 400226,
+      "sha256": "e4cda9d7e40fbdd1019f3f15856ebf33e6ed7c4c2248684b183b160d3cfc9892"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-5.lossless.webp",
+      "bytes": 383452,
+      "sha256": "06fd211ff48a778048ae6b1b272413d4f8b18026476249efe00dbe3070f2d63a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-6.lossless.webp",
+      "bytes": 440626,
+      "sha256": "89c879721d6cb357a9fee40831f267afc93c37101e5dadb1696e5d24b3ed6dae"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-7.lossless.webp",
+      "bytes": 451654,
+      "sha256": "884b13f5de1b07c601f9baa77d418e3e4278707848d97ef0dc83badf14b79597"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-8.lossless.webp",
+      "bytes": 410470,
+      "sha256": "5a955a6b2c92cbbbbc9a391f9a5b8cc43faade606bcbd50f2ee37d887d590b24"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx-9.lossless.webp",
+      "bytes": 374288,
+      "sha256": "084abd6adb3cb7f4c3ffe2ed5f13c470d01c0f4473b38059fa314387875e8a1c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx.json",
+      "bytes": 10437,
+      "sha256": "f3378305a6d8a4017fd389d4d17eb61cc098f73a557453f011bd325e8313ba85"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx640_12-0.lossless.webp",
+      "bytes": 463572,
+      "sha256": "6c1e91a67d411db205b76acf3078161973a01c9dec9063729cfcbdfaa5e8d5e9"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx640_12-1.lossless.webp",
+      "bytes": 468668,
+      "sha256": "1719eaee1120218aac6cd7d44c563c57f82db68d0d9caed5edb6e086f8289dbd"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx640_12-2.lossless.webp",
+      "bytes": 480594,
+      "sha256": "492a49d419b66b38ef4f6e943902518c04324a1371e9db2c2a3ed04b1454fda9"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx640_12-3.lossless.webp",
+      "bytes": 299168,
+      "sha256": "809ac93067f37a4b17134349d0a334c3ecaf4cfde024bfa0e94e70a75ce4d516"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/clockfacevfx640_12.json",
+      "bytes": 8291,
+      "sha256": "ea08ef5b2b634e225eef17ec81f2c5ee5c463df7beea378010a48d9a26796188"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/mist1.lossless.webp",
+      "bytes": 103850,
+      "sha256": "1e0a0a9b507918a921a60cd062d64e699587ae9ec088636282ab9e9104e1466b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/outer_ring_glyphs_reveal_360p_12fps_v1-0.lossless.webp",
+      "bytes": 646638,
+      "sha256": "e4cb316696bd18156205c4f1275a253ed4885d6b4024033e2c068c677a3cbe6b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/outer_ring_glyphs_reveal_360p_12fps_v1-1.lossless.webp",
+      "bytes": 436450,
+      "sha256": "085cebc7950addcdd6288c058a302998f0cd7695e5ef8c22e962561f97ade6f6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/outer_ring_glyphs_reveal_360p_12fps_v1.json",
+      "bytes": 41601,
+      "sha256": "e10a612e1b506f1aadc389e429fc893049de94df0cf7b277ed3c58d36cd0da73"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/effects/stars.json",
+      "bytes": 44527,
+      "sha256": "b5d9ea69ee7475caa011a4016fbd0b5d768d3169c866a09227e11270ed34d516"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/eqlLimitedScenarios.live-demo-v1.json",
+      "bytes": 27195,
+      "sha256": "f2d0f54384923a06025a33ad7c44b99e6c0df0224747f7f1a8b4bd4ca6887f01"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/CashClockClockfaceFont.fnt",
+      "bytes": 1783,
+      "sha256": "819faf43db2f3c590236620467b381bca847817834f9d909f41280b280990f4a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/CashClockClockfaceFont.lossless.webp",
+      "bytes": 66124,
+      "sha256": "86a30c37c72cc6c7934f2d276ecd530a37de5a60269e99c6013a72cf532f8497"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/CashClockItemFont.fnt",
+      "bytes": 16661,
+      "sha256": "f106f2368e80bbbf9e68f7064460ca4910bdab6bbb6bab1e1f65cd08d426c08d"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/CashClockItemFont.lossless.webp",
+      "bytes": 338596,
+      "sha256": "786c3a887eaa3a4a87aa8db410002082667748d01838983f0b0943a0c8064d52"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/HelveticaNeue-Bold.woff",
+      "bytes": 71049,
+      "sha256": "7ff8d22a22bc4f47535940e10760d85e1f7a8efad24738278abf61312e9eaf5b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/HelveticaNeue-Bold.woff2",
+      "bytes": 33844,
+      "sha256": "8c826bfe29b8ba3e1076058c737040c4630e8978ab7c0e06f98c0582ac3ade63"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/HelveticaNeue-Medium.woff",
+      "bytes": 121424,
+      "sha256": "99fd418d5c8c34c9f51cd5e5a93e01dd58b6e9cd80d60d87a65ebe643e56d398"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/HelveticaNeue-Medium.woff2",
+      "bytes": 77004,
+      "sha256": "ad539226926609261b9a04f15a58c577fffd82149631703e0c90c2ec8ca799d2"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/HelveticaNeue.woff",
+      "bytes": 68819,
+      "sha256": "0d0a22e2961a0d39a67bc086e3034f55f033ac3f593f55d22849bd46afe918b6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/HelveticaNeue.woff2",
+      "bytes": 32772,
+      "sha256": "49cde51ba71ab2aaad256fe8cce299b17e0113867b98f72683b1eace59f26ec1"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/cashclock_restingfont_v01.fnt",
+      "bytes": 12937,
+      "sha256": "ca517be8db69c8ad1f4bab8a10780b2703b24ed2132e0042a756eea5a0006999"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/cashclock_restingfont_v01.lossless.webp",
+      "bytes": 217678,
+      "sha256": "d0b3dfba5f1fb8e476c90105d617f7a00666b1e76e8a2b74e21ad3a15116f06c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/myraidprobold.fnt",
+      "bytes": 47830,
+      "sha256": "adfc64d0e5c7fb7a5e016cc56545888e4857293f6e2701f58372f045918a4311"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/fonts/myraidprobold_0.lossless.webp",
+      "bytes": 92664,
+      "sha256": "03620ee06687c2a9227e7f2a76c9414c31e0c63d9748439ff99072912aa9eaab"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/index-CO4rwfKP.js",
+      "bytes": 358867,
+      "sha256": "3c76f80a7412050f5afa796c7409331b44c2715e16c07ba7d50745520c0da387"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/index-COPPUzMw.css",
+      "bytes": 10531,
+      "sha256": "3a92ac74a3bbebeebe5d857ea4c5729b0ae10ec69ce41a5a9e138b7a588c4672"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/opening-v3/clockface.webp",
+      "bytes": 92568,
+      "sha256": "199832fb1cfdfd8c2c0a0e4efdb8f17a78cefb137d788eb6582e2644b7514eee"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/opening-v3/sprites.webp",
+      "bytes": 74344,
+      "sha256": "2b2d15c91bf3531023699eff6a95ac708964c1b42081c71a6b891865d2348f07"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/opening-v4/temple-card-panel.webp",
+      "bytes": 50944,
+      "sha256": "841379763701a3b367b246cc241e2b29e3ff171f778002eba781b9d30427b0a1"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/opening-v4/temple-desktop.webp",
+      "bytes": 94866,
+      "sha256": "6e7131c8c35bb1945e072c673ee15a7e58f094abc104dfa2eb7ddb5d31da9c3f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/opening-v4/temple-mobile.webp",
+      "bytes": 87142,
+      "sha256": "2222d2d8c69c35631aa55a93d0786f0a2597dc6b21dcd0db2fcb61b32f6475e7"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/phaser-DgQIrB3h.js",
+      "bytes": 1352551,
+      "sha256": "3d95bf4c4d93631c15fb03361b5f8cecf72c719dc908d323ce7bff569f51b06e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/arrow/arrow_right_clickstate.webp",
+      "bytes": 4136,
+      "sha256": "8ffd696934b2aa0de848f134c2fb1830d10a42e8ed8d33d2fdc24456083eb39a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/arrow/arrow_right_rollover.webp",
+      "bytes": 6464,
+      "sha256": "ba077d93a78e974cc3b81aded09e99ee95e9ba73e8000b8886b928b9f85e01f7"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/arrow/arrow_right_static.webp",
+      "bytes": 6492,
+      "sha256": "23349c69139b386c36a8a1e417016378e124d58bfc5b45ecd78907067995aeba"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/bonusdivide.webp",
+      "bytes": 12580,
+      "sha256": "fcd52a0669b1b2633a740f785df93aa5c65e7b6f5c643427d6f32716eb57547b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/frame.webp",
+      "bytes": 100730,
+      "sha256": "9796aafc4d36203166b443aa38f367e61b3fc26a10f1042d5ebb253e0a97cf9a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/InfoBtnClick.webp",
+      "bytes": 1114,
+      "sha256": "f2be1c9bd57f2de2d43e1667af41891b473a8c3734df02130014a73adace65b4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/InfoBtnInactive.webp",
+      "bytes": 1424,
+      "sha256": "d83199870d6869a06ffe0f18e3696dcb60dfb7a37b8e482280f3eb495096a10b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/InfoBtnRollover.webp",
+      "bytes": 1418,
+      "sha256": "f1fd6695243c75a43cb955b0ecaa6f44eb367f1ff86b99830692a629ac14caf4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/InfoBtnStatic.webp",
+      "bytes": 1424,
+      "sha256": "d83199870d6869a06ffe0f18e3696dcb60dfb7a37b8e482280f3eb495096a10b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/XbtnClick.webp",
+      "bytes": 906,
+      "sha256": "fd8f9f09d55ed62eae309fc31cbdb9415ae9d0c52629fb07c9025c9b12d9f731"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/XbtnRollver.webp",
+      "bytes": 1632,
+      "sha256": "8459574d4d0f75f218a8ccb706c532545a9546cbaa2592659000b4d2e1681942"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/XbtnStatic.webp",
+      "bytes": 1600,
+      "sha256": "b56aaa826cba06ad4cc86d0bd440de6454d2c9df14ba9beb1cd6701a1dc78143"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/gear_1.webp",
+      "bytes": 37486,
+      "sha256": "8073e3f984be3998e5d33f382705060b99e32abb27d9c90acaf5d00def20797b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/gear_2.webp",
+      "bytes": 27800,
+      "sha256": "4714f85840a46bccab6f2ce129782f62ba05759a994149ce089af3a13a62f14d"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/gear_3.webp",
+      "bytes": 30506,
+      "sha256": "3e552ccb22e65ef135ed67f7ca7493a818a9bdb7a41f86bb650b954abf54e502"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/gear_4.webp",
+      "bytes": 15092,
+      "sha256": "8eb5a27fbb9ed649d9fc2736fd737012d2d897f2d862783f0bf46c6db1febd0e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/gear_5.webp",
+      "bytes": 17360,
+      "sha256": "0097158008148bd2581298e7cbe1820e87a2892fea85dea8b4eabbb67ee940d6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/gear_6.webp",
+      "bytes": 32234,
+      "sha256": "a6b1cda677441b9fa5f7b59d0ed715792c3c46c13f1fda1b237ba18987c51fc1"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/gear_7.webp",
+      "bytes": 35434,
+      "sha256": "cb75c5a028b0b4988af834f83af43d3f777a42a45f5c928a47417c7f13838176"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/gears/gear_8.webp",
+      "bytes": 40236,
+      "sha256": "3ceb9cb860beb6a8e893389d94222c8b50137e9e3513be70d1a3c77f1241d92a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/hour_divide.webp",
+      "bytes": 16500,
+      "sha256": "2f42ab9661e8a102132df6c688a6fbc677baaf45bbc9465f537f06b575d012dc"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/jackpot_divide.webp",
+      "bytes": 26490,
+      "sha256": "560b53661bcdafe70b6ba098271153c088157ae7bb92f7001d0c818d548b33a4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/minutedivide.webp",
+      "bytes": 20482,
+      "sha256": "785f6b52d699f9e9b7282c766c6a301602a3fbc9528e5667b9e131bfac045c65"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/mobile/bonus_divide.webp",
+      "bytes": 8410,
+      "sha256": "5e99a841acf48977757294582bbdda02946409bf163a3e2d77a150a4cdb35b2e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/mobile/hour_divide.webp",
+      "bytes": 18614,
+      "sha256": "8250215773de2a035add1a47381caf03e03ce6b2037725ccefd62ade6295fbfb"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/mobile/jackpot_divide.webp",
+      "bytes": 30942,
+      "sha256": "a61861ce22cbab5e4f7c4f40272edaab17d8948fc1e9cdd468762cc0c26579fa"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/mobile/minute_divide.webp",
+      "bytes": 23684,
+      "sha256": "520ea7e6b9e3d8dfc049d98023fee8d2d5c72a2d1aa0f52149f6aece76c7349e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/mobile/prizetable_frame.webp",
+      "bytes": 70712,
+      "sha256": "3e113f1fea4cbbd1b52b4fc530622d1e78fa7834b4b69b7e369fbed1238b67c7"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/mobile/second_divide.webp",
+      "bytes": 25042,
+      "sha256": "3348ddac31952e99ede8ff499cd7dc5accdb4b7c46364a6282ff1bc86cbe28fd"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/mobile/special_divide.webp",
+      "bytes": 19046,
+      "sha256": "5a2421ec4e8d9158dc3d331b00a2daca7237041d2f77cf90409c2e9766ffe2f6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/seconddivide.webp",
+      "bytes": 21482,
+      "sha256": "cd6a80c580fcf94a7758fe5751ee4acb00908404ee5a69359b7f96598df24def"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/specialdivide.webp",
+      "bytes": 18366,
+      "sha256": "3dc8d166070326becc6224007c66bf32953f76efe60f698bf7b371c091e48234"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/titles/bonusgame.webp",
+      "bytes": 54396,
+      "sha256": "477aab8fe92ad180f0710ae42d513830a11f5d17f26dba137c5c75d97994a18b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/titles/hourprizes.webp",
+      "bytes": 49932,
+      "sha256": "61432736a4aa6e130e12693f9538bb9c7c8be33fcb5ddb20d8cc8bebf2f38434"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/titles/jackpot.webp",
+      "bytes": 57526,
+      "sha256": "4a4452cce159fbfc80b679c11a4f8afb937cf833d864d53443b88c99faf5d005"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/titles/minuteprizes.webp",
+      "bytes": 54506,
+      "sha256": "dfb356b26f95b05f66fff186e5533f366238c111e6302ed14b0fde94588f402f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/titles/secondprizes.webp",
+      "bytes": 58736,
+      "sha256": "54fd2b81e602aae2f4706297d142ca264632c518ecb182708ad7d906d785bd32"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/popup/titles/specialitems.webp",
+      "bytes": 51554,
+      "sha256": "0e492709b8c476bd61eee0e3d2b8ec7c3b3080b9f66e8cb69d26a735cfc5999d"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/selector-v5/logo-horizontal.webp",
+      "bytes": 361470,
+      "sha256": "e3c85b4d40c579716dad05daaa65a51dffa3e10439daa1d1748ae2a525d12fac"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/selector-v5/logo-stacked.webp",
+      "bytes": 340652,
+      "sha256": "936d8d031ea6ea62a7acb503f823f507ba418fad6ef773c6aded1ce2264ebf64"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/selector-v5/results-unit-labels.webp",
+      "bytes": 62898,
+      "sha256": "42abdc13cebf4bfda049d8df8068cd326ea54578f23d5315770d8802a29d5961"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/selector-v5/selector-title-mobile.webp",
+      "bytes": 160228,
+      "sha256": "37008ad71fb0e68b13357043bc26d0d00428051acfc5f4794eb79a9ba10a025b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/selector-v5/selector-title.webp",
+      "bytes": 126658,
+      "sha256": "e7324abb89fad8a432df94bef93a20742ba02e431d8fc5b69f6fdd545ec3c257"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/selector-v5/selector-unit-labels.webp",
+      "bytes": 63228,
+      "sha256": "eaa82f014816fbebfcbca8b093e31f6f30c2293ae229690f64131642297428d6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/smokecover.lossless.webp",
+      "bytes": 41734,
+      "sha256": "7bfcca9e9abdc32aab64f9fc3cce13cd9b4fa3d6659412c52efd4c1c8420db77"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/special-banners-v4/bonus.webp",
+      "bytes": 49776,
+      "sha256": "0784e6b78bd64b07ffd9e61e85ec75f440df1ff756a28d8097dd438a853bba7d"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/special-banners-v4/jackpot.webp",
+      "bytes": 43448,
+      "sha256": "608af7960cda8180248b199120684e8fa8e48ea92e05e7cfb7079e02718d1f1c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/special-banners-v4/rewind.webp",
+      "bytes": 43854,
+      "sha256": "4560a5873f06e988eb0e88f35bb06dfe7cf1cb430ec5a00b8059506930fd3ec1"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/temple-v5/bonus-title.webp",
+      "bytes": 363524,
+      "sha256": "857483727d0b710adeb67b71b9fdaec795afa4ddc295b4a5e42e854717627127"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/temple-v5/continue.webp",
+      "bytes": 230496,
+      "sha256": "653af92acc1ee7c1e6a419a1952c544108122b390e3f2d9937320ccf1b89cc47"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/temple-v5/gem-hour.webp",
+      "bytes": 18916,
+      "sha256": "35bb6cbcee586a6e2e907a0e5319948e758a94cd6b8dbd9dbdd77d9fd3aa49f5"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/temple-v5/gem-minute.webp",
+      "bytes": 20320,
+      "sha256": "e7a888ebfdb3ad53b14186b2d3295878ab6743ed8a14ed65df637ccb3b5ea26a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/temple-v5/gem-second.webp",
+      "bytes": 20372,
+      "sha256": "94248ecb41abf3cc4f088a2f69538a90728942f6e96f57ac986120796385ad49"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/temple-v5/results-frame.webp",
+      "bytes": 205220,
+      "sha256": "26e405c018691a4ced1f32b1971de3338ddc4d4952ed45163ed370bd23dd06ba"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/temple-v5/winnings-title.webp",
+      "bytes": 397720,
+      "sha256": "f008f31e966b92d4289ae109be33ed18661fc041d848dad2cc2c5b03540a73a1"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/Game Title.webp",
+      "bytes": 32086,
+      "sha256": "0352795aeb9dfe6e277e69d330a9d6f80406978b566a6781df620c4df3553877"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/autoPlayBtn/autoPlayClick.webp",
+      "bytes": 1942,
+      "sha256": "13271faaa560b67def672e63b873e1157ab0b7e50eba1ae3d5029e9b3bb6c737"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/autoPlayBtn/autoPlayInactive.webp",
+      "bytes": 2212,
+      "sha256": "ba102a9a9503a51f785716e07b6663a88b03a57ca04acba32cf234a456f7c04e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/autoPlayBtn/autoPlayLightGreen.webp",
+      "bytes": 618,
+      "sha256": "3cefdd33ffbf55de9d5e3bb0a1387957fd33f81392efdc56f6e00949e6753920"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/autoPlayBtn/autoPlayLightInactive.webp",
+      "bytes": 586,
+      "sha256": "7e7975fae9cec510fef3f175934f7f49f8ecbc26cdb538172e02eef1a4c6f21d"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/autoPlayBtn/autoPlayLightRed.webp",
+      "bytes": 604,
+      "sha256": "18b35dfd6d442a3dc7a726a14e9be45a0ab8c2ad347bd3b45c388171d090e2ee"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/autoPlayBtn/autoPlayRollover.webp",
+      "bytes": 2776,
+      "sha256": "c98e3bc35eceabca077fcc96c27a5e13813a79727aa197f7fc6a421779aceb9f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/autoPlayBtn/autoPlayStatic.webp",
+      "bytes": 2764,
+      "sha256": "b77b5e665d9edef7d32f2d48b9d41ed4d5f95e1570984c550186ea3f24150e8f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/playBtn/playBtnClick.webp",
+      "bytes": 4618,
+      "sha256": "a14495ab57a6cac56f88f85ffddf220a230ee7379c3bc5c0af811dc23d95b5b3"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/playBtn/playBtnInactive.webp",
+      "bytes": 7918,
+      "sha256": "3005c06a97e8f69e99e27be85a6ef2b567148b17f6dc4746ccd69917905ad781"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/playBtn/playBtnRollover.webp",
+      "bytes": 6970,
+      "sha256": "c551cbdb7d756f02432bf6121ce74c099750ab73acea24d14c3712d0a631e438"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/playBtn/playBtnStatic.webp",
+      "bytes": 10620,
+      "sha256": "50442f370a984a2eae1916327cd373dd0629fd1141613f587158b0d3704b4d14"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/randomizeBtn/randomizeInactive.webp",
+      "bytes": 1628,
+      "sha256": "51d7f930c6e6784080cba6ca428715c3c9eae241582cdd9ce287916655c22d33"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/randomizeBtn/randomizeLightGreen.webp",
+      "bytes": 782,
+      "sha256": "93bdf7d2f1f3324ba8c4499347eeb2e5def45b93b475a84b95d854cfd00bafa9"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/randomizeBtn/randomizeLightInactive.webp",
+      "bytes": 752,
+      "sha256": "17e6b90d7b7c19b428096ab0d72570904125d4d8381da8074ed175e1a89fb512"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/randomizeBtn/randomizeLightRed.webp",
+      "bytes": 764,
+      "sha256": "158908d3fbfce19f12489d4da86803a6a4817f382b12c876bab794e4fc1f1d5a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/randomizeBtn/randomizeStatic.webp",
+      "bytes": 2044,
+      "sha256": "586a9b9eea43ae23e74ddc6470f3fd5208f5a28eb1372e8cc6690d2d52eded70"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/randomizeBtn/shuffle_icon.webp",
+      "bytes": 1470,
+      "sha256": "e12876cdc805ba9a5d0727f2d97d1fbc51f278f3a94f0e2a2c05aadd0ef3a265"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/ticketSelector/minusBtnClick.webp",
+      "bytes": 2460,
+      "sha256": "6ee1a421bc22eff46f960a232d377e09beffcad5ea9ebd8205fa1b2befa92c46"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/ticketSelector/minusBtnInactive.webp",
+      "bytes": 2578,
+      "sha256": "6b124c86d6de64f5b6e6b3fa2b27900375dd8b9b712efb606d180522b6a28333"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/ticketSelector/minusBtnPartialinactive.webp",
+      "bytes": 2376,
+      "sha256": "a8c6c83e7928153a1be274986cba0c2007dd0a583793b2bf2e1e2dd111d1f8b4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/ticketSelector/minusBtnRollover.webp",
+      "bytes": 2274,
+      "sha256": "2c3d2ad5a90c9309aea52b648dcfc39a67e8bb8111a7272a636a3274149944ed"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/ticketSelector/plusBtnClick.webp",
+      "bytes": 2760,
+      "sha256": "65448e1b45de18ef481662e069a2a1cb05e3f7c27fca9ec4c57536a20d131083"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/ticketSelector/plusBtnInactive.webp",
+      "bytes": 2760,
+      "sha256": "8a27e949050c1c42a119058d9016eb436d54219d6d4160d205d7d477243e6b64"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/ticketSelector/plusBtnPartialinactive.webp",
+      "bytes": 2640,
+      "sha256": "44464bf988c302795546c0da401f2c79add47c1bdd8771e034d9a336181c1c8b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/ticketSelector/plusBtnRollover.webp",
+      "bytes": 2514,
+      "sha256": "3c4cba74a5cba495f2266f5d0008d3628503634cd5c2a6d93cfcbda5aa028632"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/ticketSelector/ticketSelectorBackStatic.webp",
+      "bytes": 5320,
+      "sha256": "dd2576159716f6a4157cc99b4179151000a63e2cbcd22c74603ff677fa4a2b33"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/HourBox_static_glow.lossless.webp",
+      "bytes": 17210,
+      "sha256": "c3c4fef4e630cf45258ec78cd762c8297eb30a9b584a944c0f6c5077878c53f4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/MinuteBox_static_glow.lossless.webp",
+      "bytes": 18182,
+      "sha256": "0cc86aabb425afa1ebe2b622d1b7df81ebf1c0b19c11c085595f82f8fd62f138"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/SecondBox_static_glow.lossless.webp",
+      "bytes": 17940,
+      "sha256": "0028f0c6c8783be4886243898af01d6e9130c367ddf43304383bce9cc4f1f75a"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/Select A Time Text.webp",
+      "bytes": 13216,
+      "sha256": "4bbd1dffd3457ad72eda630b593fd5b447919916f1445844fd9f44e38c9b8928"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/Select A Time Title.webp",
+      "bytes": 13502,
+      "sha256": "bc8bfe68096de56083a1e99a247893ad61d48bd071a2efbc9a696f38464339a1"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/Select-A-Time-Title-Mobile.webp",
+      "bytes": 19482,
+      "sha256": "63f0a39aacafe4ae3de9249495f439a75ded5adb18491cf3c7e586fa81003b27"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourBottomClick.webp",
+      "bytes": 688,
+      "sha256": "a36dbe291f98adfccec6441d6df239f1bf7d3209c11aace65e8115c403ebd6e8"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourBottomInactive.webp",
+      "bytes": 598,
+      "sha256": "e9bd6c75bb429917f71beaa4037a4a68a0827ea77227affd86ac096f42d73371"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourBottomPartialInactive.webp",
+      "bytes": 758,
+      "sha256": "e3b43e37012d6fd6c581f87cdc0c75258d429d8183a0d9b7926e5ec1ddf34bc4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourBottomRollover.webp",
+      "bytes": 850,
+      "sha256": "3693774501b57e682dde491476c82daddfb1d1f49ac263da8b8834bbdf1707b9"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourBottomStatic.webp",
+      "bytes": 782,
+      "sha256": "a6e8a44252fa1f8d21bcf565a68d002d821c5bd7d0dd1f04bc4bb305da7e9722"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourTopClick.webp",
+      "bytes": 762,
+      "sha256": "7e24b4929734ed70f76d05da06c651b8f119468081165814dd429d9f4edf0ac4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourTopInactive.webp",
+      "bytes": 656,
+      "sha256": "1fea2bf0d17aa3002033819dde79bc95904a56427917b085592559878d123607"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourTopPartialInactive.webp",
+      "bytes": 818,
+      "sha256": "0b5cd66485487bf5116fdf48135566eec4b4f8d767682ab70b0f92d07fe1862c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourTopRollover.webp",
+      "bytes": 936,
+      "sha256": "b9b4c6462d1e8a859d2be5f8f7a2746b2c77b94554e4b74229b32026b49e19bb"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/hourTopStatic.webp",
+      "bytes": 856,
+      "sha256": "f5c522165f670ede7bb70d86d9026d6dc684c4e90f95d89f55118e623a8ab812"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteBottomClick.webp",
+      "bytes": 720,
+      "sha256": "48e389876e946021923af0a9b915f0d32bfb4266ba80f771e5c22ba48e616794"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteBottomInactive.webp",
+      "bytes": 598,
+      "sha256": "e9bd6c75bb429917f71beaa4037a4a68a0827ea77227affd86ac096f42d73371"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteBottomPartialInactive.webp",
+      "bytes": 758,
+      "sha256": "e3b43e37012d6fd6c581f87cdc0c75258d429d8183a0d9b7926e5ec1ddf34bc4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteBottomRollover.webp",
+      "bytes": 916,
+      "sha256": "ae33b65beb39a3d73b503ee217ac34a073f8fb1f97fe77b4441d321f83650f05"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteBottomStatic.webp",
+      "bytes": 842,
+      "sha256": "f930e54b5789794b7c2e65b6b60b93a6dffc7e9cc7be0946e80c613519925fc6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteTopClick.webp",
+      "bytes": 752,
+      "sha256": "66c5ab7afdeec21d279854ffc154afc62347e491554e6ff25dfbe63465cff99c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteTopInactive.webp",
+      "bytes": 656,
+      "sha256": "1fea2bf0d17aa3002033819dde79bc95904a56427917b085592559878d123607"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteTopPartialInactive.webp",
+      "bytes": 818,
+      "sha256": "0b5cd66485487bf5116fdf48135566eec4b4f8d767682ab70b0f92d07fe1862c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteTopRollover.webp",
+      "bytes": 1010,
+      "sha256": "ada2180ea58c6bc055c0bcbc5d5835d1777c244ccf3024006ffee8b8e426343f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/minuteTopStatic.webp",
+      "bytes": 900,
+      "sha256": "4fa0634b5cae510580a5262f9322f3050f5ce155a11ccf4261458250dbe0f8eb"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondBottomClick.webp",
+      "bytes": 696,
+      "sha256": "6f4539dfa432132027f4aafca885a3418a469afd94e5701c6ed44129ef9e4a0b"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondBottomInactive.webp",
+      "bytes": 598,
+      "sha256": "e9bd6c75bb429917f71beaa4037a4a68a0827ea77227affd86ac096f42d73371"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondBottomPartialInactive.webp",
+      "bytes": 758,
+      "sha256": "e3b43e37012d6fd6c581f87cdc0c75258d429d8183a0d9b7926e5ec1ddf34bc4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondBottomRollover.webp",
+      "bytes": 898,
+      "sha256": "3eb547954135559d8064d494810f618153fc965559120cc2f938341a7df33095"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondBottomStatic.webp",
+      "bytes": 806,
+      "sha256": "1b0982accbe13347967d96e2db5a1b04bafd61bbec031816678d955d6908c85e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondTopClick.webp",
+      "bytes": 746,
+      "sha256": "5229fc1c1a52f29293ea98a04548dc0896faa78f00e6e236ee258febcf64cee8"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondTopInactive.webp",
+      "bytes": 656,
+      "sha256": "1fea2bf0d17aa3002033819dde79bc95904a56427917b085592559878d123607"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondTopPartialInactive.webp",
+      "bytes": 818,
+      "sha256": "0b5cd66485487bf5116fdf48135566eec4b4f8d767682ab70b0f92d07fe1862c"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondTopRollover.webp",
+      "bytes": 998,
+      "sha256": "19e2e935d2156de8f7a9624a96518cec05d12471569d3a7c17cf40880c3a867f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/buttons/secondTopStatic.webp",
+      "bytes": 886,
+      "sha256": "c5657c35e800927c10f244499c0f23f244b2f83b6594b49b5f032d8d0a38c9f2"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelector/timeselector.webp",
+      "bytes": 5950,
+      "sha256": "512b1ba52d81027c5e2c7f9b88a35bba8971c621ce6f81a7cddd00c197cce816"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelectorKeypad/HourFrame.webp",
+      "bytes": 2812,
+      "sha256": "f96866c89359444b81aac9f5daa390ef6ecb1bd6c91ea429c6970f68c1a7ddb3"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelectorKeypad/MinuteSecondFrame.webp",
+      "bytes": 6838,
+      "sha256": "af12ab713555339b85b5a3e8c5ac62a59bb9137d2335c614b1addc52c8221a52"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelectorKeypad/gridClick.webp",
+      "bytes": 730,
+      "sha256": "e32250ff36fba3cb3e91d6aee0f605b32ea63e5e34654ad2d752aa280fd8c239"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelectorKeypad/gridRollover.webp",
+      "bytes": 930,
+      "sha256": "b580eb7fca1f5548d6018e813af0f9593fce34f3c179114e1f58596daff08901"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelectorKeypad/gridSelected.webp",
+      "bytes": 1460,
+      "sha256": "8119168c592d5e8fad9af7c0b35e7efb0a706314c0e2f62dd6e258c992bd61f6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeSelectorKeypad/gridStatic.webp",
+      "bytes": 906,
+      "sha256": "642737554439cfbd5d83bf178ca5a40c471df77836b812d6765686986cae41c8"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timerReels/hour-strip.lossless.webp",
+      "bytes": 97264,
+      "sha256": "7127613c01c7fa1f05336c9f9920f0c76d5536d479f3c8d152986cb13083a4ff"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timerReels/minute-strip.lossless.webp",
+      "bytes": 437396,
+      "sha256": "a7412665deca92fc93e9c1accc99207bbcb04df190a3744a92d39a0278ee8160"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeresults.webp",
+      "bytes": 23652,
+      "sha256": "c4ce8263f88a048d10a3fab56f6cc9c038997174d2e2e45639e5bc6a2f5dfc81"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeresultsGlow.lossless.webp",
+      "bytes": 3704,
+      "sha256": "b0dbe8930a4d00d1c1a6d90df6e0b267a17d2d560a1fe76563d9ec5e2fa381e7"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/ui/timeresultsText.webp",
+      "bytes": 16768,
+      "sha256": "3804c9c435008575446abf344bb0408686008a42c90b387b85c12ef8b87bb0d6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings-v4/Cinzel-OFL.txt",
+      "bytes": 4383,
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings-v4/LibreBaskerville-OFL.txt",
+      "bytes": 4542,
+      "sha256": "3624eddd4c8f8a908130a417ae7cd089c9da69899c4e0ca1a5217d0a6fae16fd"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings-v4/baskerville-numerals.woff2",
+      "bytes": 2264,
+      "sha256": "64f37b8984fdfd6cb17d2b949e77871c4aee880801561754754b134dc4d83040"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings-v4/cinzel-labels.woff2",
+      "bytes": 8284,
+      "sha256": "36a48a714d103bdf44b1812903c1941ff7509ef4d00982b19abcf07d84b1812f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings-v4/medallion.webp",
+      "bytes": 90898,
+      "sha256": "cf1b1fb1eca881a923a822dce03baa025e500146e0318681a691c69882b62e2e"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings-v4/ui.json",
+      "bytes": 1037,
+      "sha256": "e56a8f83dffcc4a12c2f40cca967e2585b32ecb5ab9b2997388f1dcd5998e3af"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings-v4/ui.webp",
+      "bytes": 26426,
+      "sha256": "63f2e7183b5bc30e7024176a4ce5f113fe36f5366fe0d36e8746d9fdc4f267a2"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings/gears/1.webp",
+      "bytes": 9956,
+      "sha256": "ea20a9ae14a12b31969636d5dac4509d27262ae5000064878df7d3c316a36ae4"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings/gears/2.webp",
+      "bytes": 13510,
+      "sha256": "479abdae4e59b21c21881f807d5f649248f0a38da4239085cae46fafb4c839c8"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings/gears/3.webp",
+      "bytes": 7794,
+      "sha256": "837457f07bc2c060757aa8cf46d0519e1ecd6a85a61500975e87f6a5e972b2b8"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings/gears/4.webp",
+      "bytes": 7794,
+      "sha256": "837457f07bc2c060757aa8cf46d0519e1ecd6a85a61500975e87f6a5e972b2b8"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings/gears/5.webp",
+      "bytes": 3712,
+      "sha256": "8cce6932bbc1181ff07593eb4fbffff297d0b92478a71f69540e2588a1078ec6"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings/gears/6.webp",
+      "bytes": 6038,
+      "sha256": "625411262d93c482fd985ad9887518e40de5fbbb903e174cd3d51c3ef2eb0f3f"
+    },
+    {
+      "path": "games/CASHCLOCK/assets/winnings/gears/7.webp",
+      "bytes": 5268,
+      "sha256": "bc8ac525e475eefbeab2f73ce16978475f28dff8996c24793972789e063afa0f"
+    },
+    {
+      "path": "games/CASHCLOCK/favicon.png",
+      "bytes": 1622,
+      "sha256": "817e8183ccf087333b33207dbb7fb98b5cfa7fe4621bc00fd1d546d986aec321"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1192,
+      "sha256": "e20619990755abc7923ddc92bbca67c0245d488586d558d15b01368c75806383"
+    }
+  ]
+}

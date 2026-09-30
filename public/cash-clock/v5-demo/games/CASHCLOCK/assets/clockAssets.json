@@ -1,0 +1,82 @@
+{
+  "clock": {
+    "files": [
+      {
+        "url": "assets/Hands/Hands_A1.webp",
+        "type": "image",
+        "key": "hourHand"
+      },
+      {
+        "url": "assets/Hands/Hands_A2.webp",
+        "type": "image",
+        "key": "minuteHand"
+      },
+      {
+        "url": "assets/Hands/Hands_A3.webp",
+        "type": "image",
+        "key": "secondHand"
+      },
+      {
+        "url": "assets/clock_back.webp",
+        "type": "image",
+        "key": "clock_back"
+      },
+      {
+        "url": "assets/clock_secondring.webp",
+        "type": "image",
+        "key": "clock_secondring"
+      },
+      {
+        "url": "assets/clock_minutering.webp",
+        "type": "image",
+        "key": "clock_minutering"
+      },
+      {
+        "url": "assets/clock_hourring.webp",
+        "type": "image",
+        "key": "clock_hourring"
+      },
+      {
+        "url": "assets/clock_innerring.webp",
+        "type": "image",
+        "key": "clock_innerring"
+      },
+      {
+        "url": "assets/SelectorRings/minutedash.webp",
+        "type": "image",
+        "key": "minutedash"
+      },
+      {
+        "url": "assets/SelectorRings/minutedashLarge.webp",
+        "type": "image",
+        "key": "minutedashLarge"
+      },
+      {
+        "url": "assets/SelectorRings/seconddash.webp",
+        "type": "image",
+        "key": "seconddash"
+      },
+      {
+        "url": "assets/SelectorRings/seconddashLarge.webp",
+        "type": "image",
+        "key": "seconddashLarge"
+      },
+      {
+        "url": "assets/clockface/gearsall.webp",
+        "type": "image",
+        "key": "gearsall"
+      },
+      {
+        "url": "assets/clockface/innerdome.webp",
+        "type": "image",
+        "key": "innerdome"
+      },
+      {
+        "url": "assets/clockface/dome-gears-v4.webp",
+        "type": "spritesheet",
+        "key": "dome-gears-v4",
+        "frameConfig": { "frameWidth": 176, "frameHeight": 176, "endFrame": 6 }
+      }
+    ]
+  }
+}

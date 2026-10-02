@@ -14,8 +14,9 @@ async function list(dir,prefix=''){
  }return result.sort();
 }
 test('V5 is the exact frozen artifact except documented HTML metadata',async()=>{
- assert.equal(manifest.sourceCommit,'1055c98ac5611349817460ba0c8f9cac8b57f254');
- assert.equal(manifest.files.length,341);
+ assert.equal(manifest.release,'cash-clock-v5-2026-10-01');
+ assert.equal(manifest.sourceCommit,'368455fc693ef9b211457e54a6294a007d13dc19');
+ assert.equal(manifest.files.length,429);
  assert.deepEqual(await list(dir),[...manifest.files.map(f=>f.path),'cash-clock-v5-release-manifest.json'].sort());
  for(const f of manifest.files){
   let bytes=await readFile(path.join(dir,f.path));
